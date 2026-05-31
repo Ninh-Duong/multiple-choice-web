@@ -52,7 +52,7 @@
                 </button>
 
                 <!-- Dòng nhắc nhở tài khoản test (Sẽ hiển thị để tiện Preview) -->
-                <div class="mt-6 p-4 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
+                <div id="preview-test-hint" class="mt-6 p-4 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
                     <p class="text-xs text-gray-500 mb-1">Dành cho môi trường Preview / Test:</p>
                     <p class="text-sm text-gray-700 font-medium">Tài khoản: <span class="text-blue-600 font-bold select-all">admin</span></p>
                     <p class="text-sm text-gray-700 font-medium">Mật khẩu: <span class="text-blue-600 font-bold select-all">admin.0967311513</span></p>
@@ -253,15 +253,69 @@ D. Cá voi xanh (true)`;
         let currentDeInfo = null;
         let isShuffle = false; 
         let isShuffleQuestions = false; 
+        const USER_FILE_URL = 'data/users/user.text';
+
+        async function docDanhSachTaiKhoan() {
+            let users = [];
+            let hasUserFile = false;
+
+            try {
+                const response = await fetch(USER_FILE_URL);
+                if (!response.ok) {
+                    throw new Error("HTTP Error " + response.status);
+                }
+
+                const text = await response.text();
+                const lowerText = text.trim().toLowerCase();
+
+                // Chặn trường hợp server trả trang HTML thay vì file text.
+                if (lowerText.startsWith('<!doctype html>') || lowerText.includes('<html')) {
+                    throw new Error("File trả về HTML không hợp lệ");
+                }
+
+                hasUserFile = true;
+                const lines = text.split('\n');
+                lines.forEach(line => {
+                    const cleanedLine = line.trim();
+                    if (!cleanedLine) return;
+
+                    const parts = cleanedLine.split(',');
+                    if (parts.length >= 2) {
+                        const username = parts[0].trim();
+                        const password = parts[1].trim();
+                        if (username && password) {
+                            users.push({ u: username, p: password });
+                        }
+                    }
+                });
+            } catch (error) {
+                console.warn("Không đọc được data/users/user.text.", error);
+            }
+
+            return { users, hasUserFile };
+        }
+
+        async function capNhatHienThiTaiKhoanTest() {
+            const hintBox = document.getElementById('preview-test-hint');
+            if (!hintBox) return;
+
+            const { hasUserFile } = await docDanhSachTaiKhoan();
+            if (hasUserFile) {
+                hintBox.classList.add('hidden');
+            } else {
+                hintBox.classList.remove('hidden');
+            }
+        }
 
         // ================= TÍNH NĂNG ĐĂNG NHẬP VÀ BẢO MẬT =================
-        window.onload = function() {
+        window.onload = async function() {
             const isLoggedIn = sessionStorage.getItem('isLoggedIn');
             if (isLoggedIn === 'true') {
                 vaoApp(sessionStorage.getItem('currentUser'));
             } else {
                 document.getElementById('login-area').classList.remove('hidden');
                 document.getElementById('main-app-area').classList.add('hidden');
+                await capNhatHienThiTaiKhoanTest();
             }
         }; 
 
@@ -272,36 +326,12 @@ D. Cá voi xanh (true)`;
             const errBox = document.getElementById('login-error');
             errBox.classList.add('hidden'); // Reset lỗi
 
-            let validUsers = [];
-            
-            try {
-                // Đọc file từ data/Users/user.txt (hoặc user.text tùy người dùng đặt)
-                // Ta có thể fetch thử cả user.txt, nếu ứng dụng thực tế bạn có thể sửa đường dẫn ở đây
-                const response = await fetch('data/Users/user.txt');
-                if (response.ok) {
-                    const text = await response.text();
-                    
-                    // Lọc những trang HTML rác (thường do 404 page Github trả về)
-                    if (!text.trim().toLowerCase().startsWith('<!doctype html>') && !text.toLowerCase().includes('<html')) {
-                        const lines = text.split('\n');
-                        lines.forEach(line => {
-                            const parts = line.split(',');
-                            if (parts.length >= 2) {
-                                validUsers.push({ u: parts[0].trim(), p: parts[1].trim() });
-                            }
-                        });
-                    } else {
-                        throw new Error("File trả về HTML không hợp lệ");
-                    }
-                } else {
-                    throw new Error("HTTP Error " + response.status);
-                }
-            } catch (error) {
-                console.warn("Môi trường Preview: Không đọc được data/Users/user.txt, chuyển về tài khoản Default.", error);
-            }
+            const authData = await docDanhSachTaiKhoan();
+            let validUsers = [...authData.users];
 
             // FALLBACK: ĐẢM BẢO TÀI KHOẢN DỰ PHÒNG LUÔN HOẠT ĐỘNG
             if (validUsers.length === 0) {
+                console.warn("Không có tài khoản hợp lệ trong data/users/user.text, dùng tài khoản Default.");
                 validUsers.push({ u: "admin", p: "admin.0967311513" });
             }
 
