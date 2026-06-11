@@ -5,26 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hệ Thống Thi Trắc Nghiệm & Quản Lý</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        .radio-custom:checked + label {
-            background-color: #ebf8ff;
-            border-color: #3182ce;
-        }
-        .correct-answer { background-color: #c6f6d5 !important; border-color: #38a169 !important; }
-        .wrong-answer { background-color: #fed7d7 !important; border-color: #e53e3e !important; }
-        
-        /* CSS cho nút toggle */
-        .toggle-btn.active {
-            background-color: #805ad5; /* Purple 600 */
-            color: white;
-            border-color: #6b46c1;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/base.css?v=1">
+    <link rel="stylesheet" href="assets/css/app.css?v=1">
 </head>
 <body class="bg-gray-50 min-h-screen">
 
-    <!-- ================= KHU VỰC ĐĂNG NHẬP ================= -->
     <div id="login-area" class="min-h-screen flex items-center justify-center bg-gray-100 p-4">
         <div class="max-w-md w-full bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
             <div class="text-center mb-8">
@@ -32,8 +17,7 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-2">Đăng Nhập</h2>
                 <p class="text-gray-500 text-sm">Hệ Thống Luyện Thi Trắc Nghiệm</p>
             </div>
-            
-            <form id="login-form" onsubmit="xacNhanDangNhap(event)" class="space-y-5">
+            <form id="login-form" class="space-y-5">
                 <div>
                     <label for="username" class="block text-sm font-semibold text-gray-700 mb-1">Tài khoản</label>
                     <input type="text" id="username" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all" required placeholder="Nhập tài khoản">
@@ -42,823 +26,86 @@
                     <label for="password" class="block text-sm font-semibold text-gray-700 mb-1">Mật khẩu</label>
                     <input type="password" id="password" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all" required placeholder="Nhập mật khẩu">
                 </div>
-                
-                <div id="login-error" class="hidden text-red-600 text-sm font-medium bg-red-50 p-3 rounded-lg border border-red-200 text-center">
-                    Tài khoản hoặc mật khẩu không chính xác!
-                </div>
-
-                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-4 rounded-xl transition-colors shadow-md mt-2">
-                    Đăng Nhập Vào Hệ Thống
-                </button>
-
-                <!-- Dòng nhắc nhở tài khoản test (Sẽ hiển thị để tiện Preview) -->
-                <div id="preview-test-hint" class="mt-6 p-4 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
-                    <p class="text-xs text-gray-500 mb-1">Dành cho môi trường Preview / Test:</p>
+                <div id="login-error" class="hidden text-red-600 text-sm font-medium bg-red-50 p-3 rounded-lg border border-red-200 text-center">Tài khoản hoặc mật khẩu không chính xác!</div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-4 rounded-xl transition-colors shadow-md mt-2">Đăng Nhập Vào Hệ Thống</button>
+                <div id="preview-test-hint" class="hidden mt-6 p-4 bg-gray-50 rounded-lg border border-dashed border-gray-300 text-center">
+                    <p class="text-xs text-gray-500 mb-1">Tài khoản dự phòng (khi chưa cấu hình users):</p>
                     <p class="text-sm text-gray-700 font-medium">Tài khoản: <span class="text-blue-600 font-bold select-all">admin</span></p>
-                    <p class="text-sm text-gray-700 font-medium">Mật khẩu: <span class="text-blue-600 font-bold select-all">admin.0967311513</span></p>
+                    <p class="text-sm text-gray-700 font-medium">Mật khẩu: <span class="text-blue-600 font-bold select-all">xem cấu hình fallback trong source</span></p>
                 </div>
             </form>
         </div>
     </div>
 
-    <!-- ================= KHU VỰC ỨNG DỤNG (Bị ẩn lúc đầu) ================= -->
     <div id="main-app-area" class="hidden max-w-4xl mx-auto p-4 md:p-6">
-        <!-- Header & Công cụ -->
         <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
             <div class="flex flex-col md:flex-row justify-between items-center mb-6 border-b pb-4 gap-4">
                 <div class="text-center md:text-left">
                     <h1 class="text-3xl font-bold text-gray-800">Luyện Thi Trắc Nghiệm</h1>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Xin chào, <span id="user-greeting" class="font-bold text-blue-600">Admin</span>! 
-                        <button onclick="dangXuat()" class="ml-2 px-3 py-1 bg-red-50 text-red-600 rounded-md border border-red-100 hover:bg-red-100 transition-colors font-medium text-xs">Đăng xuất</button>
+                    <p class="text-sm text-gray-500 mt-2">Xin chào, <span id="user-greeting" class="font-bold text-blue-600">Admin</span>!
+                        <button id="logout-btn" class="ml-2 px-3 py-1 bg-red-50 text-red-600 rounded-md border border-red-100 hover:bg-red-100 transition-colors font-medium text-xs">Đăng xuất</button>
                     </p>
                 </div>
                 <div class="flex flex-wrap gap-2 justify-center">
-                    <button onclick="moLichSu()" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-bold py-2 px-4 rounded-lg transition-colors border border-indigo-300 text-sm flex items-center">
-                        📊 Lịch Sử Làm Bài
-                    </button>
-                    <!-- Nút bật/tắt đảo câu hỏi -->
-                    <button id="btn-shuffle-questions" onclick="toggleShuffleQuestions()" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">
-                        🔀 Đảo Câu (Tắt)
-                    </button>
-                    <!-- Nút bật/tắt đảo đáp án -->
-                    <button id="btn-shuffle" onclick="toggleShuffle()" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">
-                        🔄 Đảo Đáp Án (Tắt)
-                    </button>
+                    <button id="btn-history" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-bold py-2 px-4 rounded-lg transition-colors border border-indigo-300 text-sm flex items-center">📊 Lịch Sử Làm Bài</button>
+                    <button id="btn-shuffle-questions" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">🔀 Đảo Câu (Tắt)</button>
+                    <button id="btn-shuffle" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">🔄 Đảo Đáp Án (Tắt)</button>
                 </div>
             </div>
-            
             <p class="text-gray-500 mb-4 text-center" id="chon-de-text">Vui lòng chọn đề để bắt đầu làm bài</p>
-            <div id="btn-container" class="flex flex-wrap justify-center gap-3">
-                <!-- Các nút chọn đề sẽ được render bằng JS ở đây -->
-            </div>
+            <div id="btn-container" class="flex flex-wrap justify-center gap-3"></div>
         </div>
 
-        <!-- Khu vực hiển thị Loading / Lỗi -->
         <div id="message-box" class="text-center text-gray-600 font-medium hidden my-8 p-4 bg-red-50 border border-red-200 rounded-lg">
-            Đang tải dữ liệu...
+            <div id="loading-spinner" class="spinner hidden"></div>
+            <span id="message-text">Đang tải dữ liệu...</span>
         </div>
 
-        <!-- ================= KHU VỰC LÀM BÀI ================= -->
         <div id="quiz-area" class="hidden">
             <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
                 <div class="flex justify-between items-center border-b pb-4 mb-4">
                     <h2 id="quiz-title" class="text-2xl font-bold text-blue-600">Tên Đề Thi</h2>
-                    <button onclick="moGiaoDienEdit()" class="bg-amber-500 hover:bg-amber-600 text-white font-medium py-2 px-4 rounded-lg shadow transition-colors text-sm">
-                        ✏️ Sửa đáp án đề này
-                    </button>
                 </div>
-                
-                <div id="questions-container" class="space-y-8">
-                    <!-- Các câu hỏi sẽ được render ở đây -->
-                </div>
-
+                <div id="questions-container" class="space-y-8"></div>
                 <div class="mt-8 pt-6 border-t text-center">
-                    <button id="submit-btn" onclick="chamDiem()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md">
-                        Nộp Bài & Chấm Điểm
-                    </button>
+                    <button id="submit-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-md">Nộp Bài & Chấm Điểm</button>
                 </div>
             </div>
         </div>
 
-        <!-- ================= KHU VỰC KẾT QUẢ ================= -->
         <div id="result-area" class="hidden bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm mb-6">
             <h3 class="text-3xl font-bold text-blue-600 mb-2">Hoàn Thành!</h3>
             <p id="score-text" class="text-xl text-gray-800 font-bold mb-6">Bạn đã làm đúng 0/0 câu.</p>
-            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left mb-6">
-                <!-- Cột Câu Đúng -->
                 <div class="bg-green-50 p-4 rounded-lg border border-green-200">
-                    <h4 class="font-bold text-green-700 mb-3 flex items-center">
-                        ✅ Các câu ĐÚNG: <span id="count-correct" class="ml-2 bg-green-200 text-green-800 px-2 py-0.5 rounded-full text-sm">0</span>
-                    </h4>
-                    <div id="list-correct" class="flex flex-wrap gap-2">
-                        <!-- Nút câu đúng render ở đây -->
-                    </div>
+                    <h4 class="font-bold text-green-700 mb-3 flex items-center">✅ Các câu ĐÚNG: <span id="count-correct" class="ml-2 bg-green-200 text-green-800 px-2 py-0.5 rounded-full text-sm">0</span></h4>
+                    <div id="list-correct" class="flex flex-wrap gap-2"></div>
                 </div>
-                
-                <!-- Cột Câu Sai -->
                 <div class="bg-red-50 p-4 rounded-lg border border-red-200">
-                    <h4 class="font-bold text-red-700 mb-3 flex items-center">
-                        ❌ Các câu SAI: <span id="count-wrong" class="ml-2 bg-red-200 text-red-800 px-2 py-0.5 rounded-full text-sm">0</span>
-                    </h4>
-                    <div id="list-wrong" class="flex flex-wrap gap-2">
-                        <!-- Nút câu sai render ở đây -->
-                    </div>
+                    <h4 class="font-bold text-red-700 mb-3 flex items-center">❌ Các câu SAI: <span id="count-wrong" class="ml-2 bg-red-200 text-red-800 px-2 py-0.5 rounded-full text-sm">0</span></h4>
+                    <div id="list-wrong" class="flex flex-wrap gap-2"></div>
                 </div>
             </div>
-
             <div class="flex justify-center gap-4">
-                <button onclick="lamLai()" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-8 rounded-lg transition-colors">
-                    Làm lại đề này
-                </button>
-                <button onclick="moLichSu()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-8 rounded-lg transition-colors shadow-md">
-                    Xem Lịch Sử
-                </button>
+                <button id="retry-btn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-8 rounded-lg transition-colors">Làm lại đề này</button>
+                <button id="result-history-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-8 rounded-lg transition-colors shadow-md">Xem Lịch Sử</button>
             </div>
         </div>
 
-        <!-- ================= KHU VỰC LỊCH SỬ LÀM BÀI ================= -->
         <div id="history-area" class="hidden">
             <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
                 <div class="flex justify-between items-center border-b pb-4 mb-6">
-                    <h2 class="text-2xl font-bold text-indigo-700 flex items-center">
-                        📊 Lịch Sử Các Lần Làm Bài
-                    </h2>
+                    <h2 class="text-2xl font-bold text-indigo-700 flex items-center">📊 Lịch Sử Các Lần Làm Bài</h2>
                     <div class="flex gap-2">
-                        <button onclick="xoaLichSu()" class="text-red-500 hover:text-red-700 font-medium text-sm px-3 py-1 bg-red-50 rounded border border-red-200 transition-colors">
-                            🗑 Xóa Lịch Sử
-                        </button>
-                        <button onclick="dongLichSu()" class="text-gray-500 hover:text-gray-800 font-bold px-3 py-1 bg-gray-100 rounded transition-colors">
-                            ✕ Đóng
-                        </button>
+                        <button id="history-delete-btn" class="text-red-500 hover:text-red-700 font-medium text-sm px-3 py-1 bg-red-50 rounded border border-red-200 transition-colors">🗑 Xóa Lịch Sử</button>
+                        <button id="history-close-btn" class="text-gray-500 hover:text-gray-800 font-bold px-3 py-1 bg-gray-100 rounded transition-colors">✕ Đóng</button>
                     </div>
                 </div>
-                
-                <div id="history-container" class="space-y-4">
-                    <!-- Lịch sử sẽ được render ở đây -->
-                </div>
+                <div id="history-container" class="space-y-4"></div>
             </div>
         </div>
-
-        <!-- ================= KHU VỰC CHỈNH SỬA ĐÁP ÁN (Edit Mode) ================= -->
-        <div id="edit-area" class="hidden">
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6 border-2 border-amber-400">
-                <div class="flex justify-between items-center border-b pb-4 mb-4">
-                    <h2 class="text-2xl font-bold text-amber-600">Chế độ chỉnh sửa đáp án</h2>
-                    <button onclick="dongGiaoDienEdit()" class="text-gray-500 hover:text-gray-700 font-bold">
-                        ✕ Đóng
-                    </button>
-                </div>
-                
-                <p class="text-sm text-gray-500 mb-4">Chọn lại đáp án đúng cho các câu hỏi bên dưới. Hệ thống sẽ cập nhật tạm thời trên giao diện.</p>
-
-                <div id="edit-questions-container" class="space-y-6">
-                    <!-- Giao diện edit sẽ được render ở đây -->
-                </div>
-
-                <div class="mt-8 pt-6 border-t flex flex-col sm:flex-row justify-center gap-4">
-                    <button onclick="luuEditTamThoi()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md">
-                        💾 Lưu thay đổi (Vào web)
-                    </button>
-                    <button onclick="taiFileTxt()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md">
-                        ⬇️ Tải file .txt mới về máy
-                    </button>
-                </div>
-                <p class="text-xs text-center text-gray-400 mt-3">* Để cập nhật file gốc, hãy bấm tải file .txt mới và chép đè vào thư mục data của bạn.</p>
-            </div>
-        </div>
-
     </div>
 
-    <script>
-        // Dữ liệu mẫu Demo
-        const duLieuDemo = `Câu 1: Kết quả của phép tính 15 + 25 là bao nhiêu?
-A. 30
-B. 40 (true)
-C. 50
-D. 60
-
-Câu 2: Đỉnh núi cao nhất Việt Nam là đỉnh núi nào?
-A. Fansipan (true)
-B. Lang Biang
-C. Núi Bà Đen
-D. Pu Ta Leng
-
-Câu 3: Trong điều kiện tiêu chuẩn, nước sôi ở bao nhiêu độ C?
-A. 50 độ C
-B. 80 độ C
-C. 90 độ C
-D. 100 độ C (true)
-
-Câu 4: Ngôn ngữ HTML là viết tắt của cụm từ tiếng Anh nào?
-A. High Text Making Language
-B. Hyper Text Markup Language (true)
-C. Hyper Tool Multi Language
-D. Home Tool Markup Language
-
-Câu 5: Đâu là loài động vật lớn nhất trên Trái Đất hiện nay?
-A. Voi châu Phi
-B. Hươu cao cổ
-C. Cá mập trắng
-D. Cá voi xanh (true)`;
-
-        const danhSachDe = [
-            { id: 'de_1', title: 'Đề kiểm tra số 1', fileUrl: 'data/de_1.txt' },
-            { id: 'de_2', title: 'Đề kiểm tra số 2', fileUrl: 'data/de_2.txt' },
-            { id: 'de_3', title: 'Đề kiểm tra số 3', fileUrl: 'data/de_3.txt' }
-        ];
-
-        let duLieuHienTai = []; // Chứa dữ liệu gốc
-        let currentDeInfo = null;
-        let isShuffle = false; 
-        let isShuffleQuestions = false; 
-        const USER_FILE_URL = 'data/users/user.text';
-
-        async function docDanhSachTaiKhoan() {
-            let users = [];
-            let hasUserFile = false;
-
-            try {
-                const response = await fetch(USER_FILE_URL);
-                if (!response.ok) {
-                    throw new Error("HTTP Error " + response.status);
-                }
-
-                const text = await response.text();
-                const lowerText = text.trim().toLowerCase();
-
-                // Chặn trường hợp server trả trang HTML thay vì file text.
-                if (lowerText.startsWith('<!doctype html>') || lowerText.includes('<html')) {
-                    throw new Error("File trả về HTML không hợp lệ");
-                }
-
-                hasUserFile = true;
-                const lines = text.split('\n');
-                lines.forEach(line => {
-                    const cleanedLine = line.trim();
-                    if (!cleanedLine) return;
-
-                    const parts = cleanedLine.split(',');
-                    if (parts.length >= 2) {
-                        const username = parts[0].trim();
-                        const password = parts[1].trim();
-                        if (username && password) {
-                            users.push({ u: username, p: password });
-                        }
-                    }
-                });
-            } catch (error) {
-                console.warn("Không đọc được data/users/user.text.", error);
-            }
-
-            return { users, hasUserFile };
-        }
-
-        async function capNhatHienThiTaiKhoanTest() {
-            const hintBox = document.getElementById('preview-test-hint');
-            if (!hintBox) return;
-
-            const { hasUserFile } = await docDanhSachTaiKhoan();
-            if (hasUserFile) {
-                hintBox.classList.add('hidden');
-            } else {
-                hintBox.classList.remove('hidden');
-            }
-        }
-
-        // ================= TÍNH NĂNG ĐĂNG NHẬP VÀ BẢO MẬT =================
-        window.onload = async function() {
-            const isLoggedIn = sessionStorage.getItem('isLoggedIn');
-            if (isLoggedIn === 'true') {
-                vaoApp(sessionStorage.getItem('currentUser'));
-            } else {
-                document.getElementById('login-area').classList.remove('hidden');
-                document.getElementById('main-app-area').classList.add('hidden');
-                await capNhatHienThiTaiKhoanTest();
-            }
-        }; 
-
-        async function xacNhanDangNhap(e) {
-            e.preventDefault();
-            const userInp = document.getElementById('username').value.trim();
-            const passInp = document.getElementById('password').value.trim();
-            const errBox = document.getElementById('login-error');
-            errBox.classList.add('hidden'); // Reset lỗi
-
-            const authData = await docDanhSachTaiKhoan();
-            let validUsers = [...authData.users];
-
-            // FALLBACK: ĐẢM BẢO TÀI KHOẢN DỰ PHÒNG LUÔN HOẠT ĐỘNG
-            if (validUsers.length === 0) {
-                console.warn("Không có tài khoản hợp lệ trong data/users/user.text, dùng tài khoản Default.");
-                validUsers.push({ u: "admin", p: "admin.0967311513" });
-            }
-
-            // SO SÁNH THÔNG TIN ĐĂNG NHẬP
-            const isValid = validUsers.some(user => user.u === userInp && user.p === passInp);
-
-            if (isValid) {
-                sessionStorage.setItem('isLoggedIn', 'true');
-                sessionStorage.setItem('currentUser', userInp);
-                vaoApp(userInp);
-            } else {
-                errBox.innerText = "Tài khoản hoặc mật khẩu không chính xác!";
-                errBox.classList.remove('hidden');
-            }
-        }
-
-        function vaoApp(username) {
-            document.getElementById('login-area').classList.add('hidden');
-            document.getElementById('main-app-area').classList.remove('hidden');
-            document.getElementById('user-greeting').innerText = username || 'Người dùng';
-            
-            document.getElementById('btn-container').innerHTML = ''; 
-            taoNutChonDe();
-            if (danhSachDe.length > 0) {
-                taiDeThi(danhSachDe[0]);
-            }
-        }
-
-        function dangXuat() {
-            sessionStorage.removeItem('isLoggedIn');
-            sessionStorage.removeItem('currentUser');
-            location.reload(); 
-        }
-
-        // --- TÍNH NĂNG ĐẢO ĐÁP ÁN VÀ ĐẢO CÂU HỎI ---
-        function toggleShuffle() {
-            isShuffle = !isShuffle;
-            const btn = document.getElementById('btn-shuffle');
-            if (isShuffle) {
-                btn.classList.add('active');
-                btn.innerHTML = '🔄 Đảo Đáp Án (Bật)';
-            } else {
-                btn.classList.remove('active');
-                btn.innerHTML = '🔄 Đảo Đáp Án (Tắt)';
-            }
-            if (!document.getElementById('quiz-area').classList.contains('hidden') && currentDeInfo) {
-                hienThiCauHoi(currentDeInfo.title);
-            }
-        }
-
-        function toggleShuffleQuestions() {
-            isShuffleQuestions = !isShuffleQuestions;
-            const btn = document.getElementById('btn-shuffle-questions');
-            if (isShuffleQuestions) {
-                btn.classList.add('active');
-                btn.innerHTML = '🔀 Đảo Câu (Bật)';
-            } else {
-                btn.classList.remove('active');
-                btn.innerHTML = '🔀 Đảo Câu (Tắt)';
-            }
-            if (!document.getElementById('quiz-area').classList.contains('hidden') && currentDeInfo) {
-                hienThiCauHoi(currentDeInfo.title);
-            }
-        }
-
-        // Hàm xáo trộn mảng
-        function shuffleArray(array) {
-            const newArr = [...array];
-            for (let i = newArr.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
-            }
-            return newArr;
-        }
-
-        function taoNutChonDe() {
-            const container = document.getElementById('btn-container');
-            danhSachDe.forEach(de => {
-                const btn = document.createElement('button');
-                btn.className = 'bg-white border-2 border-blue-500 text-blue-600 hover:bg-blue-50 font-semibold py-2 px-6 rounded-full transition-colors';
-                btn.innerText = de.title;
-                btn.onclick = () => taiDeThi(de);
-                container.appendChild(btn);
-            });
-        }
-
-        async function taiDeThi(de) {
-            currentDeInfo = de;
-            
-            // Ẩn các khu vực khác
-            document.getElementById('quiz-area').classList.add('hidden');
-            document.getElementById('edit-area').classList.add('hidden');
-            document.getElementById('result-area').classList.add('hidden');
-            document.getElementById('history-area').classList.add('hidden');
-            document.getElementById('submit-btn').classList.remove('hidden');
-            
-            const msgBox = document.getElementById('message-box');
-            msgBox.classList.remove('hidden');
-            msgBox.classList.remove('text-red-600', 'bg-red-50', 'border-red-200'); 
-            msgBox.classList.add('text-gray-600', 'bg-transparent', 'border-transparent');
-            msgBox.innerText = `Đang tải ${de.title}...`;
-
-            try {
-                let rawText = "";
-                try {
-                    const response = await fetch(de.fileUrl);
-                    if (!response.ok) throw new Error(`HTTP Lỗi: ${response.status}`);
-                    rawText = await response.text();
-                    
-                    if (rawText.trim().toLowerCase().startsWith('<!doctype html>') || rawText.toLowerCase().includes('<html')) {
-                        throw new Error(`Đường dẫn ${de.fileUrl} không trỏ đến file text mà trả về một trang web.`);
-                    }
-                } catch (err) {
-                    rawText = duLieuDemo;
-                    if (!de.title.includes("Offline")) de.title += " (Bản Demo Offline)";
-                }
-                
-                duLieuHienTai = phanTichTextThanhCauHoi(rawText);
-                
-                if (duLieuHienTai.length === 0) {
-                    throw new Error("File đề bị trống hoặc sai định dạng.");
-                }
-
-                hienThiCauHoi(de.title);
-                msgBox.classList.add('hidden');
-                document.getElementById('quiz-area').classList.remove('hidden');
-            } catch (error) {
-                msgBox.innerText = `Lỗi: ${error.message}`;
-                msgBox.classList.remove('text-gray-600', 'bg-transparent', 'border-transparent');
-                msgBox.classList.add('text-red-600', 'bg-red-50', 'border-red-200');
-            }
-        }
-
-        function phanTichTextThanhCauHoi(text) {
-            const danhSachCauHoi = [];
-            const cacKhoiText = text.trim().split(/\n\s*\n/);
-            let realIndex = 0; 
-
-            cacKhoiText.forEach((khoi) => {
-                const lines = khoi.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-                if (lines.length >= 5) {
-                    const tenCauHoi = lines[0];
-                    const dapAnArray = [];
-                    
-                    for (let i = 1; i <= 4; i++) {
-                        let textDapAn = lines[i];
-                        let laDapAnDung = false;
-                        if (textDapAn.toLowerCase().endsWith('(true)')) {
-                            laDapAnDung = true;
-                            textDapAn = textDapAn.substring(0, textDapAn.length - 6).trim();
-                        }
-                        dapAnArray.push({
-                            originalIndex: i - 1, 
-                            text: textDapAn,
-                            isCorrect: laDapAnDung
-                        });
-                    }
-                    danhSachCauHoi.push({
-                        id: realIndex++, 
-                        question: tenCauHoi,
-                        options: dapAnArray
-                    });
-                }
-            });
-            return danhSachCauHoi;
-        }
-
-        function hienThiCauHoi(title) {
-            document.getElementById('quiz-title').innerText = title;
-            const container = document.getElementById('questions-container');
-            container.innerHTML = ''; 
-
-            let displayQuestions = duLieuHienTai;
-            if (isShuffleQuestions) {
-                displayQuestions = shuffleArray(duLieuHienTai);
-            }
-
-            // Lưu danh sách đang hiển thị để chấm điểm
-            window.currentDisplayQuestions = displayQuestions;
-
-            displayQuestions.forEach((cau, displayIndex) => {
-                const originalQIndex = cau.id; 
-
-                const questionDiv = document.createElement('div');
-                questionDiv.className = 'bg-gray-50 p-5 rounded-lg border transition-all duration-500'; 
-                questionDiv.id = `question_div_${originalQIndex}`; // ID để scroll tới
-                
-                const titleEl = document.createElement('h3');
-                titleEl.className = 'text-lg font-semibold text-gray-800 mb-3';
-                
-                const textKhongCoTienTo = cau.question.replace(/^Câu\s+\d+:\s*/i, '');
-                titleEl.innerText = `Câu ${displayIndex + 1}: ${textKhongCoTienTo}`;
-                questionDiv.appendChild(titleEl);
-
-                const optionsGrid = document.createElement('div');
-                optionsGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-3';
-
-                let displayOptions = cau.options;
-                if (isShuffle) {
-                    displayOptions = shuffleArray(cau.options);
-                }
-
-                displayOptions.forEach((opt, renderIndex) => {
-                    const optionId = `q${originalQIndex}_opt${opt.originalIndex}`; 
-                    
-                    const optionDiv = document.createElement('div');
-                    optionDiv.className = 'relative';
-
-                    const input = document.createElement('input');
-                    input.type = 'radio';
-                    input.name = `question_${originalQIndex}`; 
-                    input.id = optionId;
-                    input.value = opt.originalIndex; 
-                    input.className = 'radio-custom hidden';
-
-                    const label = document.createElement('label');
-                    label.htmlFor = optionId;
-                    label.className = 'block p-3 border rounded-lg cursor-pointer transition-colors text-gray-700 bg-white hover:bg-gray-100 flex items-center';
-                    
-                    const letter = String.fromCharCode(65 + renderIndex); 
-                    label.innerHTML = `<span class="font-bold mr-2 text-blue-600">${letter}.</span> ${opt.text.replace(/^[A-D]\.\s*/, '')}`; 
-                    label.id = `label_${originalQIndex}_${opt.originalIndex}`; 
-
-                    optionDiv.appendChild(input);
-                    optionDiv.appendChild(label);
-                    optionsGrid.appendChild(optionDiv);
-                });
-
-                questionDiv.appendChild(optionsGrid);
-                container.appendChild(questionDiv);
-            });
-        }
-
-        function chamDiem() {
-            let soCauDung = 0;
-            let soCauSai = 0;
-            
-            const listCorrectEl = document.getElementById('list-correct');
-            const listWrongEl = document.getElementById('list-wrong');
-            listCorrectEl.innerHTML = ''; 
-            listWrongEl.innerHTML = '';
-
-            // OBJECT LƯU SESSION LỊCH SỬ
-            const sessionData = {
-                id: Date.now(),
-                date: new Date().toLocaleString('vi-VN'),
-                quizTitle: document.getElementById('quiz-title').innerText,
-                total: window.currentDisplayQuestions.length,
-                correctCount: 0,
-                wrongCount: 0,
-                correctList: [],
-                wrongList: []
-            };
-
-            window.currentDisplayQuestions.forEach((cau, displayIndex) => {
-                const originalQIndex = cau.id; 
-                const checkedOption = document.querySelector(`input[name="question_${originalQIndex}"]:checked`);
-                
-                const correctOpt = cau.options.find(o => o.isCorrect);
-                const rightLabel = document.getElementById(`label_${originalQIndex}_${correctOpt.originalIndex}`);
-                if(rightLabel) rightLabel.classList.add('correct-answer');
-
-                let isCorrect = false;
-
-                if (checkedOption) {
-                    const selectedValue = parseInt(checkedOption.value);
-                    if (selectedValue === correctOpt.originalIndex) {
-                        isCorrect = true;
-                        soCauDung++;
-                    } else {
-                        const wrongLabel = document.getElementById(`label_${originalQIndex}_${selectedValue}`);
-                        if(wrongLabel) wrongLabel.classList.add('wrong-answer');
-                    }
-                }
-                
-                const allRadios = document.querySelectorAll(`input[name="question_${originalQIndex}"]`);
-                allRadios.forEach(radio => radio.disabled = true);
-
-                // TẠO NÚT BẤM CHUYỂN HƯỚNG TỚI CÂU HỎI
-                const btn = document.createElement('button');
-                const tenCauHienThi = `Câu ${displayIndex + 1}`; 
-                
-                btn.className = `font-semibold py-1.5 px-3 rounded text-sm transition-colors shadow-sm focus:outline-none border ${isCorrect ? 'bg-green-100 text-green-700 hover:bg-green-200 border-green-300' : 'bg-red-100 text-red-700 hover:bg-red-200 border-red-300'}`;
-                btn.innerText = tenCauHienThi; 
-                btn.onclick = () => cuonDenCauHoi(originalQIndex); 
-
-                if (isCorrect) {
-                    listCorrectEl.appendChild(btn);
-                    sessionData.correctList.push(tenCauHienThi);
-                } else {
-                    soCauSai++;
-                    listWrongEl.appendChild(btn);
-                    sessionData.wrongList.push(tenCauHienThi);
-                }
-            });
-
-            // Lưu vào Local Storage
-            sessionData.correctCount = soCauDung;
-            sessionData.wrongCount = soCauSai;
-            luuVaoLichSu(sessionData);
-
-            document.getElementById('submit-btn').classList.add('hidden');
-            document.getElementById('result-area').classList.remove('hidden');
-            document.getElementById('score-text').innerText = `Bạn đã làm đúng ${soCauDung} / ${duLieuHienTai.length} câu hỏi.`;
-            document.getElementById('count-correct').innerText = soCauDung;
-            document.getElementById('count-wrong').innerText = soCauSai;
-            document.getElementById('result-area').scrollIntoView({ behavior: 'smooth' });
-        }
-
-        function cuonDenCauHoi(originalQIndex) {
-            const element = document.getElementById(`question_div_${originalQIndex}`);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                element.classList.add('ring-4', 'ring-blue-400', 'shadow-lg');
-                setTimeout(() => {
-                    element.classList.remove('ring-4', 'ring-blue-400', 'shadow-lg');
-                }, 1500);
-            }
-        }
-
-        function lamLai() {
-            hienThiCauHoi(document.getElementById('quiz-title').innerText);
-            document.getElementById('submit-btn').classList.remove('hidden');
-            document.getElementById('result-area').classList.add('hidden');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // ================= TÍNH NĂNG LỊCH SỬ LÀM BÀI =================
-        function luuVaoLichSu(sessionData) {
-            let history = JSON.parse(localStorage.getItem('quizHistory')) || [];
-            history.unshift(sessionData); // Đẩy lên đầu
-            localStorage.setItem('quizHistory', JSON.stringify(history));
-        }
-
-        function moLichSu() {
-            document.getElementById('quiz-area').classList.add('hidden');
-            document.getElementById('edit-area').classList.add('hidden');
-            document.getElementById('result-area').classList.add('hidden');
-            document.getElementById('message-box').classList.add('hidden');
-            document.getElementById('chon-de-text').classList.add('hidden');
-            
-            document.getElementById('history-area').classList.remove('hidden');
-            renderLichSu();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        function dongLichSu() {
-            document.getElementById('history-area').classList.add('hidden');
-            document.getElementById('chon-de-text').classList.remove('hidden');
-            
-            if(document.getElementById('quiz-title').innerText !== "Tên Đề Thi" && !document.getElementById('submit-btn').classList.contains('hidden')) {
-                document.getElementById('quiz-area').classList.remove('hidden');
-            } else if (document.getElementById('score-text').innerText !== "Bạn đã làm đúng 0/0 câu." && document.getElementById('submit-btn').classList.contains('hidden')) {
-                document.getElementById('quiz-area').classList.remove('hidden');
-                document.getElementById('result-area').classList.remove('hidden');
-            }
-        }
-
-        function xoaLichSu() {
-            if(confirm('Bạn có chắc chắn muốn xóa toàn bộ lịch sử làm bài? Dữ liệu không thể khôi phục.')) {
-                localStorage.removeItem('quizHistory');
-                renderLichSu(); 
-            }
-        }
-
-        function renderLichSu() {
-            const container = document.getElementById('history-container');
-            container.innerHTML = '';
-            
-            let history = JSON.parse(localStorage.getItem('quizHistory')) || [];
-            
-            if (history.length === 0) {
-                container.innerHTML = `<div class="text-center py-10 text-gray-500 bg-gray-50 rounded-lg border border-dashed border-gray-300">
-                    <p class="text-3xl mb-3">📭</p>
-                    <p class="font-medium">Chưa có dữ liệu lịch sử làm bài nào.</p>
-                    <p class="text-sm mt-1">Hãy làm thử một đề thi để xem thống kê nhé!</p>
-                </div>`;
-                return;
-            }
-
-            history.forEach((session) => {
-                const percent = Math.round((session.correctCount / session.total) * 100);
-                
-                let statusColor = 'border-gray-200 bg-white';
-                let scoreColor = 'text-gray-800';
-                if (percent >= 80) { statusColor = 'border-green-300 bg-green-50/40'; scoreColor = 'text-green-600'; }
-                else if (percent < 50) { statusColor = 'border-red-300 bg-red-50/40'; scoreColor = 'text-red-600'; }
-                else { statusColor = 'border-amber-300 bg-amber-50/40'; scoreColor = 'text-amber-600'; }
-
-                const card = document.createElement('div');
-                card.className = `p-5 rounded-xl border-2 ${statusColor} shadow-sm`;
-
-                let html = `
-                    <div class="flex flex-col md:flex-row justify-between md:items-center mb-4 border-b pb-3 border-gray-200/60">
-                        <div>
-                            <h3 class="font-bold text-lg text-gray-800">${session.quizTitle}</h3>
-                            <p class="text-sm text-gray-500 font-medium">🗓️ ${session.date}</p>
-                        </div>
-                        <div class="mt-2 md:mt-0 text-left md:text-right">
-                            <div class="text-2xl font-black ${scoreColor}">${session.correctCount} / ${session.total}</div>
-                            <div class="text-xs font-bold uppercase tracking-wider text-gray-500">Đạt ${percent}%</div>
-                        </div>
-                    </div>
-                    <div class="space-y-3 text-sm">
-                `;
-
-                if (session.correctList.length > 0) {
-                    html += `
-                        <div class="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3">
-                            <span class="inline-block min-w-24 font-bold text-green-700">✅ Câu Đúng:</span>
-                            <span class="text-gray-700 flex flex-wrap gap-1">${session.correctList.map(c => `<span class="bg-green-100 text-green-700 px-2 py-0.5 rounded border border-green-200">${c}</span>`).join('')}</span>
-                        </div>
-                    `;
-                }
-
-                if (session.wrongList.length > 0) {
-                    html += `
-                        <div class="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 mt-2">
-                            <span class="inline-block min-w-24 font-bold text-red-700">❌ Câu Sai:</span>
-                            <span class="text-gray-700 flex flex-wrap gap-1">${session.wrongList.map(c => `<span class="bg-red-100 text-red-700 px-2 py-0.5 rounded border border-red-200">${c}</span>`).join('')}</span>
-                        </div>
-                    `;
-                }
-
-                html += `</div>`;
-                card.innerHTML = html;
-                container.appendChild(card);
-            });
-        }
-
-        // ================= TÍNH NĂNG CHỈNH SỬA (EDIT) =================
-        function moGiaoDienEdit() {
-            document.getElementById('quiz-area').classList.add('hidden');
-            document.getElementById('edit-area').classList.remove('hidden');
-            
-            const container = document.getElementById('edit-questions-container');
-            container.innerHTML = '';
-
-            duLieuHienTai.forEach((cau, qIndex) => {
-                const qDiv = document.createElement('div');
-                qDiv.className = 'p-4 border rounded bg-gray-50';
-                
-                const qTitle = document.createElement('p');
-                qTitle.className = 'font-semibold mb-2';
-                qTitle.innerText = `Câu ${qIndex + 1}: ${cau.question.replace(/^Câu \d+:\s*/, '')}`;
-                qDiv.appendChild(qTitle);
-
-                const optsDiv = document.createElement('div');
-                optsDiv.className = 'grid grid-cols-1 md:grid-cols-2 gap-2 pl-4';
-
-                cau.options.forEach((opt, optIndex) => {
-                    const label = document.createElement('label');
-                    label.className = 'flex items-center cursor-pointer space-x-2';
-                    
-                    const radio = document.createElement('input');
-                    radio.type = 'radio';
-                    radio.name = `edit_q_${qIndex}`;
-                    radio.value = optIndex;
-                    radio.className = 'form-radio text-amber-500 w-4 h-4';
-                    if (opt.isCorrect) radio.checked = true;
-
-                    const spanText = document.createElement('span');
-                    spanText.innerText = opt.text.replace(/^[A-D]\.\s*/, ''); 
-                    if(opt.isCorrect) spanText.className = 'font-medium text-amber-700';
-
-                    radio.onchange = () => {
-                        const allSpans = qDiv.querySelectorAll('span');
-                        allSpans.forEach(s => s.className = '');
-                        spanText.className = 'font-medium text-amber-700';
-                    }
-
-                    label.appendChild(radio);
-                    label.appendChild(spanText);
-                    optsDiv.appendChild(label);
-                });
-
-                qDiv.appendChild(optsDiv);
-                container.appendChild(qDiv);
-            });
-        }
-
-        function dongGiaoDienEdit() {
-            document.getElementById('edit-area').classList.add('hidden');
-            document.getElementById('quiz-area').classList.remove('hidden');
-        }
-
-        function luuEditTamThoi() {
-            duLieuHienTai.forEach((cau, qIndex) => {
-                const checkedRadio = document.querySelector(`input[name="edit_q_${qIndex}"]:checked`);
-                if (checkedRadio) {
-                    const newCorrectIndex = parseInt(checkedRadio.value);
-                    cau.options.forEach((opt, optIndex) => {
-                        opt.isCorrect = (optIndex === newCorrectIndex);
-                    });
-                }
-            });
-            
-            alert("Đã lưu đáp án tạm thời trên trình duyệt!");
-            dongGiaoDienEdit();
-            hienThiCauHoi(currentDeInfo.title); 
-        }
-
-        function taiFileTxt() {
-            let textContent = "";
-            duLieuHienTai.forEach((cau, index) => {
-                textContent += `Câu ${index + 1}: ${cau.question.replace(/^Câu \d+:\s*/, '')}\n`;
-                
-                cau.options.forEach((opt, oIndex) => {
-                    const letter = String.fromCharCode(65 + oIndex);
-                    let optRawText = opt.text.replace(/^[A-D]\.\s*/, '');
-                    textContent += `${letter}. ${optRawText}${opt.isCorrect ? ' (true)' : ''}\n`;
-                });
-                
-                if (index < duLieuHienTai.length - 1) textContent += "\n"; 
-            });
-
-            const blob = new Blob([textContent], { type: "text/plain;charset=utf-8" });
-            const url = URL.createObjectURL(blob);
-            
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = currentDeInfo ? currentDeInfo.id + ".txt" : "de_cap_nhat.txt";
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-        }
-    </script>
+    <script type="module" src="assets/js/app/app-main.js?v=1"></script>
 </body>
 </html>

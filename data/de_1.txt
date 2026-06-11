@@ -1,281 +1,378 @@
-Câu 1: Có mấy nguyên tắc hành nghề công chứng:
-A. Có 3 nguyên tắc
-B. Có 4 nguyên tắc (true)
-C. Có 5 nguyên tắc
-D. Có 6 nguyên tắc
-
-Câu 2: Công chứng viên đang bị truy cứu trách nhiệm hình sự sẽ bị:
-A. Miễn nhiệm công chứng viên.
-B. Bãi nhiệm công chứng viên.
-C. Tạm đình chỉ hành nghề công chứng viên. (true)
-D. Đình chỉ hành nghề công chứng viên.
-
-Câu 3: Trường hợp nào sau đây bắt buộc phải có người làm chứng
-A. Không đọc được hoặc không nghe được
-B. Không ký được
-C. Không điểm chỉ được
-D. Cả 3 trường hợp A, B, C (true)
-
-Câu 4: Một trong những tiêu chuẩn để được xem xét, bổ nhiệm công chứng viên là:
-A. Có thời gian công tác pháp luật từ 05 năm trở lên tại cơ quan, tổ chức sau khi đã có bằng cử nhân luật.
-B. Có thời gian đóng bảo hiểm xã hội tại vị trí công tác liên quan đến pháp luật từ 05 năm trở lên.
-C. Có thời gian công tác pháp luật từ đủ 05 năm trở lên tại cơ quan, tổ chức sau khi đã có bằng cử nhân luật. (true)
-D. Có thời gian công tác pháp luật từ đủ 03 năm trở lên tại cơ quan, tổ chức sau khi đã có bằng cử nhân luật.
-
-Câu 5: Có được chuyển đổi quyền sử dụng đất
-A. Được chuyển đổi
-B. Được chuyển đổi đối với đất nông nghiệp (true)
-C. Không được chuyển đổi
-D. Được chuyển đổi đối với đất ở
-
-Câu 6: Thời hạn công chứng quy định thế nào?
-A. Thời hạn công chứng 02 ngày làm việc; hợp đồng, giao dịch có nội dung phức tạp thời hạn công chứng kéo dài không quá 10 ngày.
-B. Thời hạn công chứng là 02 ngày làm việc.
-C. Thời hạn công chứng không quá 02 ngày làm việc; đối với giao dịch có nội dung phức tạp thì thời hạn công chứng có thể kéo dài hơn 10 ngày làm việc.
-D. Thời hạn công chứng không quá 02 ngày làm việc; đối với giao dịch có nội dung phức tạp thì thời hạn công chứng có thể kéo dài hơn nhưng không quá 10 ngày làm việc. (true)
-
-Câu 7: Việc ký, điểm chỉ thực hiện đồng thời khi nào?
-A. Trong tất hợp đồng, giao dịch yêu cầu công chứng.
-B. Trong di chúc, văn bản khai nhận di sản, văn bản từ chối nhận di sản (true)
-C. Theo đề nghị của người yêu cầu công chứng.
-D. Trong công chứng văn liên quan đến thừa kế
-
-Câu 8: Chỉ được chuyển đổi quyền sử dụng đất nông nghiệp trong cùng đơn vị hành chính cấp:
-A. Cho cá nhân trong cùng đơn vị hành chính cấp xã/phường (true)
-B. Cho cá nhân hoặc tổ chức trong cùng đơn vị hành chính cấp xã/phường
-C. Cho cá nhân trong cùng đơn vị hành chính cấp tỉnh
-D. Cho cá nhân hoặc tổ chức trong cùng đơn vị hành chính cấp tỉnh
-
-Câu 9: Thời gian đào tạo nghề công chứng là:
-A. 06 tháng
-B. 09 tháng
-C. 12 tháng (true)
-D. 24 tháng
-
-Câu 10: Không chụp ảnh và lưu trữ trong hồ sơ công chứng đối với:
-A. Người làm chứng
-B. Người phiên dịch
-C. Người có thẩm quyền giao kết giao dịch của tổ chức tín dụng
-D. Người có thẩm quyền giao kết giao dịch của doanh nghiệp đã đăng ký chữ ký mẫu tại tổ chức hành nghề công chứng. (true)
-
-Câu 11: Trường hợp nào chủ sở hữu nhà ở đang cho thuê phải thông báo bằng văn bản cho bên thuê nhà ở biết:
-A. Chủ sở hữu tặng cho nhà ở.
-B. Chủ sở hữu ủy quyền nhà ở.
-C. Chủ sở hữu bán nhà ở. (true)
-D. Cả 2 trường hợp A, C nêu trên
-
-Câu 12: Câu 12. Người nào dưới đây có thời gian đào tạo nghề công chứng có thể trên 06 tháng:
-A. Chuyên viên cao cấp trong lĩnh vực pháp luật (true)
-B. Thẩm phán
-C. Thẩm tra viên cao cấp ngành Tòa án
-D. Phó giáo sư chuyên ngành luật
-
-Câu 13: Việc công chứng lãnh sự quán đại diện nước Cộng hòa xã hội chủ nghĩa Việt Nam nước ngoài có quyền:
-A. Công chứng tất cả hợp đồng, giao dịch như công chứng viên. (true)
-B. Công chứng hợp đồng cho thuê, ủy quyền, di chúc, từ chối nhận di sản.
-C. Công chứng di chúc, văn từ chối nhận di sản, văn ủy quyền.
-D. Công chứng di chúc, văn từ chối nhận di sản, văn ủy quyền, hợp đồng cho thuê.
-
-Câu 14: Thời hạn quyền ưu tiên mua của chủ sở hữu chung khác là:
-A. 03 tháng kể từ ngày nhận thông báo việc bán điều kiện bán.
-B. Trong thời hạn 03 tháng tài sản chung bất động sản, 01 tháng tài sản chung động sản kể từ ngày nhận thông báo việc bán.
-C. Trong thời hạn 01 tháng tài sản chung bất động sản, 03 tháng tài sản chung động sản kể từ ngày nhận thông báo việc bán điều kiện bán.
-D. Trong thời hạn 03 tháng tài sản chung bất động sản, 01 tháng tài sản chung động sản kể từ ngày nhận thông báo về việc bán và các điều kiện bán. (true)
-
-Câu 15: Trưởng phòng công chứng do:
-A. Giám đốc Sở Tư pháp bổ nhiệm, miễn nhiệm, cách chức (true)
-B. Chủ tịch Ủy ban nhân dân cấp tỉnh bổ nhiệm, miễn nhiệm, cách chức
-C. Bộ trưởng Bộ Tư pháp bổ nhiệm, miễn nhiệm, cách chức
-D. Giám đốc Sở Nội vụ bổ nhiệm, miễn nhiệm, cách chức
-
-Câu 16: Hồ sơ chuyển nhượng toàn bộ phần vốn góp của toàn bộ thành viên hợp danh Văn phòng công chứng được nộp tại:
-A. Bộ tư pháp;
-B. Cục bổ trợ tư pháp;
-C. Sở Tư pháp nơi đăng ký hoạt động; (true)
-D. UBND cấp tỉnh.
-
-Câu 17: Trường hợp nào sau đây hợp đồng thuê nhà ở không bị chấm dứt?
-A. Nhà ở cho thuê không còn.
-B. Nhà ở cho thuê bị hư hỏng nặng, có nguy cơ sập đổ.
-C. Bên thuê nhà ở chết hoặc có tuyên bố mất tích của Tòa án mà khi chết, mất tích đang có người cùng chung sống. (true)
-D. Hai bên thỏa thuận chấm dứt hợp đồng.
-
-Câu 18: Bảo hiểm trách nhiệm nghề nghiệp của công chứng viên là:
-A. Bắt buộc (true)
-B. Tự nguyện
-C. Bắt buộc trong 02 đầu năm kể từ khi đăng ký hành nghề
-D. Bắt buộc trong 05 đầu năm kể từ khi đăng ký hành nghề
-
-Câu 19: Có bao nhiêu trường hợp công chứng không thuộc phạm vi địa hạt:
-A. 2
-B. 3
-C. 4 (true)
-D. 5
-
-Câu 20: Việc sửa lỗi kỹ thuật của văn bản công chứng hợp đồng ủy quyền trong trường hợp bên ủy quyền và bên được ủy quyền không thể cùng đến một tổ chức hành nghề công chứng tại:
-A. Tại tổ chức hành nghề công chứng đã chứng cho bên ủy quyền.
-B. Tại tổ chức hành nghề công chứng đã chứng cho bên nhận ủy quyền.
-C. Tại bất kỳ tổ chức hành nghề công chứng nào.
-D. Tại bất kỳ tổ chức hành nghề công chứng đã thực hiện việc công chứng hợp đồng ủy quyền (true)
-
-Câu 21: Văn phòng công chứng phải đăng ký hoạt động tại Sở Tư pháp ở địa phương nơi đã ra quyết định cho phép thành lập trong thời hạn:
-A. Trong thời hạn 60 ngày kể từ ngày quyết định cho phép thành lập có hiệu lực thi hành;
-B. Trong thời hạn 60 ngày kể từ ngày được cho phép thành lập;
-C. Trong thời hạn 90 ngày kể từ ngày quyết định cho phép thành lập có hiệu lực thi hành; (true)
-D. Trong thời hạn 90 ngày kể từ ngày được cho phép thành lập;
-
-Câu 22: Nếu niêm yết vào ngày 02/10/2025 thì ngày bắt đầu tính niêm yết là
-A. Ngày 02/10/2025
-B. Ngày 03/10/2025 (true)
-C. Ngày 04/10/2025
-D. Theo thoả thuận giữa tổ chức hành nghề công chứng và UBND phường/xã
-
-Câu 23: Ngôi nhà đang cho thuê, bây giờ muốn thế chấp, thì cần điều kiện gì.
-A. Thế chấp bình thường, đúng quy định pháp luật là được
-B. Phải thông báo cho bên nhận thế chấp biết
-C. Phải thông báo cho bên thuê biết
-D. Phải thông báo cho bên nhận thế chấp và bên thuê biết. (true)
-
-Câu 24: Quyết định số 148/QĐ-HĐCCVTQ về Quy tắc đạo đức hành nghề công chứng của Hội đồng công chứng viên toàn quốc có hiệu lực thi hành kể từ ngày:
-A. 31/12/2024
-B. 11/03/2025 (true)
-C. 01/07/2025
-D. 31/12/2025
-
-Câu 25: Hợp đồng thế chấp tài sản phát sinh hiệu lực đối kháng với bên thứ 3 từ thời điểm nào?
-A. Từ thời điểm giao kết
-B. Từ thời điểm công chứng
-C. Từ thời điểm đăng ký thế chấp (true)
-D. Từ thời điểm ngân hàng giải ngân
-
-Câu 26: Bên thuê mua, bên mua nhà ở xã hội chỉ được bán lại nhà ở xã hội:
-A. Tối thiểu là 5 năm, kể từ thời điểm thanh toán hết tiền thuê mua, tiền mua nhà ở
-B. Bán cho Đơn vị quản lý nhà ở xã hội đó trong vòng 5 năm, kể từ ngày bên mua, bên thuê mua đã thanh toán hết tiền mua, thuê mua nhà ở.
-C. Bán cho Đối tượng thuộc diện được mua nhà ở xã hội nếu đơn vị này không mua với giá bán tối đa bằng giá bán nhà ở xã hội cùng loại tại cùng địa điểm, thời điểm bán trong vòng 5 năm, kể từ ngày bên mua, bên thuê mua đã thanh toán hết tiền mua, thuê mua nhà ở.
-D. Cả 3 đáp án trên đều đúng (true)
-
-Câu 27: Tài sản nào là tài sản riêng vợ chồng thời kỳ hôn nhân?
-A. Khoản tiền thưởng, trúng sổ xố
-B. Khoản trợ cấp, ưu đãi mà vợ, chồng được nhận theo quy định của pháp luật về ưu đãi người có công với cách mạng (true)
-C. Hoa lợi, lợi tức phát sinh từ tài sản riêng
-D. Tài sản mà vợ, chồng xác lập quyền sở hữu theo quy định Bộ luật Dân sự đối với vật vô chủ
-
-Câu 28: Văn phòng công chứng phải đăng báo trung ương hoặc báo địa phương nơi đăng ký hoạt động trong:
-A. Một số về những nội dung quy định;
-B. Ba số liên tiếp về những nội dung quy định; (true)
-C. Bốn số liên tiếp về những nội dung quy định;
-D. Năm số liên tiếp về những nội dung quy định;
-
-Câu 29: Thời gian tạm đình chỉ hành nghề công chứng tối đa
-A. 03 tháng
-B. 06 tháng (true)
-C. 12 tháng
-D. 24 tháng
-
-Câu 30: Tổ chức hành nghề công chứng có nghĩa vụ:
-A. Thực hiện chế độ làm việc theo ngày, giờ làm việc của cơ quan hành chính nhà nước.
-B. Thu phí công chứng, thù lao công chứng, chi phí khác. (true)
-C. Ký hợp đồng làm việc, hợp đồng lao động với công chứng viên
-D. Khai thác, sử dụng thông tin từ cơ sở dữ liệu công chứng
-
-Câu 31: Thực hiện nghĩa vụ tài sản do người chết để lại
-A. Những người hưởng thừa kế có trách nhiệm thực hiện nghĩa vụ tài sản ngoài phạm vi di sản do người chết để lại.
-B. Những người hưởng thừa kế có trách nhiệm thực hiện nghĩa vụ tài sản chỉ trong phạm vi một phần di sản do người chết để lại.
-C. Những người hưởng thừa kế có trách nhiệm thực hiện nghĩa vụ tài sản bằng 2/3 phần di sản được hưởng do người chết để lại.
-D. Những người hưởng thừa kế có thể thực hiện nghĩa vụ tài sản ngoài phạm vi di sản mà mình được hưởng do người chết để lại khi có sự thoả thuận và đồng ý của những người hưởng thửa kế. (true)
-
-Câu 32: Sau một thời gian hoạt động. Ông A quyết định chuyển nhượng Văn phòng công chứng của mình. Nhận định nào sau đây là đúng:
-A. Văn phòng công chứng chỉ được chuyển nhượng sau khi đã hoạt động được ít nhất 02 năm;
-B. Toàn bộ thành viên hợp danh của Văn phòng công chứng chuyển nhượng toàn bộ phần vốn góp cho ít nhất 02 công chứng viên khác đáp ứng đủ các điều kiện quy định sau khi Văn phòng công chứng đã hoạt động được ít nhất 02 năm; (true)
-C. Ủy ban nhân dân cấp tỉnh xem xét, quyết định cho phép chuyển nhượng Văn phòng công chứng;
-D. Công chứng viên đã chuyển nhượng Văn phòng công chứng không được phép tham gia thành lập Văn phòng công chứng mới trong thời hạn 05 năm kể từ ngày chuyển nhượng;
-
-Câu 33: Nội dung có trong đề án thành lập Văn phòng công chứng cần nêu rõ:
-A. Dự kiến về tổ chức, tên gọi, nhân sự, địa điểm đặt trụ sở, các điều kiện vật chất và kế hoạch triển khai thực hiện;
-B. Sự cần thiết thành lập, dự kiến về tổ chức, tên gọi, địa điểm đặt trụ sở, các điều kiện vật chất và kế hoạch triển khai thực hiện;
-C. Sự cần thiết thành lập, dự kiến về tổ chức, tên, nhân sự, địa điểm đặt trụ sở, các điều kiện vật chất và kế hoạch triển khai thực hiện; (true)
-D. Sự cần thiết thành lập, dự kiến về tổ chức, tên gọi, nhân sự, địa điểm đặt trụ sở;
-
-Câu 34: Cơ quan có thẩm quyền xem xét, quyết định cho phép thành lập Văn phòng công chứng là:
-A. Bộ tư pháp
-B. Sở tư pháp
-C. Cục bổ trợ tư pháp
-D. UBND tỉnh (true)
-
-Câu 35: Nhận định nào sau đây là đúng:
-A. Tên gọi của Văn phòng công chứng phải bao gồm cụm từ “Văn phòng công chứng” và phải kèm theo họ tên của Trưởng Văn phòng;
-B. Tên gọi của Văn phòng công chứng phải bao gồm cụm từ “Văn phòng công chứng” có thể kèm theo họ tên của một công chứng viên hợp danh;
-C. Tên gọi của Văn phòng công chứng phải bao gồm cụm từ “Văn phòng công chứng” có thể kèm theo họ tên của một công chứng viên làm việc theo chế độ hợp đồng;
-D. Tên gọi của Văn phòng công chứng bao gồm cụm từ “Văn phòng công chứng” và tên riêng bằng tiếng Việt do các thành viên hợp danh của Văn phòng công chứng được tổ chức và hoạt động theo loại hình công ty hợp danh thỏa thuận lựa chọn; (true)
-
-Câu 36: Câu 36. Khẳng định sau là đúng:
-A. Quyền hưởng dụng loại vật quyền. (true)
-B. Thời hạn quyền hưởng dụng phải hai bên thỏa thuận.
-C. Người có quyền hưởng dụng có quyền để lại thừa kế quyền cho người thừa kế mình.
-D. Khi quyền bề mặt chấm dứt, tài sản đất xác lập sở hữu cho chủ thể có quyền sử dụng đất.
-
-Câu 37: Người tập sự tạm ngừng tập sự phải thông báo văn với tổ chức hành nghề công chứng nơi tập sự chậm nhất bao nhiêu ngày làm việc trước ngày tạm ngừng tập sự?
-A. 2 ngày
-B. 3 ngày (true)
-C. 5 ngày
-D. 10 ngày
-
-Câu 38: Trường hợp nào được miễn bồi dưỡng nghiệp vụ công chứng hàng năm?
-A. Tham gia giảng dạy công chứng
-B. Có nghiên cứu pháp luật công chứng đăng tạp chí chuyên ngành
-C. Công chứng viên nữ đang nuôi con nhỏ dưới 12 tháng tuổi
-D. Công chứng viên tham gia khóa bồi dưỡng nghiệp vụ công chứng nước ngoài (true)
-
-Câu 39: Nhận định sau là đúng?
-A. Người lập di chúc không được ủy quyền cho người khác mà phải tự mình ký hoặc ký và điểm chỉ vào bản di chúc được công chứng (true)
-B. Di chúc đã công chứng sau người lập di chúc muốn sửa đổi, bổ sung, thay thế, hủy bỏ một phần hoặc toàn bộ di chúc phải do công chứng viên tổ chức hành nghề công chứng trước đây thực hiện.
-C. Người lập di chúc phải tự mình yêu cầu công chứng di chúc, không ủy quyền cho người khác yêu cầu công chứng di chúc
-D. Trường hợp công chứng viên nghi ngờ người lập di chúc bị bệnh tâm thần có quyền từ chối công chứng
-
-Câu 40: Nhận định nào là sai?
-A. Công chứng viên có quyền cung cấp dịch vụ công chứng ngoài giờ hành chính Nhà nước
-B. Công chứng viên có quyền Được pháp luật bảo đảm quyền hành nghề công chứng
-C. Công chứng viên Đề nghị cá nhân, quan, tổ chức có liên quan cung cấp thông tin, tài liệu để thực việc công chứng
-D. D: Công chứng viên từ chối công chứng hợp đồng, giao dịch, dịch vi phạm pháp luật, trái đạo đức xã hội (true)
-
-Câu 41: Giấy nhận lưu giữ Di chúc
-A. Phải có tên tổ chức hành nghề công chứng nhận lưu giữ di chúc, công chứng viên, người lập di chúc (true)
-B. Phải có tên tổ chức hành nghề công chứng nhận lưu giữ di chúc, công chứng viên niêm phong di chúc, người lập di chúclập di chúc
-C. Phải có thông tin về tổ chức hành nghề công chứng nhận lưu giữ di chúc, công chứng viên, người lập di chúc
-D. Phải có thông tin về tổ chức hành nghề công chứng nhận lưu giữ di chúc, công chứng viên niêm phong di chúc, người lập di chúc
-
-Câu 42: Thẩm quyền cho phép sáp nhập Văn phòng công chứng?
-A. Sở Tư pháp cấp tỉnh
-B. UBND cấp tỉnh (true)
-C. Cục bổ trợ tư pháp
-D. Hiệp hội công chứng viên Việt Nam
-
-Câu 43: Văn phòng công chứng bị thu hồi quyết định cho phép thành lập trường hợp nào sau đây?
-A. Văn phòng công chứng không hoạt động liên tục từ 03 tháng trở lên, trừ trường hợp do tạm ngừng hoạt động theo quy định tại Điều 32 Luật công chứng 2024; (true)
-B. Văn phòng công chứng không hoạt động liên tục từ 04 tháng trở lên, trừ trường hợp do tạm ngừng hoạt động theo quy định tại Điều 32 Luật công chứng 2024;
-C. Văn phòng công chứng không hoạt động liên tục từ 05 tháng trở lên, trừ trường hợp do tạm ngừng hoạt động theo quy định tại Điều 32 Luật công chứng 2024;
-D. Văn phòng công chứng không hoạt động liên tục từ 06 tháng trở lên, trừ trường hợp do tạm ngừng hoạt động theo quy định tại Điều 32 Luật công chứng 2024;
-
-Câu 44: Trường hợp nào sau đây được nhận vốn góp?
-A. Công ty trách nhiệm hữu hạn
-B. Công ty Cổ phần
-C. Công ty hợp danh
-D. Cả 3 trường hợp trên đều được (true)
-
-Câu 45: Di chúc miệng mặc nhiên bị hủy bỏ khi:
-A. Sau 01 tháng, kể từ thời điểm di chúc miệng mà người lập di chúc còn sống, minh mẫn, sáng suốt.
-B. Sau 02 tháng, kể từ thời điểm di chúc miệng mà người lập di chúc còn sống, minh mẫn, sáng suốt.
-C. Sau 03 tháng, kể từ thời điểm di chúc miệng mà người lập di chúc còn sống, minh mẫn, sáng suốt. (true)
-D. Sau 06 tháng, kể từ thời điểm di chúc miệng mà người lập di chúc còn sống, minh mẫn, sáng suốt.
-
-Câu 46: Trường hợp người để lại di sản là bất động sản không có hoặc không xác định được nơi thường trú hoặc tạm trú có thời hạn cuối cùng ở Việt Nam
-A. Việc niêm yết được thực hiện tại trụ sở của Ủy ban nhân cấp xã nơi có bất động sản;
-B. Việc niêm yết được thực hiện tại trụ sở của lãnh sự quán nơi gần nhất của người để lại di sản cư trú;
-C. Tổ chức hành nghề công chứng gửi văn bản niêm yết đề nghị Sở Tư pháp nơi tổ chức hành nghề công chứng đặt trụ sở đăng tải trên Cổng thông tin điện tử của Sở Tư pháp;
-D. Cả 2 đáp án A và C; (true)
-
-Câu 47: Theo quy định của pháp luật hiện hành, văn bản công chứng bị sai lỗi kỹ thuật:
-A. Ghi nội dung sửa lỗi vào trang bất kỳ có độ rộng bên lề đủ lớn không nhất thiết phải trên trang được sửa lỗi kỹ thuật.
-B. Ghi nội dung sửa lỗi vào bất kỳ vị trí nào có độ rộng lớn của trang được sửa lỗi kỹ thuật.
-C. Ghi nội dung sửa lỗi vào bên lề của trang được sửa lỗi kỹ thuật.
-D. Cả đáp án A và B đều đúng. (true)
+#ENCODED
+Q8OidSAxOiBDw7MgbeG6pXkgbmd1ecOqbiB04bqvYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6lu
+ZzoKQS4gQ8OzIDMgbmd1ecOqbiB04bqvYwpCLiBDw7MgNCBuZ3V5w6puIHThuq9jICh0cnVlKQpD
+LiBDw7MgNSBuZ3V5w6puIHThuq9jCkQuIEPDsyA2IG5ndXnDqm4gdOG6r2MKCkPDonUgMjogQ8O0
+bmcgY2jhu6luZyB2acOqbiDEkWFuZyBi4buLIHRydXkgY+G7qXUgdHLDoWNoIG5oaeG7h20gaMOs
+bmggc+G7sSBz4bq9IGLhu4s6CkEuIE1p4buFbiBuaGnhu4dtIGPDtG5nIGNo4bupbmcgdmnDqm4u
+CkIuIELDo2kgbmhp4buHbSBjw7RuZyBjaOG7qW5nIHZpw6puLgpDLiBU4bqhbSDEkcOsbmggY2jh
+u4kgaMOgbmggbmdo4buBIGPDtG5nIGNo4bupbmcgdmnDqm4uICh0cnVlKQpELiDEkMOsbmggY2jh
+u4kgaMOgbmggbmdo4buBIGPDtG5nIGNo4bupbmcgdmnDqm4uCgpDw6J1IDM6IFRyxrDhu51uZyBo
+4bujcCBuw6BvIHNhdSDEkcOieSBi4bqvdCBideG7mWMgcGjhuqNpIGPDsyBuZ8aw4budaSBsw6Bt
+IGNo4bupbmcKQS4gS2jDtG5nIMSR4buNYyDEkcaw4bujYyBob+G6t2Mga2jDtG5nIG5naGUgxJHG
+sOG7o2MKQi4gS2jDtG5nIGvDvSDEkcaw4bujYwpDLiBLaMO0bmcgxJFp4buDbSBjaOG7iSDEkcaw
+4bujYwpELiBD4bqjIDMgdHLGsOG7nW5nIGjhu6NwIEEsIEIsIEMgKHRydWUpCgpDw6J1IDQ6IE3h
+u5l0IHRyb25nIG5o4buvbmcgdGnDqnUgY2h14bqpbiDEkeG7gyDEkcaw4bujYyB4ZW0geMOpdCwg
+YuG7lSBuaGnhu4dtIGPDtG5nIGNo4bupbmcgdmnDqm4gbMOgOgpBLiBDw7MgdGjhu51pIGdpYW4g
+Y8O0bmcgdMOhYyBwaMOhcCBsdeG6rXQgdOG7qyAwNSBuxINtIHRy4bufIGzDqm4gdOG6oWkgY8ah
+IHF1YW4sIHThu5UgY2jhu6ljIHNhdSBraGkgxJHDoyBjw7MgYuG6sW5nIGPhu60gbmjDom4gbHXh
+uq10LgpCLiBDw7MgdGjhu51pIGdpYW4gxJHDs25nIGLhuqNvIGhp4buDbSB4w6MgaOG7mWkgdOG6
+oWkgduG7iyB0csOtIGPDtG5nIHTDoWMgbGnDqm4gcXVhbiDEkeG6v24gcGjDoXAgbHXhuq10IHTh
+u6sgMDUgbsSDbSB0cuG7nyBsw6puLgpDLiBDw7MgdGjhu51pIGdpYW4gY8O0bmcgdMOhYyBwaMOh
+cCBsdeG6rXQgdOG7qyDEkeG7pyAwNSBuxINtIHRy4bufIGzDqm4gdOG6oWkgY8ahIHF1YW4sIHTh
+u5UgY2jhu6ljIHNhdSBraGkgxJHDoyBjw7MgYuG6sW5nIGPhu60gbmjDom4gbHXhuq10LiAodHJ1
+ZSkKRC4gQ8OzIHRo4budaSBnaWFuIGPDtG5nIHTDoWMgcGjDoXAgbHXhuq10IHThu6sgxJHhu6cg
+MDMgbsSDbSB0cuG7nyBsw6puIHThuqFpIGPGoSBxdWFuLCB04buVIGNo4bupYyBzYXUga2hpIMSR
+w6MgY8OzIGLhurFuZyBj4butIG5ow6JuIGx14bqtdC4KCkPDonUgNTogQ8OzIMSRxrDhu6NjIGNo
+dXnhu4NuIMSR4buVaSBxdXnhu4FuIHPhu60gZOG7pW5nIMSR4bqldApBLiDEkMaw4bujYyBjaHV5
+4buDbiDEkeG7lWkKQi4gxJDGsOG7o2MgY2h1eeG7g24gxJHhu5VpIMSR4buRaSB24bubaSDEkeG6
+pXQgbsO0bmcgbmdoaeG7h3AgKHRydWUpCkMuIEtow7RuZyDEkcaw4bujYyBjaHV54buDbiDEkeG7
+lWkKRC4gxJDGsOG7o2MgY2h1eeG7g24gxJHhu5VpIMSR4buRaSB24bubaSDEkeG6pXQg4bufCgpD
+w6J1IDY6IFRo4budaSBo4bqhbiBjw7RuZyBjaOG7qW5nIHF1eSDEkeG7i25oIHRo4bq/IG7DoG8/
+CkEuIFRo4budaSBo4bqhbiBjw7RuZyBjaOG7qW5nIDAyIG5nw6B5IGzDoG0gdmnhu4djOyBo4buj
+cCDEkeG7k25nLCBnaWFvIGThu4tjaCBjw7MgbuG7mWkgZHVuZyBwaOG7qWMgdOG6oXAgdGjhu51p
+IGjhuqFuIGPDtG5nIGNo4bupbmcga8OpbyBkw6BpIGtow7RuZyBxdcOhIDEwIG5nw6B5LgpCLiBU
+aOG7nWkgaOG6oW4gY8O0bmcgY2jhu6luZyBsw6AgMDIgbmfDoHkgbMOgbSB2aeG7h2MuCkMuIFRo
+4budaSBo4bqhbiBjw7RuZyBjaOG7qW5nIGtow7RuZyBxdcOhIDAyIG5nw6B5IGzDoG0gdmnhu4dj
+OyDEkeG7kWkgduG7m2kgZ2lhbyBk4buLY2ggY8OzIG7hu5lpIGR1bmcgcGjhu6ljIHThuqFwIHRo
+w6wgdGjhu51pIGjhuqFuIGPDtG5nIGNo4bupbmcgY8OzIHRo4buDIGvDqW8gZMOgaSBoxqFuIDEw
+IG5nw6B5IGzDoG0gdmnhu4djLgpELiBUaOG7nWkgaOG6oW4gY8O0bmcgY2jhu6luZyBraMO0bmcg
+cXXDoSAwMiBuZ8OgeSBsw6BtIHZp4buHYzsgxJHhu5FpIHbhu5tpIGdpYW8gZOG7i2NoIGPDsyBu
+4buZaSBkdW5nIHBo4bupYyB04bqhcCB0aMOsIHRo4budaSBo4bqhbiBjw7RuZyBjaOG7qW5nIGPD
+syB0aOG7gyBrw6lvIGTDoGkgaMahbiBuaMawbmcga2jDtG5nIHF1w6EgMTAgbmfDoHkgbMOgbSB2
+aeG7h2MuICh0cnVlKQoKQ8OidSA3OiBWaeG7h2Mga8O9LCDEkWnhu4NtIGNo4buJIHRo4buxYyBo
+aeG7h24gxJHhu5NuZyB0aOG7nWkga2hpIG7DoG8/CkEuIFRyb25nIHThuqV0IGjhu6NwIMSR4buT
+bmcsIGdpYW8gZOG7i2NoIHnDqnUgY+G6p3UgY8O0bmcgY2jhu6luZy4KQi4gVHJvbmcgZGkgY2jD
+umMsIHbEg24gYuG6o24ga2hhaSBuaOG6rW4gZGkgc+G6o24sIHbEg24gYuG6o24gdOG7qyBjaOG7
+kWkgbmjhuq1uIGRpIHPhuqNuICh0cnVlKQpDLiBUaGVvIMSR4buBIG5naOG7iyBj4bunYSBuZ8aw
+4budaSB5w6p1IGPhuqd1IGPDtG5nIGNo4bupbmcuCkQuIFRyb25nIGPDtG5nIGNo4bupbmcgdsSD
+biBsacOqbiBxdWFuIMSR4bq/biB0aOG7q2Ega+G6vwoKQ8OidSA4OiBDaOG7iSDEkcaw4bujYyBj
+aHV54buDbiDEkeG7lWkgcXV54buBbiBz4butIGThu6VuZyDEkeG6pXQgbsO0bmcgbmdoaeG7h3Ag
+dHJvbmcgY8O5bmcgxJHGoW4gduG7iyBow6BuaCBjaMOtbmggY+G6pXA6CkEuIENobyBjw6EgbmjD
+om4gdHJvbmcgY8O5bmcgxJHGoW4gduG7iyBow6BuaCBjaMOtbmggY+G6pXAgeMOjL3BoxrDhu51u
+ZyAodHJ1ZSkKQi4gQ2hvIGPDoSBuaMOibiBob+G6t2MgdOG7lSBjaOG7qWMgdHJvbmcgY8O5bmcg
+xJHGoW4gduG7iyBow6BuaCBjaMOtbmggY+G6pXAgeMOjL3BoxrDhu51uZwpDLiBDaG8gY8OhIG5o
+w6JuIHRyb25nIGPDuW5nIMSRxqFuIHbhu4sgaMOgbmggY2jDrW5oIGPhuqVwIHThu4luaApELiBD
+aG8gY8OhIG5ow6JuIGhv4bq3YyB04buVIGNo4bupYyB0cm9uZyBjw7luZyDEkcahbiB24buLIGjD
+oG5oIGNow61uaCBj4bqlcCB04buJbmgKCkPDonUgOTogVGjhu51pIGdpYW4gxJHDoG8gdOG6oW8g
+bmdo4buBIGPDtG5nIGNo4bupbmcgbMOgOgpBLiAwNiB0aMOhbmcKQi4gMDkgdGjDoW5nCkMuIDEy
+IHRow6FuZyAodHJ1ZSkKRC4gMjQgdGjDoW5nCgpDw6J1IDEwOiBLaMO0bmcgY2jhu6VwIOG6o25o
+IHbDoCBsxrB1IHRy4buvIHRyb25nIGjhu5Mgc8ahIGPDtG5nIGNo4bupbmcgxJHhu5FpIHbhu5tp
+OgpBLiBOZ8aw4budaSBsw6BtIGNo4bupbmcKQi4gTmfGsOG7nWkgcGhpw6puIGThu4tjaApDLiBO
+Z8aw4budaSBjw7MgdGjhuqltIHF1eeG7gW4gZ2lhbyBr4bq/dCBnaWFvIGThu4tjaCBj4bunYSB0
+4buVIGNo4bupYyB0w61uIGThu6VuZwpELiBOZ8aw4budaSBjw7MgdGjhuqltIHF1eeG7gW4gZ2lh
+byBr4bq/dCBnaWFvIGThu4tjaCBj4bunYSBkb2FuaCBuZ2hp4buHcCDEkcOjIMSRxINuZyBrw70g
+Y2jhu68ga8O9IG3huqt1IHThuqFpIHThu5UgY2jhu6ljIGjDoG5oIG5naOG7gSBjw7RuZyBjaOG7
+qW5nLiAodHJ1ZSkKCkPDonUgMTE6IFRyxrDhu51uZyBo4bujcCBuw6BvIGNo4bunIHPhu58gaOG7
+r3UgbmjDoCDhu58gxJFhbmcgY2hvIHRodcOqIHBo4bqjaSB0aMO0bmcgYsOhbyBi4bqxbmcgdsSD
+biBi4bqjbiBjaG8gYsOqbiB0aHXDqiBuaMOgIOG7nyBiaeG6v3Q6CkEuIENo4bunIHPhu58gaOG7
+r3UgdOG6t25nIGNobyBuaMOgIOG7ny4KQi4gQ2jhu6cgc+G7nyBo4buvdSDhu6d5IHF1eeG7gW4g
+bmjDoCDhu58uCkMuIENo4bunIHPhu58gaOG7r3UgYsOhbiBuaMOgIOG7ny4gKHRydWUpCkQuIEPh
+uqMgMiB0csaw4budbmcgaOG7o3AgQSwgQyBuw6p1IHRyw6puCgpDw6J1IDEyOiBOZ8aw4budaSBu
+w6BvIGTGsOG7m2kgxJHDonkgY8OzIHRo4budaSBnaWFuIMSRw6BvIHThuqFvIG5naOG7gSBjw7Ru
+ZyBjaOG7qW5nIGPDsyB0aOG7gyB0csOqbiAwNiB0aMOhbmc6CkEuIENodXnDqm4gdmnDqm4gY2Fv
+IGPhuqVwIHRyb25nIGzEqW5oIHbhu7FjIHBow6FwIGx14bqtdCAodHJ1ZSkKQi4gVGjhuqltIHBo
+w6FuCkMuIFRo4bqpbSB0cmEgdmnDqm4gY2FvIGPhuqVwIG5nw6BuaCBUw7JhIMOhbgpELiBQaMOz
+IGdpw6FvIHPGsCBjaHV5w6puIG5nw6BuaCBsdeG6rXQKCkPDonUgMTM6IFZp4buHYyBjw7RuZyBj
+aOG7qW5nIGzDo25oIHPhu7EgcXXDoW4gxJHhuqFpIGRp4buHbiBuxrDhu5tjIEPhu5luZyBow7Jh
+IHjDoyBo4buZaSBjaOG7pyBuZ2jEqWEgVmnhu4d0IE5hbSBuxrDhu5tjIG5nb8OgaSBjw7MgcXV5
+4buBbjoKQS4gQ8O0bmcgY2jhu6luZyB04bqldCBj4bqjIGjhu6NwIMSR4buTbmcsIGdpYW8gZOG7
+i2NoIG5oxrAgY8O0bmcgY2jhu6luZyB2acOqbi4gKHRydWUpCkIuIEPDtG5nIGNo4bupbmcgaOG7
+o3AgxJHhu5NuZyBjaG8gdGh1w6osIOG7p3kgcXV54buBbiwgZGkgY2jDumMsIHThu6sgY2jhu5Fp
+IG5o4bqtbiBkaSBz4bqjbi4KQy4gQ8O0bmcgY2jhu6luZyBkaSBjaMO6YywgdsSDbiB04burIGNo
+4buRaSBuaOG6rW4gZGkgc+G6o24sIHbEg24g4buneSBxdXnhu4FuLgpELiBDw7RuZyBjaOG7qW5n
+IGRpIGNow7pjLCB2xINuIHThu6sgY2jhu5FpIG5o4bqtbiBkaSBz4bqjbiwgdsSDbiDhu6d5IHF1
+eeG7gW4sIGjhu6NwIMSR4buTbmcgY2hvIHRodcOqLgoKQ8OidSAxNDogVGjhu51pIGjhuqFuIHF1
+eeG7gW4gxrB1IHRpw6puIG11YSBj4bunYSBjaOG7pyBz4bufIGjhu691IGNodW5nIGtow6FjIGzD
+oDoKQS4gMDMgdGjDoW5nIGvhu4MgdOG7qyBuZ8OgeSBuaOG6rW4gdGjDtG5nIGLDoW8gdmnhu4dj
+IGLDoW4gxJFp4buBdSBraeG7h24gYsOhbi4KQi4gVHJvbmcgdGjhu51pIGjhuqFuIDAzIHRow6Fu
+ZyB0w6BpIHPhuqNuIGNodW5nIGLhuqV0IMSR4buZbmcgc+G6o24sIDAxIHRow6FuZyB0w6BpIHPh
+uqNuIGNodW5nIMSR4buZbmcgc+G6o24ga+G7gyB04burIG5nw6B5IG5o4bqtbiB0aMO0bmcgYsOh
+byB2aeG7h2MgYsOhbi4KQy4gVHJvbmcgdGjhu51pIGjhuqFuIDAxIHRow6FuZyB0w6BpIHPhuqNu
+IGNodW5nIGLhuqV0IMSR4buZbmcgc+G6o24sIDAzIHRow6FuZyB0w6BpIHPhuqNuIGNodW5nIMSR
+4buZbmcgc+G6o24ga+G7gyB04burIG5nw6B5IG5o4bqtbiB0aMO0bmcgYsOhbyB2aeG7h2MgYsOh
+biDEkWnhu4F1IGtp4buHbiBiw6FuLgpELiBUcm9uZyB0aOG7nWkgaOG6oW4gMDMgdGjDoW5nIHTD
+oGkgc+G6o24gY2h1bmcgYuG6pXQgxJHhu5luZyBz4bqjbiwgMDEgdGjDoW5nIHTDoGkgc+G6o24g
+Y2h1bmcgxJHhu5luZyBz4bqjbiBr4buDIHThu6sgbmfDoHkgbmjhuq1uIHRow7RuZyBiw6FvIHbh
+u4Egdmnhu4djIGLDoW4gdsOgIGPDoWMgxJFp4buBdSBraeG7h24gYsOhbi4gKHRydWUpCgpDw6J1
+IDE1OiBUcsaw4bufbmcgcGjDsm5nIGPDtG5nIGNo4bupbmcgZG86CkEuIEdpw6FtIMSR4buRYyBT
+4bufIFTGsCBwaMOhcCBi4buVIG5oaeG7h20sIG1p4buFbiBuaGnhu4dtLCBjw6FjaCBjaOG7qWMg
+KHRydWUpCkIuIENo4bunIHThu4tjaCDhu6Z5IGJhbiBuaMOibiBkw6JuIGPhuqVwIHThu4luaCBi
+4buVIG5oaeG7h20sIG1p4buFbiBuaGnhu4dtLCBjw6FjaCBjaOG7qWMKQy4gQuG7mSB0csaw4buf
+bmcgQuG7mSBUxrAgcGjDoXAgYuG7lSBuaGnhu4dtLCBtaeG7hW4gbmhp4buHbSwgY8OhY2ggY2jh
+u6ljCkQuIEdpw6FtIMSR4buRYyBT4bufIE7hu5lpIHbhu6UgYuG7lSBuaGnhu4dtLCBtaeG7hW4g
+bmhp4buHbSwgY8OhY2ggY2jhu6ljCgpDw6J1IDE2OiBI4buTIHPGoSBjaHV54buDbiBuaMaw4buj
+bmcgdG/DoG4gYuG7mSBwaOG6p24gduG7kW4gZ8OzcCBj4bunYSB0b8OgbiBi4buZIHRow6BuaCB2
+acOqbiBo4bujcCBkYW5oIFbEg24gcGjDsm5nIGPDtG5nIGNo4bupbmcgxJHGsOG7o2MgbuG7mXAg
+dOG6oWk6CkEuIELhu5kgdMawIHBow6FwOwpCLiBD4bulYyBi4buVIHRy4bujIHTGsCBwaMOhcDsK
+Qy4gU+G7nyBUxrAgcGjDoXAgbsahaSDEkcSDbmcga8O9IGhv4bqhdCDEkeG7mW5nOyAodHJ1ZSkK
+RC4gVUJORCBj4bqlcCB04buJbmguCgpDw6J1IDE3OiBUcsaw4budbmcgaOG7o3AgbsOgbyBzYXUg
+xJHDonkgaOG7o3AgxJHhu5NuZyB0aHXDqiBuaMOgIOG7nyBraMO0bmcgYuG7iyBjaOG6pW0gZOG7
+qXQ/CkEuIE5ow6Ag4bufIGNobyB0aHXDqiBraMO0bmcgY8Oybi4KQi4gTmjDoCDhu58gY2hvIHRo
+dcOqIGLhu4sgaMawIGjhu49uZyBu4bq3bmcsIGPDsyBuZ3V5IGPGoSBz4bqtcCDEkeG7lS4KQy4g
+QsOqbiB0aHXDqiBuaMOgIOG7nyBjaOG6v3QgaG/hurdjIGPDsyB0dXnDqm4gYuG7kSBt4bqldCB0
+w61jaCBj4bunYSBUw7JhIMOhbiBtw6Aga2hpIGNo4bq/dCwgbeG6pXQgdMOtY2ggxJFhbmcgY8Oz
+IG5nxrDhu51pIGPDuW5nIGNodW5nIHPhu5FuZy4gKHRydWUpCkQuIEhhaSBiw6puIHRo4buPYSB0
+aHXhuq1uIGNo4bqlbSBk4bupdCBo4bujcCDEkeG7k25nLgoKQ8OidSAxODogQuG6o28gaGnhu4Nt
+IHRyw6FjaCBuaGnhu4dtIG5naOG7gSBuZ2hp4buHcCBj4bunYSBjw7RuZyBjaOG7qW5nIHZpw6pu
+IGzDoDoKQS4gQuG6r3QgYnXhu5ljICh0cnVlKQpCLiBU4buxIG5ndXnhu4duCkMuIELhuq90IGJ1
+4buZYyB0cm9uZyAwMiDEkeG6p3UgbsSDbSBr4buDIHThu6sga2hpIMSRxINuZyBrw70gaMOgbmgg
+bmdo4buBCkQuIELhuq90IGJ14buZYyB0cm9uZyAwNSDEkeG6p3UgbsSDbSBr4buDIHThu6sga2hp
+IMSRxINuZyBrw70gaMOgbmggbmdo4buBCgpDw6J1IDE5OiBDw7MgYmFvIG5oacOqdSB0csaw4bud
+bmcgaOG7o3AgY8O0bmcgY2jhu6luZyBraMO0bmcgdGh14buZYyBwaOG6oW0gdmkgxJHhu4thIGjh
+uqF0OgpBLiAyCkIuIDMKQy4gNCAodHJ1ZSkKRC4gNQoKQ8OidSAyMDogVmnhu4djIHPhu61hIGzh
+u5dpIGvhu7kgdGh14bqtdCBj4bunYSB2xINuIGLhuqNuIGPDtG5nIGNo4bupbmcgaOG7o3AgxJHh
+u5NuZyDhu6d5IHF1eeG7gW4gdHJvbmcgdHLGsOG7nW5nIGjhu6NwIGLDqm4g4buneSBxdXnhu4Fu
+IHbDoCBiw6puIMSRxrDhu6NjIOG7p3kgcXV54buBbiBraMO0bmcgdGjhu4MgY8O5bmcgxJHhur9u
+IG3hu5l0IHThu5UgY2jhu6ljIGjDoG5oIG5naOG7gSBjw7RuZyBjaOG7qW5nIHThuqFpOgpBLiBU
+4bqhaSB04buVIGNo4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6luZyDEkcOjIGNo4bupbmcg
+Y2hvIGLDqm4g4buneSBxdXnhu4FuLgpCLiBU4bqhaSB04buVIGNo4bupYyBow6BuaCBuZ2jhu4Eg
+Y8O0bmcgY2jhu6luZyDEkcOjIGNo4bupbmcgY2hvIGLDqm4gbmjhuq1uIOG7p3kgcXV54buBbi4K
+Qy4gVOG6oWkgYuG6pXQga+G7syB04buVIGNo4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6lu
+ZyBuw6BvLgpELiBU4bqhaSBi4bqldCBr4buzIHThu5UgY2jhu6ljIGjDoG5oIG5naOG7gSBjw7Ru
+ZyBjaOG7qW5nIMSRw6MgdGjhu7FjIGhp4buHbiB2aeG7h2MgY8O0bmcgY2jhu6luZyBo4bujcCDE
+keG7k25nIOG7p3kgcXV54buBbiAodHJ1ZSkKCkPDonUgMjE6IFbEg24gcGjDsm5nIGPDtG5nIGNo
+4bupbmcgcGjhuqNpIMSRxINuZyBrw70gaG/huqF0IMSR4buZbmcgdOG6oWkgU+G7nyBUxrAgcGjD
+oXAg4bufIMSR4buLYSBwaMawxqFuZyBuxqFpIMSRw6MgcmEgcXV54bq/dCDEkeG7i25oIGNobyBw
+aMOpcCB0aMOgbmggbOG6rXAgdHJvbmcgdGjhu51pIGjhuqFuOgpBLiBUcm9uZyB0aOG7nWkgaOG6
+oW4gNjAgbmfDoHkga+G7gyB04burIG5nw6B5IHF1eeG6v3QgxJHhu4tuaCBjaG8gcGjDqXAgdGjD
+oG5oIGzhuq1wIGPDsyBoaeG7h3UgbOG7sWMgdGhpIGjDoG5oOwpCLiBUcm9uZyB0aOG7nWkgaOG6
+oW4gNjAgbmfDoHkga+G7gyB04burIG5nw6B5IMSRxrDhu6NjIGNobyBwaMOpcCB0aMOgbmggbOG6
+rXA7CkMuIFRyb25nIHRo4budaSBo4bqhbiA5MCBuZ8OgeSBr4buDIHThu6sgbmfDoHkgcXV54bq/
+dCDEkeG7i25oIGNobyBwaMOpcCB0aMOgbmggbOG6rXAgY8OzIGhp4buHdSBs4buxYyB0aGkgaMOg
+bmg7ICh0cnVlKQpELiBUcm9uZyB0aOG7nWkgaOG6oW4gOTAgbmfDoHkga+G7gyB04burIG5nw6B5
+IMSRxrDhu6NjIGNobyBwaMOpcCB0aMOgbmggbOG6rXA7CgpDw6J1IDIyOiBO4bq/dSBuacOqbSB5
+4bq/dCB2w6BvIG5nw6B5IDAyLzEwLzIwMjUgdGjDrCBuZ8OgeSBi4bqvdCDEkeG6p3UgdMOtbmgg
+bmnDqm0geeG6v3QgbMOgCkEuIE5nw6B5IDAyLzEwLzIwMjUKQi4gTmfDoHkgMDMvMTAvMjAyNSAo
+dHJ1ZSkKQy4gTmfDoHkgMDQvMTAvMjAyNQpELiBUaGVvIHRob+G6oyB0aHXhuq1uIGdp4buvYSB0
+4buVIGNo4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6luZyB2w6AgVUJORCBwaMaw4budbmcv
+eMOjCgpDw6J1IDIzOiBOZ8O0aSBuaMOgIMSRYW5nIGNobyB0aHXDqiwgYsOieSBnaeG7nSBtdeG7
+kW4gdGjhur8gY2jhuqVwLCB0aMOsIGPhuqduIMSRaeG7gXUga2nhu4duIGfDrC4KQS4gVGjhur8g
+Y2jhuqVwIGLDrG5oIHRoxrDhu51uZywgxJHDum5nIHF1eSDEkeG7i25oIHBow6FwIGx14bqtdCBs
+w6AgxJHGsOG7o2MKQi4gUGjhuqNpIHRow7RuZyBiw6FvIGNobyBiw6puIG5o4bqtbiB0aOG6vyBj
+aOG6pXAgYmnhur90CkMuIFBo4bqjaSB0aMO0bmcgYsOhbyBjaG8gYsOqbiB0aHXDqiBiaeG6v3QK
+RC4gUGjhuqNpIHRow7RuZyBiw6FvIGNobyBiw6puIG5o4bqtbiB0aOG6vyBjaOG6pXAgdsOgIGLD
+qm4gdGh1w6ogYmnhur90LiAodHJ1ZSkKCkPDonUgMjQ6IFF1eeG6v3QgxJHhu4tuaCBz4buRIDE0
+OC9RxJAtSMSQQ0NWVFEgduG7gSBRdXkgdOG6r2MgxJHhuqFvIMSR4bupYyBow6BuaCBuZ2jhu4Eg
+Y8O0bmcgY2jhu6luZyBj4bunYSBI4buZaSDEkeG7k25nIGPDtG5nIGNo4bupbmcgdmnDqm4gdG/D
+oG4gcXXhu5FjIGPDsyBoaeG7h3UgbOG7sWMgdGhpIGjDoG5oIGvhu4MgdOG7qyBuZ8OgeToKQS4g
+MzEvMTIvMjAyNApCLiAxMS8wMy8yMDI1ICh0cnVlKQpDLiAwMS8wNy8yMDI1CkQuIDMxLzEyLzIw
+MjUKCkPDonUgMjU6IEjhu6NwIMSR4buTbmcgdGjhur8gY2jhuqVwIHTDoGkgc+G6o24gcGjDoXQg
+c2luaCBoaeG7h3UgbOG7sWMgxJHhu5FpIGtow6FuZyB24bubaSBiw6puIHRo4bupIDMgdOG7qyB0
+aOG7nWkgxJFp4buDbSBuw6BvPwpBLiBU4burIHRo4budaSDEkWnhu4NtIGdpYW8ga+G6v3QKQi4g
+VOG7qyB0aOG7nWkgxJFp4buDbSBjw7RuZyBjaOG7qW5nCkMuIFThu6sgdGjhu51pIMSRaeG7g20g
+xJHEg25nIGvDvSB0aOG6vyBjaOG6pXAgKHRydWUpCkQuIFThu6sgdGjhu51pIMSRaeG7g20gbmfD
+om4gaMOgbmcgZ2nhuqNpIG5nw6JuCgpDw6J1IDI2OiBCw6puIHRodcOqIG11YSwgYsOqbiBtdWEg
+bmjDoCDhu58geMOjIGjhu5lpIGNo4buJIMSRxrDhu6NjIGLDoW4gbOG6oWkgbmjDoCDhu58geMOj
+IGjhu5lpOgpBLiBU4buRaSB0aGnhu4N1IGzDoCA1IG7Eg20sIGvhu4MgdOG7qyB0aOG7nWkgxJFp
+4buDbSB0aGFuaCB0b8OhbiBo4bq/dCB0aeG7gW4gdGh1w6ogbXVhLCB0aeG7gW4gbXVhIG5ow6Ag
+4bufCkIuIELDoW4gY2hvIMSQxqFuIHbhu4sgcXXhuqNuIGzDvSBuaMOgIOG7nyB4w6MgaOG7mWkg
+xJHDsyB0cm9uZyB2w7JuZyA1IG7Eg20sIGvhu4MgdOG7qyBuZ8OgeSBiw6puIG11YSwgYsOqbiB0
+aHXDqiBtdWEgxJHDoyB0aGFuaCB0b8OhbiBo4bq/dCB0aeG7gW4gbXVhLCB0aHXDqiBtdWEgbmjD
+oCDhu58uCkMuIELDoW4gY2hvIMSQ4buRaSB0xrDhu6NuZyB0aHXhu5ljIGRp4buHbiDEkcaw4buj
+YyBtdWEgbmjDoCDhu58geMOjIGjhu5lpIG7hur91IMSRxqFuIHbhu4sgbsOgeSBraMO0bmcgbXVh
+IHbhu5tpIGdpw6EgYsOhbiB04buRaSDEkWEgYuG6sW5nIGdpw6EgYsOhbiBuaMOgIOG7nyB4w6Mg
+aOG7mWkgY8O5bmcgbG/huqFpIHThuqFpIGPDuW5nIMSR4buLYSDEkWnhu4NtLCB0aOG7nWkgxJFp
+4buDbSBiw6FuIHRyb25nIHbDsm5nIDUgbsSDbSwga+G7gyB04burIG5nw6B5IGLDqm4gbXVhLCBi
+w6puIHRodcOqIG11YSDEkcOjIHRoYW5oIHRvw6FuIGjhur90IHRp4buBbiBtdWEsIHRodcOqIG11
+YSBuaMOgIOG7ny4KRC4gQ+G6oyAzIMSRw6FwIMOhbiB0csOqbiDEkeG7gXUgxJHDum5nICh0cnVl
+KQoKQ8OidSAyNzogVMOgaSBz4bqjbiBuw6BvIGzDoCB0w6BpIHPhuqNuIHJpw6puZyB24bujIGNo
+4buTbmcgdGjhu51pIGvhu7MgaMO0biBuaMOibj8KQS4gS2hv4bqjbiB0aeG7gW4gdGjGsOG7n25n
+LCB0csO6bmcgc+G7lSB44buRCkIuIEtob+G6o24gdHLhu6MgY+G6pXAsIMawdSDEkcOjaSBtw6Ag
+duG7oywgY2jhu5NuZyDEkcaw4bujYyBuaOG6rW4gdGhlbyBxdXkgxJHhu4tuaCBj4bunYSBwaMOh
+cCBsdeG6rXQgduG7gSDGsHUgxJHDo2kgbmfGsOG7nWkgY8OzIGPDtG5nIHbhu5tpIGPDoWNoIG3h
+uqFuZyAodHJ1ZSkKQy4gSG9hIGzhu6NpLCBs4bujaSB04bupYyBwaMOhdCBzaW5oIHThu6sgdMOg
+aSBz4bqjbiByacOqbmcKRC4gVMOgaSBz4bqjbiBtw6AgduG7oywgY2jhu5NuZyB4w6FjIGzhuq1w
+IHF1eeG7gW4gc+G7nyBo4buvdSB0aGVvIHF1eSDEkeG7i25oIELhu5kgbHXhuq10IETDom4gc+G7
+sSDEkeG7kWkgduG7m2kgduG6rXQgdsO0IGNo4bunCgpDw6J1IDI4OiBWxINuIHBow7JuZyBjw7Ru
+ZyBjaOG7qW5nIHBo4bqjaSDEkcSDbmcgYsOhbyB0cnVuZyDGsMahbmcgaG/hurdjIGLDoW8gxJHh
+u4thIHBoxrDGoW5nIG7GoWkgxJHEg25nIGvDvSBob+G6oXQgxJHhu5luZyB0cm9uZzoKQS4gTeG7
+mXQgc+G7kSB24buBIG5o4buvbmcgbuG7mWkgZHVuZyBxdXkgxJHhu4tuaDsKQi4gQmEgc+G7kSBs
+acOqbiB0aeG6v3AgduG7gSBuaOG7r25nIG7hu5lpIGR1bmcgcXV5IMSR4buLbmg7ICh0cnVlKQpD
+LiBC4buRbiBz4buRIGxpw6puIHRp4bq/cCB24buBIG5o4buvbmcgbuG7mWkgZHVuZyBxdXkgxJHh
+u4tuaDsKRC4gTsSDbSBz4buRIGxpw6puIHRp4bq/cCB24buBIG5o4buvbmcgbuG7mWkgZHVuZyBx
+dXkgxJHhu4tuaDsKCkPDonUgMjk6IFRo4budaSBnaWFuIHThuqFtIMSRw6xuaCBjaOG7iSBow6Bu
+aCBuZ2jhu4EgY8O0bmcgY2jhu6luZyB04buRaSDEkWEKQS4gMDMgdGjDoW5nCkIuIDA2IHRow6Fu
+ZyAodHJ1ZSkKQy4gMTIgdGjDoW5nCkQuIDI0IHRow6FuZwoKQ8OidSAzMDogVOG7lSBjaOG7qWMg
+aMOgbmggbmdo4buBIGPDtG5nIGNo4bupbmcgY8OzIG5naMSpYSB24bulOgpBLiBUaOG7sWMgaGnh
+u4duIGNo4bq/IMSR4buZIGzDoG0gdmnhu4djIHRoZW8gbmfDoHksIGdp4budIGzDoG0gdmnhu4dj
+IGPhu6dhIGPGoSBxdWFuIGjDoG5oIGNow61uaCBuaMOgIG7GsOG7m2MuCkIuIFRodSBwaMOtIGPD
+tG5nIGNo4bupbmcsIHRow7kgbGFvIGPDtG5nIGNo4bupbmcsIGNoaSBwaMOtIGtow6FjLiAodHJ1
+ZSkKQy4gS8O9IGjhu6NwIMSR4buTbmcgbMOgbSB2aeG7h2MsIGjhu6NwIMSR4buTbmcgbGFvIMSR
+4buZbmcgduG7m2kgY8O0bmcgY2jhu6luZyB2acOqbgpELiBLaGFpIHRow6FjLCBz4butIGThu6Vu
+ZyB0aMO0bmcgdGluIHThu6sgY8ahIHPhu58gZOG7ryBsaeG7h3UgY8O0bmcgY2jhu6luZwoKQ8Oi
+dSAzMTogVGjhu7FjIGhp4buHbiBuZ2jEqWEgduG7pSB0w6BpIHPhuqNuIGRvIG5nxrDhu51pIGNo
+4bq/dCDEkeG7gyBs4bqhaQpBLiBOaOG7r25nIG5nxrDhu51pIGjGsOG7n25nIHRo4burYSBr4bq/
+IGPDsyB0csOhY2ggbmhp4buHbSB0aOG7sWMgaGnhu4duIG5naMSpYSB24bulIHTDoGkgc+G6o24g
+bmdvw6BpIHBo4bqhbSB2aSBkaSBz4bqjbiBkbyBuZ8aw4budaSBjaOG6v3QgxJHhu4MgbOG6oWku
+CkIuIE5o4buvbmcgbmfGsOG7nWkgaMaw4bufbmcgdGjhu6thIGvhur8gY8OzIHRyw6FjaCBuaGnh
+u4dtIHRo4buxYyBoaeG7h24gbmdoxKlhIHbhu6UgdMOgaSBz4bqjbiBjaOG7iSB0cm9uZyBwaOG6
+oW0gdmkgbeG7mXQgcGjhuqduIGRpIHPhuqNuIGRvIG5nxrDhu51pIGNo4bq/dCDEkeG7gyBs4bqh
+aS4KQy4gTmjhu69uZyBuZ8aw4budaSBoxrDhu59uZyB0aOG7q2Ega+G6vyBjw7MgdHLDoWNoIG5o
+aeG7h20gdGjhu7FjIGhp4buHbiBuZ2jEqWEgduG7pSB0w6BpIHPhuqNuIGLhurFuZyAyLzMgcGjh
+uqduIGRpIHPhuqNuIMSRxrDhu6NjIGjGsOG7n25nIGRvIG5nxrDhu51pIGNo4bq/dCDEkeG7gyBs
+4bqhaS4KRC4gTmjhu69uZyBuZ8aw4budaSBoxrDhu59uZyB0aOG7q2Ega+G6vyBjw7MgdGjhu4Mg
+dGjhu7FjIGhp4buHbiBuZ2jEqWEgduG7pSB0w6BpIHPhuqNuIG5nb8OgaSBwaOG6oW0gdmkgZGkg
+c+G6o24gbcOgIG3DrG5oIMSRxrDhu6NjIGjGsOG7n25nIGRvIG5nxrDhu51pIGNo4bq/dCDEkeG7
+gyBs4bqhaSBraGkgY8OzIHPhu7EgdGhv4bqjIHRodeG6rW4gdsOgIMSR4buTbmcgw70gY+G7p2Eg
+bmjhu69uZyBuZ8aw4budaSBoxrDhu59uZyB0aOG7rWEga+G6vy4gKHRydWUpCgpDw6J1IDMyOiBT
+YXUgbeG7mXQgdGjhu51pIGdpYW4gaG/huqF0IMSR4buZbmcuIMOUbmcgQSBxdXnhur90IMSR4buL
+bmggY2h1eeG7g24gbmjGsOG7o25nIFbEg24gcGjDsm5nIGPDtG5nIGNo4bupbmcgY+G7p2EgbcOs
+bmguIE5o4bqtbiDEkeG7i25oIG7DoG8gc2F1IMSRw6J5IGzDoCDEkcO6bmc6CkEuIFbEg24gcGjD
+sm5nIGPDtG5nIGNo4bupbmcgY2jhu4kgxJHGsOG7o2MgY2h1eeG7g24gbmjGsOG7o25nIHNhdSBr
+aGkgxJHDoyBob+G6oXQgxJHhu5luZyDEkcaw4bujYyDDrXQgbmjhuqV0IDAyIG7Eg207CkIuIFRv
+w6BuIGLhu5kgdGjDoG5oIHZpw6puIGjhu6NwIGRhbmggY+G7p2EgVsSDbiBwaMOybmcgY8O0bmcg
+Y2jhu6luZyBjaHV54buDbiBuaMaw4bujbmcgdG/DoG4gYuG7mSBwaOG6p24gduG7kW4gZ8OzcCBj
+aG8gw610IG5o4bqldCAwMiBjw7RuZyBjaOG7qW5nIHZpw6puIGtow6FjIMSRw6FwIOG7qW5nIMSR
+4bunIGPDoWMgxJFp4buBdSBraeG7h24gcXV5IMSR4buLbmggc2F1IGtoaSBWxINuIHBow7JuZyBj
+w7RuZyBjaOG7qW5nIMSRw6MgaG/huqF0IMSR4buZbmcgxJHGsOG7o2Mgw610IG5o4bqldCAwMiBu
+xINtOyAodHJ1ZSkKQy4g4bumeSBiYW4gbmjDom4gZMOibiBj4bqlcCB04buJbmggeGVtIHjDqXQs
+IHF1eeG6v3QgxJHhu4tuaCBjaG8gcGjDqXAgY2h1eeG7g24gbmjGsOG7o25nIFbEg24gcGjDsm5n
+IGPDtG5nIGNo4bupbmc7CkQuIEPDtG5nIGNo4bupbmcgdmnDqm4gxJHDoyBjaHV54buDbiBuaMaw
+4bujbmcgVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZyBraMO0bmcgxJHGsOG7o2MgcGjDqXAgdGhh
+bSBnaWEgdGjDoG5oIGzhuq1wIFbEg24gcGjDsm5nIGPDtG5nIGNo4bupbmcgbeG7m2kgdHJvbmcg
+dGjhu51pIGjhuqFuIDA1IG7Eg20ga+G7gyB04burIG5nw6B5IGNodXnhu4NuIG5oxrDhu6NuZzsK
+CkPDonUgMzM6IE7hu5lpIGR1bmcgY8OzIHRyb25nIMSR4buBIMOhbiB0aMOgbmggbOG6rXAgVsSD
+biBwaMOybmcgY8O0bmcgY2jhu6luZyBj4bqnbiBuw6p1IHLDtToKQS4gROG7sSBraeG6v24gduG7
+gSB04buVIGNo4bupYywgdMOqbiBn4buNaSwgbmjDom4gc+G7sSwgxJHhu4thIMSRaeG7g20gxJHh
+urd0IHRy4bulIHPhu58sIGPDoWMgxJFp4buBdSBraeG7h24gduG6rXQgY2jhuqV0IHbDoCBr4bq/
+IGhv4bqhY2ggdHJp4buDbiBraGFpIHRo4buxYyBoaeG7h247CkIuIFPhu7EgY+G6p24gdGhp4bq/
+dCB0aMOgbmggbOG6rXAsIGThu7Ega2nhur9uIHbhu4EgdOG7lSBjaOG7qWMsIHTDqm4gZ+G7jWks
+IMSR4buLYSDEkWnhu4NtIMSR4bq3dCB0cuG7pSBz4bufLCBjw6FjIMSRaeG7gXUga2nhu4duIHbh
+uq10IGNo4bqldCB2w6Aga+G6vyBob+G6oWNoIHRyaeG7g24ga2hhaSB0aOG7sWMgaGnhu4duOwpD
+LiBT4buxIGPhuqduIHRoaeG6v3QgdGjDoG5oIGzhuq1wLCBk4buxIGtp4bq/biB24buBIHThu5Ug
+Y2jhu6ljLCB0w6puLCBuaMOibiBz4buxLCDEkeG7i2EgxJFp4buDbSDEkeG6t3QgdHLhu6Ugc+G7
+nywgY8OhYyDEkWnhu4F1IGtp4buHbiB24bqtdCBjaOG6pXQgdsOgIGvhur8gaG/huqFjaCB0cmnh
+u4NuIGtoYWkgdGjhu7FjIGhp4buHbjsgKHRydWUpCkQuIFPhu7EgY+G6p24gdGhp4bq/dCB0aMOg
+bmggbOG6rXAsIGThu7Ega2nhur9uIHbhu4EgdOG7lSBjaOG7qWMsIHTDqm4gZ+G7jWksIG5ow6Ju
+IHPhu7EsIMSR4buLYSDEkWnhu4NtIMSR4bq3dCB0cuG7pSBz4bufOwoKQ8OidSAzNDogQ8ahIHF1
+YW4gY8OzIHRo4bqpbSBxdXnhu4FuIHhlbSB4w6l0LCBxdXnhur90IMSR4buLbmggY2hvIHBow6lw
+IHRow6BuaCBs4bqtcCBWxINuIHBow7JuZyBjw7RuZyBjaOG7qW5nIGzDoDoKQS4gQuG7mSB0xrAg
+cGjDoXAKQi4gU+G7nyB0xrAgcGjDoXAKQy4gQ+G7pWMgYuG7lSB0cuG7oyB0xrAgcGjDoXAKRC4g
+VUJORCB04buJbmggKHRydWUpCgpDw6J1IDM1OiBOaOG6rW4gxJHhu4tuaCBuw6BvIHNhdSDEkcOi
+eSBsw6AgxJHDum5nOgpBLiBUw6puIGfhu41pIGPhu6dhIFbEg24gcGjDsm5nIGPDtG5nIGNo4bup
+bmcgcGjhuqNpIGJhbyBn4buTbSBj4bulbSB04burIOKAnFbEg24gcGjDsm5nIGPDtG5nIGNo4bup
+bmfigJ0gdsOgIHBo4bqjaSBrw6htIHRoZW8gaOG7jSB0w6puIGPhu6dhIFRyxrDhu59uZyBWxINu
+IHBow7JuZzsKQi4gVMOqbiBn4buNaSBj4bunYSBWxINuIHBow7JuZyBjw7RuZyBjaOG7qW5nIHBo
+4bqjaSBiYW8gZ+G7k20gY+G7pW0gdOG7qyDigJxWxINuIHBow7JuZyBjw7RuZyBjaOG7qW5n4oCd
+IGPDsyB0aOG7gyBrw6htIHRoZW8gaOG7jSB0w6puIGPhu6dhIG3hu5l0IGPDtG5nIGNo4bupbmcg
+dmnDqm4gaOG7o3AgZGFuaDsKQy4gVMOqbiBn4buNaSBj4bunYSBWxINuIHBow7JuZyBjw7RuZyBj
+aOG7qW5nIHBo4bqjaSBiYW8gZ+G7k20gY+G7pW0gdOG7qyDigJxWxINuIHBow7JuZyBjw7RuZyBj
+aOG7qW5n4oCdIGPDsyB0aOG7gyBrw6htIHRoZW8gaOG7jSB0w6puIGPhu6dhIG3hu5l0IGPDtG5n
+IGNo4bupbmcgdmnDqm4gbMOgbSB2aeG7h2MgdGhlbyBjaOG6vyDEkeG7mSBo4bujcCDEkeG7k25n
+OwpELiBUw6puIGfhu41pIGPhu6dhIFbEg24gcGjDsm5nIGPDtG5nIGNo4bupbmcgYmFvIGfhu5Nt
+IGPhu6VtIHThu6sg4oCcVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZ+KAnSB2w6AgdMOqbiByacOq
+bmcgYuG6sW5nIHRp4bq/bmcgVmnhu4d0IGRvIGPDoWMgdGjDoG5oIHZpw6puIGjhu6NwIGRhbmgg
+Y+G7p2EgVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZyDEkcaw4bujYyB04buVIGNo4bupYyB2w6Ag
+aG/huqF0IMSR4buZbmcgdGhlbyBsb+G6oWkgaMOsbmggY8O0bmcgdHkgaOG7o3AgZGFuaCB0aOG7
+j2EgdGh14bqtbiBs4buxYSBjaOG7jW47ICh0cnVlKQoKQ8OidSAzNjogS2jhurNuZyDEkeG7i25o
+IHNhdSBsw6AgxJHDum5nOgpBLiBRdXnhu4FuIGjGsOG7n25nIGThu6VuZyBsb+G6oWkgduG6rXQg
+cXV54buBbi4gKHRydWUpCkIuIFRo4budaSBo4bqhbiBxdXnhu4FuIGjGsOG7n25nIGThu6VuZyBw
+aOG6o2kgaGFpIGLDqm4gdGjhu49hIHRodeG6rW4uCkMuIE5nxrDhu51pIGPDsyBxdXnhu4FuIGjG
+sOG7n25nIGThu6VuZyBjw7MgcXV54buBbiDEkeG7gyBs4bqhaSB0aOG7q2Ega+G6vyBxdXnhu4Fu
+IGNobyBuZ8aw4budaSB0aOG7q2Ega+G6vyBtw6xuaC4KRC4gS2hpIHF1eeG7gW4gYuG7gSBt4bq3
+dCBjaOG6pW0gZOG7qXQsIHTDoGkgc+G6o24gxJHhuqV0IHjDoWMgbOG6rXAgc+G7nyBo4buvdSBj
+aG8gY2jhu6cgdGjhu4MgY8OzIHF1eeG7gW4gc+G7rSBk4bulbmcgxJHhuqV0LgoKQ8OidSAzNzog
+TmfGsOG7nWkgdOG6rXAgc+G7sSB04bqhbSBuZ+G7q25nIHThuq1wIHPhu7EgcGjhuqNpIHRow7Ru
+ZyBiw6FvIHbEg24gduG7m2kgdOG7lSBjaOG7qWMgaMOgbmggbmdo4buBIGPDtG5nIGNo4bupbmcg
+bsahaSB04bqtcCBz4buxIGNo4bqtbSBuaOG6pXQgYmFvIG5oacOqdSBuZ8OgeSBsw6BtIHZp4buH
+YyB0csaw4bubYyBuZ8OgeSB04bqhbSBuZ+G7q25nIHThuq1wIHPhu7E/CkEuIDIgbmfDoHkKQi4g
+MyBuZ8OgeSAodHJ1ZSkKQy4gNSBuZ8OgeQpELiAxMCBuZ8OgeQoKQ8OidSAzODogVHLGsOG7nW5n
+IGjhu6NwIG7DoG8gxJHGsOG7o2MgbWnhu4VuIGLhu5NpIGTGsOG7oW5nIG5naGnhu4dwIHbhu6Ug
+Y8O0bmcgY2jhu6luZyBow6BuZyBuxINtPwpBLiBUaGFtIGdpYSBnaeG6o25nIGThuqF5IGPDtG5n
+IGNo4bupbmcKQi4gQ8OzIG5naGnDqm4gY+G7qXUgcGjDoXAgbHXhuq10IGPDtG5nIGNo4bupbmcg
+xJHEg25nIHThuqFwIGNow60gY2h1ecOqbiBuZ8OgbmgKQy4gQ8O0bmcgY2jhu6luZyB2acOqbiBu
+4buvIMSRYW5nIG51w7RpIGNvbiBuaOG7jyBkxrDhu5tpIDEyIHRow6FuZyB0deG7lWkKRC4gQ8O0
+bmcgY2jhu6luZyB2acOqbiB0aGFtIGdpYSBraMOzYSBi4buTaSBkxrDhu6FuZyBuZ2hp4buHcCB2
+4bulIGPDtG5nIGNo4bupbmcgbsaw4bubYyBuZ2/DoGkgKHRydWUpCgpDw6J1IDM5OiBOaOG6rW4g
+xJHhu4tuaCBzYXUgbMOgIMSRw7puZz8KQS4gTmfGsOG7nWkgbOG6rXAgZGkgY2jDumMga2jDtG5n
+IMSRxrDhu6NjIOG7p3kgcXV54buBbiBjaG8gbmfGsOG7nWkga2jDoWMgbcOgIHBo4bqjaSB04bux
+IG3DrG5oIGvDvSBob+G6t2Mga8O9IHbDoCDEkWnhu4NtIGNo4buJIHbDoG8gYuG6o24gZGkgY2jD
+umMgxJHGsOG7o2MgY8O0bmcgY2jhu6luZyAodHJ1ZSkKQi4gRGkgY2jDumMgxJHDoyBjw7RuZyBj
+aOG7qW5nIHNhdSBuZ8aw4budaSBs4bqtcCBkaSBjaMO6YyBtdeG7kW4gc+G7rWEgxJHhu5VpLCBi
+4buVIHN1bmcsIHRoYXkgdGjhur8sIGjhu6d5IGLhu48gbeG7mXQgcGjhuqduIGhv4bq3YyB0b8Og
+biBi4buZIGRpIGNow7pjIHBo4bqjaSBkbyBjw7RuZyBjaOG7qW5nIHZpw6puIHThu5UgY2jhu6lj
+IGjDoG5oIG5naOG7gSBjw7RuZyBjaOG7qW5nIHRyxrDhu5tjIMSRw6J5IHRo4buxYyBoaeG7h24u
+CkMuIE5nxrDhu51pIGzhuq1wIGRpIGNow7pjIHBo4bqjaSB04buxIG3DrG5oIHnDqnUgY+G6p3Ug
+Y8O0bmcgY2jhu6luZyBkaSBjaMO6Yywga2jDtG5nIOG7p3kgcXV54buBbiBjaG8gbmfGsOG7nWkg
+a2jDoWMgecOqdSBj4bqndSBjw7RuZyBjaOG7qW5nIGRpIGNow7pjCkQuIFRyxrDhu51uZyBo4buj
+cCBjw7RuZyBjaOG7qW5nIHZpw6puIG5naGkgbmfhu50gbmfGsOG7nWkgbOG6rXAgZGkgY2jDumMg
+YuG7iyBi4buHbmggdMOibSB0aOG6p24gY8OzIHF1eeG7gW4gdOG7qyBjaOG7kWkgY8O0bmcgY2jh
+u6luZwoKQ8OidSA0MDogTmjhuq1uIMSR4buLbmggbsOgbyBsw6Agc2FpPwpBLiBDw7RuZyBjaOG7
+qW5nIHZpw6puIGPDsyBxdXnhu4FuIGN1bmcgY+G6pXAgZOG7i2NoIHbhu6UgY8O0bmcgY2jhu6lu
+ZyBuZ2/DoGkgZ2nhu50gaMOgbmggY2jDrW5oIE5ow6Agbsaw4bubYwpCLiBDw7RuZyBjaOG7qW5n
+IHZpw6puIGPDsyBxdXnhu4FuIMSQxrDhu6NjIHBow6FwIGx14bqtdCBi4bqjbyDEkeG6o20gcXV5
+4buBbiBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6luZwpDLiBDw7RuZyBjaOG7qW5nIHZpw6puIMSQ
+4buBIG5naOG7iyBjw6EgbmjDom4sIHF1YW4sIHThu5UgY2jhu6ljIGPDsyBsacOqbiBxdWFuIGN1
+bmcgY+G6pXAgdGjDtG5nIHRpbiwgdMOgaSBsaeG7h3UgxJHhu4MgdGjhu7FjIHZp4buHYyBjw7Ru
+ZyBjaOG7qW5nCkQuIEQ6IEPDtG5nIGNo4bupbmcgdmnDqm4gdOG7qyBjaOG7kWkgY8O0bmcgY2jh
+u6luZyBo4bujcCDEkeG7k25nLCBnaWFvIGThu4tjaCwgZOG7i2NoIHZpIHBo4bqhbSBwaMOhcCBs
+deG6rXQsIHRyw6FpIMSR4bqhbyDEkeG7qWMgeMOjIGjhu5lpICh0cnVlKQoKQ8OidSA0MTogR2nh
+uqV5IG5o4bqtbiBsxrB1IGdp4buvIERpIGNow7pjCkEuIFBo4bqjaSBjw7MgdMOqbiB04buVIGNo
+4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6luZyBuaOG6rW4gbMawdSBnaeG7ryBkaSBjaMO6
+YywgY8O0bmcgY2jhu6luZyB2acOqbiwgbmfGsOG7nWkgbOG6rXAgZGkgY2jDumMgKHRydWUpCkIu
+IFBo4bqjaSBjw7MgdMOqbiB04buVIGNo4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jhu6luZyBu
+aOG6rW4gbMawdSBnaeG7ryBkaSBjaMO6YywgY8O0bmcgY2jhu6luZyB2acOqbiBuacOqbSBwaG9u
+ZyBkaSBjaMO6YywgbmfGsOG7nWkgbOG6rXAgZGkgY2jDumNs4bqtcCBkaSBjaMO6YwpDLiBQaOG6
+o2kgY8OzIHRow7RuZyB0aW4gduG7gSB04buVIGNo4bupYyBow6BuaCBuZ2jhu4EgY8O0bmcgY2jh
+u6luZyBuaOG6rW4gbMawdSBnaeG7ryBkaSBjaMO6YywgY8O0bmcgY2jhu6luZyB2acOqbiwgbmfG
+sOG7nWkgbOG6rXAgZGkgY2jDumMKRC4gUGjhuqNpIGPDsyB0aMO0bmcgdGluIHbhu4EgdOG7lSBj
+aOG7qWMgaMOgbmggbmdo4buBIGPDtG5nIGNo4bupbmcgbmjhuq1uIGzGsHUgZ2nhu68gZGkgY2jD
+umMsIGPDtG5nIGNo4bupbmcgdmnDqm4gbmnDqm0gcGhvbmcgZGkgY2jDumMsIG5nxrDhu51pIGzh
+uq1wIGRpIGNow7pjCgpDw6J1IDQyOiBUaOG6qW0gcXV54buBbiBjaG8gcGjDqXAgc8OhcCBuaOG6
+rXAgVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZz8KQS4gU+G7nyBUxrAgcGjDoXAgY+G6pXAgdOG7
+iW5oCkIuIFVCTkQgY+G6pXAgdOG7iW5oICh0cnVlKQpDLiBD4bulYyBi4buVIHRy4bujIHTGsCBw
+aMOhcApELiBIaeG7h3AgaOG7mWkgY8O0bmcgY2jhu6luZyB2acOqbiBWaeG7h3QgTmFtCgpDw6J1
+IDQzOiBWxINuIHBow7JuZyBjw7RuZyBjaOG7qW5nIGLhu4sgdGh1IGjhu5NpIHF1eeG6v3QgxJHh
+u4tuaCBjaG8gcGjDqXAgdGjDoG5oIGzhuq1wIHRyxrDhu51uZyBo4bujcCBuw6BvIHNhdSDEkcOi
+eT8KQS4gVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZyBraMO0bmcgaG/huqF0IMSR4buZbmcgbGnD
+qm4gdOG7pWMgdOG7qyAwMyB0aMOhbmcgdHLhu58gbMOqbiwgdHLhu6sgdHLGsOG7nW5nIGjhu6Nw
+IGRvIHThuqFtIG5n4burbmcgaG/huqF0IMSR4buZbmcgdGhlbyBxdXkgxJHhu4tuaCB04bqhaSDE
+kGnhu4F1IDMyIEx14bqtdCBjw7RuZyBjaOG7qW5nIDIwMjQ7ICh0cnVlKQpCLiBWxINuIHBow7Ju
+ZyBjw7RuZyBjaOG7qW5nIGtow7RuZyBob+G6oXQgxJHhu5luZyBsacOqbiB04bulYyB04burIDA0
+IHRow6FuZyB0cuG7nyBsw6puLCB0cuG7qyB0csaw4budbmcgaOG7o3AgZG8gdOG6oW0gbmfhu6tu
+ZyBob+G6oXQgxJHhu5luZyB0aGVvIHF1eSDEkeG7i25oIHThuqFpIMSQaeG7gXUgMzIgTHXhuq10
+IGPDtG5nIGNo4bupbmcgMjAyNDsKQy4gVsSDbiBwaMOybmcgY8O0bmcgY2jhu6luZyBraMO0bmcg
+aG/huqF0IMSR4buZbmcgbGnDqm4gdOG7pWMgdOG7qyAwNSB0aMOhbmcgdHLhu58gbMOqbiwgdHLh
+u6sgdHLGsOG7nW5nIGjhu6NwIGRvIHThuqFtIG5n4burbmcgaG/huqF0IMSR4buZbmcgdGhlbyBx
+dXkgxJHhu4tuaCB04bqhaSDEkGnhu4F1IDMyIEx14bqtdCBjw7RuZyBjaOG7qW5nIDIwMjQ7CkQu
+IFbEg24gcGjDsm5nIGPDtG5nIGNo4bupbmcga2jDtG5nIGhv4bqhdCDEkeG7mW5nIGxpw6puIHTh
+u6VjIHThu6sgMDYgdGjDoW5nIHRy4bufIGzDqm4sIHRy4burIHRyxrDhu51uZyBo4bujcCBkbyB0
+4bqhbSBuZ+G7q25nIGhv4bqhdCDEkeG7mW5nIHRoZW8gcXV5IMSR4buLbmggdOG6oWkgxJBp4buB
+dSAzMiBMdeG6rXQgY8O0bmcgY2jhu6luZyAyMDI0OwoKQ8OidSA0NDogVHLGsOG7nW5nIGjhu6Nw
+IG7DoG8gc2F1IMSRw6J5IMSRxrDhu6NjIG5o4bqtbiB24buRbiBnw7NwPwpBLiBDw7RuZyB0eSB0
+csOhY2ggbmhp4buHbSBo4buvdSBo4bqhbgpCLiBDw7RuZyB0eSBD4buVIHBo4bqnbgpDLiBDw7Ru
+ZyB0eSBo4bujcCBkYW5oCkQuIEPhuqMgMyB0csaw4budbmcgaOG7o3AgdHLDqm4gxJHhu4F1IMSR
+xrDhu6NjICh0cnVlKQoKQ8OidSA0NTogRGkgY2jDumMgbWnhu4duZyBt4bq3YyBuaGnDqm4gYuG7
+iyBo4buneSBi4buPIGtoaToKQS4gU2F1IDAxIHRow6FuZywga+G7gyB04burIHRo4budaSDEkWnh
+u4NtIGRpIGNow7pjIG1p4buHbmcgbcOgIG5nxrDhu51pIGzhuq1wIGRpIGNow7pjIGPDsm4gc+G7
+kW5nLCBtaW5oIG3huqtuLCBzw6FuZyBzdeG7kXQuCkIuIFNhdSAwMiB0aMOhbmcsIGvhu4MgdOG7
+qyB0aOG7nWkgxJFp4buDbSBkaSBjaMO6YyBtaeG7h25nIG3DoCBuZ8aw4budaSBs4bqtcCBkaSBj
+aMO6YyBjw7JuIHPhu5FuZywgbWluaCBt4bqrbiwgc8Ohbmcgc3Xhu5F0LgpDLiBTYXUgMDMgdGjD
+oW5nLCBr4buDIHThu6sgdGjhu51pIMSRaeG7g20gZGkgY2jDumMgbWnhu4duZyBtw6AgbmfGsOG7
+nWkgbOG6rXAgZGkgY2jDumMgY8OybiBz4buRbmcsIG1pbmggbeG6q24sIHPDoW5nIHN14buRdC4g
+KHRydWUpCkQuIFNhdSAwNiB0aMOhbmcsIGvhu4MgdOG7qyB0aOG7nWkgxJFp4buDbSBkaSBjaMO6
+YyBtaeG7h25nIG3DoCBuZ8aw4budaSBs4bqtcCBkaSBjaMO6YyBjw7JuIHPhu5FuZywgbWluaCBt
+4bqrbiwgc8Ohbmcgc3Xhu5F0LgoKQ8OidSA0NjogVHLGsOG7nW5nIGjhu6NwIG5nxrDhu51pIMSR
+4buDIGzhuqFpIGRpIHPhuqNuIGzDoCBi4bqldCDEkeG7mW5nIHPhuqNuIGtow7RuZyBjw7MgaG/h
+urdjIGtow7RuZyB4w6FjIMSR4buLbmggxJHGsOG7o2MgbsahaSB0aMaw4budbmcgdHLDuiBob+G6
+t2MgdOG6oW0gdHLDuiBjw7MgdGjhu51pIGjhuqFuIGN14buRaSBjw7luZyDhu58gVmnhu4d0IE5h
+bQpBLiBWaeG7h2MgbmnDqm0geeG6v3QgxJHGsOG7o2MgdGjhu7FjIGhp4buHbiB04bqhaSB0cuG7
+pSBz4bufIGPhu6dhIOG7pnkgYmFuIG5ow6JuIGPhuqVwIHjDoyBuxqFpIGPDsyBi4bqldCDEkeG7
+mW5nIHPhuqNuOwpCLiBWaeG7h2MgbmnDqm0geeG6v3QgxJHGsOG7o2MgdGjhu7FjIGhp4buHbiB0
+4bqhaSB0cuG7pSBz4bufIGPhu6dhIGzDo25oIHPhu7EgcXXDoW4gbsahaSBn4bqnbiBuaOG6pXQg
+Y+G7p2EgbmfGsOG7nWkgxJHhu4MgbOG6oWkgZGkgc+G6o24gY8awIHRyw7o7CkMuIFThu5UgY2jh
+u6ljIGjDoG5oIG5naOG7gSBjw7RuZyBjaOG7qW5nIGfhu61pIHbEg24gYuG6o24gbmnDqm0geeG6
+v3QgxJHhu4Egbmdo4buLIFPhu58gVMawIHBow6FwIG7GoWkgdOG7lSBjaOG7qWMgaMOgbmggbmdo
+4buBIGPDtG5nIGNo4bupbmcgxJHhurd0IHRy4bulIHPhu58gxJHEg25nIHThuqNpIHRyw6puIEPh
+u5VuZyB0aMO0bmcgdGluIMSRaeG7h24gdOG7rSBj4bunYSBT4bufIFTGsCBwaMOhcDsKRC4gQ+G6
+oyAyIMSRw6FwIMOhbiBBIHbDoCBDOyAodHJ1ZSkKCkPDonUgNDc6IFRoZW8gcXV5IMSR4buLbmgg
+Y+G7p2EgcGjDoXAgbHXhuq10IGhp4buHbiBow6BuaCwgdsSDbiBi4bqjbiBjw7RuZyBjaOG7qW5n
+IGLhu4sgc2FpIGzhu5dpIGvhu7kgdGh14bqtdDoKQS4gR2hpIG7hu5lpIGR1bmcgc+G7rWEgbOG7
+l2kgdsOgbyB0cmFuZyBi4bqldCBr4buzIGPDsyDEkeG7mSBy4buZbmcgYsOqbiBs4buBIMSR4bun
+IGzhu5tuIGtow7RuZyBuaOG6pXQgdGhp4bq/dCBwaOG6o2kgdHLDqm4gdHJhbmcgxJHGsOG7o2Mg
+c+G7rWEgbOG7l2kga+G7uSB0aHXhuq10LgpCLiBHaGkgbuG7mWkgZHVuZyBz4butYSBs4buXaSB2
+w6BvIGLhuqV0IGvhu7MgduG7iyB0csOtIG7DoG8gY8OzIMSR4buZIHLhu5luZyBs4bubbiBj4bun
+YSB0cmFuZyDEkcaw4bujYyBz4butYSBs4buXaSBr4bu5IHRodeG6rXQuCkMuIEdoaSBu4buZaSBk
+dW5nIHPhu61hIGzhu5dpIHbDoG8gYsOqbiBs4buBIGPhu6dhIHRyYW5nIMSRxrDhu6NjIHPhu61h
+IGzhu5dpIGvhu7kgdGh14bqtdC4KRC4gQ+G6oyDEkcOhcCDDoW4gQSB2w6AgQiDEkeG7gXUgxJHD
+um5nLiAodHJ1ZSkK

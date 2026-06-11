@@ -1,0 +1,13 @@
+.radio-custom:checked + label {
+    background-color: #ebf8ff;
+    border-color: #3182ce;
+}
+
+.correct-answer { background-color: #c6f6d5 !important; border-color: #38a169 !important; }
+.wrong-answer { background-color: #fed7d7 !important; border-color: #e53e3e !important; }
+
+.toggle-btn.active {
+    background-color: #805ad5;
+    color: white;
+    border-color: #6b46c1;
+}

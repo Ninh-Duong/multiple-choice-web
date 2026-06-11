@@ -1,0 +1,25 @@
+# ===== OpenCode config =====
+opencode.json
+opencode.jsonc
+.opencode/
+
+# ===== OS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Node / tooling =====
+node_modules/
+.cache/
+.tmp/
+
+# ===== Log =====
+*.log
