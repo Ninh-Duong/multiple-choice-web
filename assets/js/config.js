@@ -8,7 +8,7 @@ export const FALLBACK_USER = 'admin';
 export const FALLBACK_HASH = 'dbdeab3c10c32d761cbb4c46eaff545deddc26c4ce8a712524987d794b371877';
 
 export const ADMIN_USER = 'admin';
-export const ADMIN_HASH = '3b4fa04e55b7e1c9df76bef6ea6697842b138b449a5c7351129ecaa62bdce111';
+export const ADMIN_HASH = 'dbdeab3c10c32d761cbb4c46eaff545deddc26c4ce8a712524987d794b371877';
 
 export const REPO_DEFAULT = { repo: 'multiple-choice-web', branch: 'main', path: USER_FILE_PATH };
 

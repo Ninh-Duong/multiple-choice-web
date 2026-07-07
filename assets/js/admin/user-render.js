@@ -22,9 +22,13 @@ export function renderBangUser() {
     area.classList.remove('hidden');
     tbody.innerHTML = adminState.users.map((u, i) => {
         const shortHash = u.h.slice(0, 12) + '...' + u.h.slice(-6);
-        return `<tr class="border-b hover:bg-gray-50"><td class="px-3 py-2 text-gray-500">${i + 1}</td><td class="px-3 py-2 font-medium text-gray-800">${escapeHtml(u.u)}</td><td class="px-3 py-2 font-mono text-xs text-gray-500 hidden md:table-cell break-all max-w-xs">${shortHash}</td><td class="px-3 py-2 text-right whitespace-nowrap"><button data-delete-user="${escapeHtml(u.u)}" class="text-red-600 hover:bg-red-50 px-2 py-1 rounded text-xs font-semibold">🗑 Xoá</button></td></tr>`;
+        const actionHtml = u.u.toLowerCase() === 'admin' 
+            ? `<span class="text-gray-400 text-xs italic font-medium px-2 py-1">Hệ thống</span>`
+            : `<button data-delete-user="${escapeHtml(u.u)}" class="text-red-600 hover:bg-red-50 px-2 py-1 rounded text-xs font-semibold">🗑 Xoá</button>`;
+        return `<tr class="border-b hover:bg-gray-50"><td class="px-3 py-2 text-gray-500">${i + 1}</td><td class="px-3 py-2 font-medium text-gray-800">${escapeHtml(u.u)}</td><td class="px-3 py-2 font-mono text-xs text-gray-500 hidden md:table-cell break-all max-w-xs">${shortHash}</td><td class="px-3 py-2 text-right whitespace-nowrap">${actionHtml}</td></tr>`;
     }).join('');
     adminState.users.forEach(u => {
+        if (u.u.toLowerCase() === 'admin') return;
         const opt = document.createElement('option');
         opt.value = u.u;
         opt.textContent = u.u;

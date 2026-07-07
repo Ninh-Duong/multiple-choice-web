@@ -48,6 +48,10 @@ export async function themUser() {
 
 /** @param {string} username */
 export function xoaUser(username) {
+    if (username.toLowerCase() === 'admin') {
+        showToast('❌ Không thể xoá tài khoản admin hệ thống!', 'error');
+        return;
+    }
     if (!confirm(`Xoá user "${username}"? Hành động này chưa lưu lên server.`)) return;
     adminState.users = adminState.users.filter(u => u.u !== username);
     refreshUserUI();
@@ -60,6 +64,12 @@ export async function doiMatKhau() {
     const errEl = byId('change-pass-error');
     hide(errEl);
     if (!username) { errEl.textContent = 'Chọn user cần đổi mật khẩu.'; show(errEl); return; }
+    if (username.toLowerCase() === 'admin') {
+        errEl.textContent = 'Không thể đổi mật khẩu của admin hệ thống.';
+        show(errEl);
+        showToast('❌ Không thể đổi mật khẩu admin!', 'error');
+        return;
+    }
     if (newPass.length < 8) { errEl.textContent = 'Mật khẩu mới phải ≥ 8 ký tự.'; show(errEl); return; }
     const idx = adminState.users.findIndex(u => u.u === username);
     if (idx >= 0) {
