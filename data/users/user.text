@@ -1,4 +1,4 @@
-# Format: username,hmac_sha256_hex(secret_key, password)
-# Tạo bằng admin.html (panel Quản lý User) - KHÔNG tự sửa thủ công nếu không hiểu algorithm.
+# username,hmac_sha256
 admin,dbdeab3c10c32d761cbb4c46eaff545deddc26c4ce8a712524987d794b371877
 ntl,2e2145d824bea9713d0765081a3ee11f372484406989ff2c61b18fa5f58f292c
+dtn,61ae20c923f99a382bece84c3ad7a29045df53703ec1c2acce9e63de113dc592
