@@ -1,3 +1,5 @@
+import { base64DecodeUtf8 } from '../core/text-utils.js';
+
 /**
  * Test public repo connectivity.
  * @param {string} owner
@@ -59,4 +61,27 @@ export async function putFileContent({ owner, repo, path, branch, pat, content, 
     else if (res.status === 422) msg = 'File conflict. Thử tải lại danh sách.';
     else msg = err.message || 'Không xác định';
     throw new Error(`PUT thất bại (${res.status}): ${msg}`);
+}
+
+/**
+ * Get current SHA and content for a GitHub file.
+ * @param {string} owner
+ * @param {string} repo
+ * @param {string} path
+ * @param {string} branch
+ * @param {string} pat
+ * @returns {Promise<{sha:string,content:string}|null>}
+ */
+export async function getFileShaAndContent(owner, repo, path, branch, pat) {
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`, {
+        headers: { Authorization: `Bearer ${pat}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (res.ok) {
+        const data = await res.json();
+        const decodedContent = base64DecodeUtf8(data.content.replace(/\s+/g, ''));
+        return { sha: data.sha, content: decodedContent };
+    }
+    if (res.status === 404) return null;
+    const err = await res.json().catch(() => ({}));
+    throw new Error(`GET file thất bại (${res.status}): ${err.message || 'Không xác định'}`);
 }

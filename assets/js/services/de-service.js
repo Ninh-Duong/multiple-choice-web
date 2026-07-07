@@ -17,7 +17,8 @@ export async function taiDanhSachDeTuManifest() {
             if (!file.endsWith('.txt')) continue;
             const name = file.replace('.txt', '');
             const title = parts.length > 1 ? parts[1].trim() : `Đề ${name}`;
-            danhSachDe.push({ id: name, title, fileUrl: `data/${file}` });
+            const passHash = parts.length > 2 ? parts[2].trim() : null;
+            danhSachDe.push({ id: name, title, fileUrl: `data/${file}`, passHash });
         }
         return danhSachDe;
     } catch (err) {

@@ -2,6 +2,7 @@ import { appState } from './app-state.js';
 import { taiDanhSachDeTuManifest, taiNoiDungDe } from '../services/de-service.js';
 import { byId, all, hide, show } from '../ui/dom.js';
 import { hienThiCauHoi } from './quiz-render.js';
+import { hashPassword } from '../core/crypto.js';
 
 export async function khoiTaoDanhSachDe() {
     appState.danhSachDe = await taiDanhSachDeTuManifest();
@@ -21,10 +22,36 @@ export function taoNutChonDe() {
     });
 }
 
-/** @param {{title:string,fileUrl:string,id:string}} de */
+/** @param {{title:string,fileUrl:string,id:string,passHash:string|null}} de */
 export async function taiDeThi(de) {
     if (appState.isLoading) return;
     appState.isLoading = true;
+
+    // Check password if configured
+    if (de.passHash) {
+        const entered = prompt(`Nhập mật khẩu để làm đề thi "${de.title}":`);
+        if (entered === null || entered.trim() === '') {
+            alert('Bạn đã huỷ nhập mật khẩu. Quay lại đề thi mặc định.');
+            appState.isLoading = false;
+            const demoDe = appState.danhSachDe[0];
+            if (demoDe && demoDe.id !== de.id) {
+                taiDeThi(demoDe);
+            }
+            return;
+        }
+
+        const hashed = await hashPassword(entered);
+        if (hashed !== de.passHash) {
+            alert('Mật khẩu đề thi không chính xác! Quay lại đề thi mặc định.');
+            appState.isLoading = false;
+            const demoDe = appState.danhSachDe[0];
+            if (demoDe && demoDe.id !== de.id) {
+                taiDeThi(demoDe);
+            }
+            return;
+        }
+    }
+
     appState.currentDeInfo = de;
     hide(byId('quiz-area'));
     hide(byId('result-area'));

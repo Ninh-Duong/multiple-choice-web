@@ -7,6 +7,8 @@ import { doiMatKhau, taiDanhSachUser, themUser, xoaUser } from './user-manager.j
 import { huyThayDoi, taiFileUserText } from './user-render.js';
 import { copyHashOutput, downloadHashOutput, hashUsers } from './hash-tool.js';
 import { copyDeOutput, decodeDe, downloadDeOutput, encodeDe, loadFileToDeInput } from './encode-tool.js';
+import { handleDeFile, suggestDeFilename, uploadDeThi } from './upload-de.js';
+import { taiManifestTuGithub, luuManifestLenGithub } from './manage-de.js';
 
 function bindEvents() {
     byId('admin-login-form').addEventListener('submit', xacNhanLoginAdmin);
@@ -36,6 +38,39 @@ function bindEvents() {
     byId('btn-copy-de').addEventListener('click', copyDeOutput);
     byId('btn-download-de').addEventListener('click', downloadDeOutput);
     byId('de-file-input').addEventListener('change', loadFileToDeInput);
+
+    // Section 3: Upload đề thi lên GitHub
+    const dropzone = byId('upload-de-dropzone');
+    const fileInput = byId('upload-de-file');
+
+    dropzone.addEventListener('click', () => fileInput.click());
+    fileInput.addEventListener('change', e => {
+        if (e.target.files.length > 0) handleDeFile(e.target.files[0]);
+    });
+
+    dropzone.addEventListener('dragover', e => {
+        e.preventDefault();
+        dropzone.classList.add('border-purple-500', 'bg-purple-100/50');
+    });
+
+    const removeDragStyles = () => dropzone.classList.remove('border-purple-500', 'bg-purple-100/50');
+    dropzone.addEventListener('dragleave', removeDragStyles);
+    dropzone.addEventListener('dragend', removeDragStyles);
+
+    dropzone.addEventListener('drop', e => {
+        e.preventDefault();
+        removeDragStyles();
+        if (e.dataTransfer.files.length > 0) handleDeFile(e.dataTransfer.files[0]);
+    });
+
+    byId('btn-suggest-filename').addEventListener('click', suggestDeFilename);
+    byId('btn-upload-de').addEventListener('click', uploadDeThi);
+    byId('upload-de-pat-toggle').addEventListener('click', e => togglePass('upload-de-pat', e.currentTarget));
+
+    // Section 4: Quản lý Đề thi & Mật khẩu phòng thi
+    byId('btn-load-manifest').addEventListener('click', taiManifestTuGithub);
+    byId('btn-save-manifest').addEventListener('click', luuManifestLenGithub);
+    byId('manifest-pat-toggle').addEventListener('click', e => togglePass('manifest-pat', e.currentTarget));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
