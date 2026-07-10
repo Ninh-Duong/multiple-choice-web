@@ -22,7 +22,7 @@ export async function taiDanhSachDeTuManifest() {
         }
         return danhSachDe;
     } catch (err) {
-        console.warn('Không đọc được manifest, dùng fallback.', err);
+        console.warn('Could not read manifest, using fallback.', err);
         return [{ id: 'de_1', title: 'Đề kiểm tra số 1', fileUrl: 'data/de_1.txt' }];
     }
 }
@@ -42,6 +42,6 @@ export async function taiNoiDungDe(de) {
         if (!displayTitle.includes('Offline')) displayTitle += ' (Bản Demo Offline)';
     }
     const questions = phanTichTextThanhCauHoi(rawText);
-    if (questions.length === 0) throw new Error('File đề bị trống hoặc sai định dạng.');
+    if (questions.length === 0) throw new Error('Exam file is empty or invalid format.');
     return { title: displayTitle, questions };
 }

@@ -17,8 +17,11 @@ export function decodeDe() {
         const trimmed = src.replace(/^\uFEFF/, '').trimStart();
         let payload = trimmed;
         if (trimmed.startsWith('#ENCODED')) {
-            const nl = trimmed.indexOf('\n');
-            payload = trimmed.slice(nl + 1);
+            const lines = trimmed.split(/\r?\n|\r/);
+            const firstLine = lines[0].trim();
+            if (firstLine === '#ENCODED') {
+                payload = lines.slice(1).join('');
+            }
         }
         payload = payload.replace(/\s+/g, '');
         byId('de-input').value = base64DecodeUtf8(payload);

@@ -10,6 +10,6 @@ export async function fetchText(url, options = {}) {
     const response = await fetch(url, { cache: 'no-store', ...options });
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const text = stripBOM(await response.text());
-    if (isHtmlResponse(text)) throw new Error('Server trả về HTML thay vì file text');
+    if (isHtmlResponse(text)) throw new Error('Server returned HTML instead of a text file');
     return text;
 }

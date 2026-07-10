@@ -11,7 +11,7 @@ export async function docDanhSachTaiKhoan() {
         const text = await fetchText(USER_FILE_URL);
         return { users: parseUserText(text), hasUserFile: true };
     } catch (error) {
-        console.warn('Không đọc được data/users/user.text.', error);
+        console.warn('Could not read data/users/user.text.', error);
         return { users: [], hasUserFile: false };
     }
 }
@@ -23,6 +23,6 @@ export async function docDanhSachTaiKhoan() {
 export async function layUsersDangNhap() {
     const authData = await docDanhSachTaiKhoan();
     if (authData.users.length > 0) return authData.users;
-    console.warn('Không có tài khoản hợp lệ, dùng fallback user.');
+    console.warn('No valid users found, using fallback user.');
     return [{ u: FALLBACK_USER, h: FALLBACK_HASH }];
 }

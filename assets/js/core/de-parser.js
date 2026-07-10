@@ -8,15 +8,16 @@ import { base64DecodeUtf8, stripBOM } from './text-utils.js';
 export function decodeDeNeuCan(text) {
     const trimmed = text.replace(/^\uFEFF/, '').trimStart();
     if (!trimmed.startsWith('#ENCODED')) return text;
-    const nl = trimmed.indexOf('\n');
-    if (nl < 0) return text;
-    const payload = trimmed.slice(nl + 1).replace(/\s+/g, '');
+    const lines = trimmed.split(/\r?\n|\r/);
+    const firstLine = lines[0].trim();
+    if (firstLine !== '#ENCODED') return text;
+    const payload = lines.slice(1).join('').replace(/\s+/g, '');
     if (!payload) return text;
     try {
         return base64DecodeUtf8(payload);
     } catch (err) {
-        console.error('Decode đề thất bại:', err);
-        throw new Error('File đề mã hoá không hợp lệ.');
+        console.error('Failed to decode exam:', err);
+        throw new Error('Invalid encoded exam file.');
     }
 }
 
@@ -56,7 +57,7 @@ export function phanTichTextThanhCauHoi(text) {
     });
 
     if (canhBaoThieuDapAn.length > 0) {
-        console.warn('Cảnh báo: các câu sau không có đúng 1 đáp án (true):\n' + canhBaoThieuDapAn.join('\n'));
+        console.warn('Warning: the following questions do not have exactly 1 correct answer (true):\n' + canhBaoThieuDapAn.join('\n'));
     }
     return danhSachCauHoi;
 }

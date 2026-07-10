@@ -31,7 +31,10 @@ export function escapeHtml(str) {
 export function base64EncodeUtf8(str) {
     const bytes = new TextEncoder().encode(str);
     let bin = '';
-    for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    const chunk = 8192;
+    for (let i = 0; i < bytes.length; i += chunk) {
+        bin += String.fromCharCode.apply(null, bytes.subarray(i, i + chunk));
+    }
     return btoa(bin);
 }
 

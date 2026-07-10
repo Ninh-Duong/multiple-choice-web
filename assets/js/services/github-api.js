@@ -28,7 +28,7 @@ export async function getFileSha(owner, repo, path, branch, pat) {
     if (res.ok) return (await res.json()).sha;
     if (res.status === 404) return null;
     const err = await res.json().catch(() => ({}));
-    throw new Error(`GET file thất bại (${res.status}): ${err.message || 'Không xác định'}`);
+    throw new Error(`GET file failed (${res.status}): ${err.message || 'Unknown error'}`);
 }
 
 /**
@@ -55,12 +55,12 @@ export async function putFileContent({ owner, repo, path, branch, pat, content, 
     if (res.ok) return res.json();
     const err = await res.json().catch(() => ({}));
     let msg = '';
-    if (res.status === 401) msg = 'Token không hợp lệ hoặc hết hạn.';
-    else if (res.status === 403) msg = 'Token không có quyền write contents.';
-    else if (res.status === 404) msg = 'Repo không tìm thấy. Kiểm tra owner/repo.';
-    else if (res.status === 422) msg = 'File conflict. Thử tải lại danh sách.';
-    else msg = err.message || 'Không xác định';
-    throw new Error(`PUT thất bại (${res.status}): ${msg}`);
+    if (res.status === 401) msg = 'Token is invalid or expired.';
+    else if (res.status === 403) msg = 'Token does not have write contents permission.';
+    else if (res.status === 404) msg = 'Repo not found. Check owner/repo.';
+    else if (res.status === 422) msg = 'File conflict. Try reloading the list.';
+    else msg = err.message || 'Unknown error';
+    throw new Error(`PUT failed (${res.status}): ${msg}`);
 }
 
 /**
@@ -83,5 +83,5 @@ export async function getFileShaAndContent(owner, repo, path, branch, pat) {
     }
     if (res.status === 404) return null;
     const err = await res.json().catch(() => ({}));
-    throw new Error(`GET file thất bại (${res.status}): ${err.message || 'Không xác định'}`);
+    throw new Error(`GET file failed (${res.status}): ${err.message || 'Unknown error'}`);
 }

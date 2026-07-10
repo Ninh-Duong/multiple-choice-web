@@ -1,6 +1,6 @@
 import { getFileSha, getFileShaAndContent, putFileContent } from '../services/github-api.js';
 import { getGithubConfig } from './github-config.js';
-import { phanTichTextThanhCauHoi } from '../core/de-parser.js';
+import { decodeDeNeuCan, phanTichTextThanhCauHoi } from '../core/de-parser.js';
 import { base64EncodeUtf8 } from '../core/text-utils.js';
 import { byId } from '../ui/dom.js';
 import { showToast } from '../ui/toast.js';
@@ -126,9 +126,20 @@ export async function uploadDeThi() {
     if (!cleanFile.endsWith('.txt')) cleanFile += '.txt';
     if (!cleanFile.startsWith('de_')) cleanFile = 'de_' + cleanFile;
 
+    // Decode first if the uploaded content is already encoded
+    let plainText = content;
+    if (content.trim().startsWith('#ENCODED')) {
+        try {
+            plainText = decodeDeNeuCan(content);
+        } catch (e) {
+            showToast('Lỗi giải mã đề đã mã hoá: ' + e.message, 'error');
+            return;
+        }
+    }
+
     // Validate format using de-parser
     try {
-        const parsed = phanTichTextThanhCauHoi(content);
+        const parsed = phanTichTextThanhCauHoi(plainText);
         if (parsed.length === 0) {
             showToast('Lỗi: File đề thi rỗng hoặc sai cấu trúc (Phải có ít nhất 1 câu và mỗi câu 4 đáp án).', 'error');
             return;
@@ -160,9 +171,9 @@ export async function uploadDeThi() {
         }
 
         // Step 2: Prepare content (encode base64 if checked)
-        let finalContent = content;
+        let finalContent = plainText;
         if (doEncode) {
-            const b64 = base64EncodeUtf8(content);
+            const b64 = base64EncodeUtf8(plainText);
             const chunked = b64.replace(/(.{76})/g, '$1\n');
             finalContent = `#ENCODED\n${chunked}\n`;
         }
