@@ -3,3 +3,4 @@ de_2.txt|Đề kiểm tra số 2|c3db96e1c37c4a93027791f286198a3a30982f027bcd070
 de_3.txt|Đề kiểm tra số 3
 de_4_encode.txt|#ENCODED
 de_encoded.txt|de_4
+de_4_formatted.txt|de_4
