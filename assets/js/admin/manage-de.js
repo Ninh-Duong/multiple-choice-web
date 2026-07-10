@@ -1,4 +1,4 @@
-import { getFileShaAndContent, putFileContent } from '../services/github-api.js';
+import { getFileSha, getFileShaAndContent, putFileContent, deleteFile } from '../services/github-api.js';
 import { getGithubConfig } from './github-config.js';
 import { hashPassword } from '../core/crypto.js';
 import { byId, show, hide } from '../ui/dom.js';
@@ -8,6 +8,7 @@ let manifestState = {
     sha: null,
     content: '',
     list: [],
+    deletedFiles: [],
     isDirty: false
 };
 
@@ -34,6 +35,7 @@ export async function taiManifestTuGithub() {
         manifestState.sha = manifestData ? manifestData.sha : null;
         manifestState.content = manifestData ? manifestData.content : '';
         manifestState.isDirty = false;
+        manifestState.deletedFiles = [];
 
         const lines = manifestState.content.split('\n').map(l => l.trim()).filter(l => l.length > 0 && !l.startsWith('#'));
         manifestState.list = [];
@@ -85,8 +87,9 @@ function renderManifestTable() {
             <td class="px-3 py-3 text-gray-800 font-semibold">${item.title}</td>
             <td class="px-3 py-3">${passStatus}</td>
             <td class="px-3 py-3 text-right space-x-2 whitespace-nowrap">
-                <button data-action="set-pass" data-index="${index}" class="bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold py-1 px-3 rounded text-xs">🔑 Đặt Pass</button>
-                <button data-action="clear-pass" data-index="${index}" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-1 px-3 rounded text-xs ${item.passHash ? '' : 'opacity-40 pointer-events-none'}">🔓 Gỡ</button>
+                <button data-action="set-pass" data-index="${index}" class="bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold py-1 px-2 rounded text-xs">🔑 Đặt Pass</button>
+                <button data-action="clear-pass" data-index="${index}" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-1 px-2 rounded text-xs ${item.passHash ? '' : 'opacity-40 pointer-events-none'}">🔓 Gỡ</button>
+                <button data-action="delete-de" data-index="${index}" class="bg-red-50 hover:bg-red-100 text-red-600 font-bold py-1 px-2 rounded text-xs">🗑 Xóa</button>
             </td>
         `;
         tbody.appendChild(tr);
@@ -120,6 +123,22 @@ function renderManifestTable() {
             renderManifestTable();
             updateManifestPreview();
             showToast(`Đã gỡ mật khẩu cho đề "${item.title}".`, 'success');
+        });
+    });
+
+    tbody.querySelectorAll('[data-action="delete-de"]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.index);
+            const item = manifestState.list[idx];
+            if (!confirm(`⚠️ Bạn có chắc chắn muốn xóa đề thi "${item.title}"?\nHành động này sẽ gỡ đề thi khỏi danh sách và xóa file trên GitHub khi bạn bấm lưu.`)) {
+                return;
+            }
+            manifestState.deletedFiles.push(item.file);
+            manifestState.list.splice(idx, 1);
+            markDirty();
+            renderManifestTable();
+            updateManifestPreview();
+            showToast(`Đã xóa đề thi "${item.title}" khỏi danh sách tạm thời.`, 'info');
         });
     });
 }
@@ -178,15 +197,40 @@ export async function luuManifestLenGithub() {
             pat,
             content: finalContent,
             sha: freshSha,
-            message: 'admin: cap nhat mat khau de thi trong manifest'
+            message: 'admin: cap nhat danh sach de thi va mat khau trong manifest'
         });
+
+        // Delete deleted files from GitHub if any
+        if (manifestState.deletedFiles && manifestState.deletedFiles.length > 0) {
+            for (const file of manifestState.deletedFiles) {
+                try {
+                    const filePath = `data/${file}`;
+                    const sha = await getFileSha(owner, repo, filePath, branch, pat);
+                    if (sha) {
+                        await deleteFile({
+                            owner,
+                            repo,
+                            path: filePath,
+                            branch,
+                            pat,
+                            sha,
+                            message: `admin: xoa file de thi ${file}`
+                        });
+                    }
+                } catch (delErr) {
+                    console.error(`Failed to delete file ${file} on GitHub:`, delErr);
+                    showToast(`Cảnh báo: Không thể xóa file ${file} trên GitHub: ${delErr.message}`, 'warning');
+                }
+            }
+            manifestState.deletedFiles = [];
+        }
 
         manifestState.content = finalContent;
         manifestState.sha = freshSha; // note: after write, it changes but we will refetch on next save anyway
         manifestState.isDirty = false;
         hide(byId('manifest-dirty-badge'));
 
-        showToast('Đã lưu manifest thành công lên GitHub!', 'success');
+        showToast('Đã lưu manifest và cập nhật danh mục thành công lên GitHub!', 'success');
     } catch (e) {
         showToast('Lưu manifest thất bại: ' + e.message, 'error');
     } finally {

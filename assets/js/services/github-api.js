@@ -85,3 +85,27 @@ export async function getFileShaAndContent(owner, repo, path, branch, pat) {
     const err = await res.json().catch(() => ({}));
     throw new Error(`GET file failed (${res.status}): ${err.message || 'Unknown error'}`);
 }
+
+/**
+ * Delete file content using GitHub Contents API.
+ * @param {object} args
+ * @param {string} args.owner
+ * @param {string} args.repo
+ * @param {string} args.path
+ * @param {string} args.branch
+ * @param {string} args.pat
+ * @param {string} args.sha
+ * @param {string} args.message
+ * @returns {Promise<any>}
+ */
+export async function deleteFile({ owner, repo, path, branch, pat, sha, message }) {
+    const body = { message, sha, branch };
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${pat}`, 'Content-Type': 'application/json', Accept: 'application/vnd.github.v3+json' },
+        body: JSON.stringify(body)
+    });
+    if (res.ok) return res.json();
+    const err = await res.json().catch(() => ({}));
+    throw new Error(`DELETE failed (${res.status}): ${err.message || 'Unknown error'}`);
+}
