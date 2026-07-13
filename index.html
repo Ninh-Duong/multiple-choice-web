@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hệ Thống Thi Trắc Nghiệm & Quản Lý</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/lib/jszip.min.js"></script>
+    <script src="assets/js/lib/docx-preview.min.js"></script>
+    <script src="assets/js/lib/pdf.min.js"></script>
+    <link rel="stylesheet" href="assets/js/lib/docx-preview.css">
     <link rel="stylesheet" href="assets/css/base.css?v=1">
     <link rel="stylesheet" href="assets/css/app.css?v=1">
 </head>
@@ -51,6 +55,7 @@
                     </p>
                 </div>
                 <div class="flex flex-wrap gap-2 justify-center">
+                    <button id="btn-documents" class="bg-emerald-100 hover:bg-emerald-200 text-emerald-700 font-bold py-2 px-4 rounded-lg transition-colors border border-emerald-300 text-sm flex items-center">📚 Tài Liệu Học Tập</button>
                     <button id="btn-history" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-bold py-2 px-4 rounded-lg transition-colors border border-indigo-300 text-sm flex items-center">📊 Lịch Sử Làm Bài</button>
                     <button id="btn-shuffle-questions" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">🔀 Đảo Câu (Tắt)</button>
                     <button id="btn-shuffle" class="toggle-btn bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-300 text-sm">🔄 Đảo Đáp Án (Tắt)</button>
@@ -106,6 +111,54 @@
                     </div>
                 </div>
                 <div id="history-container" class="space-y-4"></div>
+            </div>
+        </div>
+
+        <div id="document-area" class="hidden">
+            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+                <div class="flex justify-between items-center border-b pb-4 mb-6">
+                    <h2 class="text-2xl font-bold text-emerald-700 flex items-center">📚 Tài Liệu Ôn Tập & Khảo Sát</h2>
+                    <button id="document-close-btn" class="text-gray-500 hover:text-gray-800 font-bold px-3 py-1 bg-gray-100 rounded transition-colors">✕ Đóng</button>
+                </div>
+                <div id="document-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Xem Trước Tài Liệu -->
+    <div id="preview-modal" class="fixed inset-0 bg-black/60 z-50 flex items-center justify-center hidden p-4">
+        <div class="bg-white rounded-2xl w-full max-w-5xl h-[85vh] flex flex-col overflow-hidden shadow-2xl">
+            <div class="bg-gray-50 border-b px-6 py-4 flex items-center justify-between">
+                <div>
+                    <h3 id="preview-title" class="font-bold text-gray-800 text-lg">Xem trước tài liệu</h3>
+                    <p id="preview-subtitle" class="text-xs text-gray-500 mt-0.5"></p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a id="preview-download-btn" href="#" download class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-1.5 px-4 rounded-lg text-sm transition-colors flex items-center gap-1.5 shadow-sm">
+                        <span>⬇️ Tải xuống</span>
+                    </a>
+                    <button id="preview-close-btn" class="text-gray-400 hover:text-gray-700 font-bold text-2xl transition-colors">&times;</button>
+                </div>
+            </div>
+            <div class="flex-1 overflow-auto bg-gray-100 p-4 relative" id="preview-body-container">
+                <!-- Loader -->
+                <div id="preview-loader" class="absolute inset-0 bg-white/80 flex flex-col items-center justify-center z-10 hidden">
+                    <div class="spinner"></div>
+                    <p class="text-gray-600 font-semibold text-sm">Đang chuẩn bị bản xem trước...</p>
+                </div>
+                
+                <!-- PDF Preview Container -->
+                <div id="pdf-preview-container" class="w-full hidden overflow-auto flex flex-col items-center gap-4 p-2 md:p-4 text-gray-800"></div>
+                
+                <!-- DOCX Preview Container -->
+                <div id="docx-preview-container" class="w-full bg-white p-6 md:p-12 shadow-sm rounded border min-h-full mx-auto max-w-4xl hidden overflow-auto text-gray-800"></div>
+                
+                <!-- Error Box -->
+                <div id="preview-error-box" class="hidden text-center p-8 bg-red-50 border border-red-200 rounded-lg max-w-md mx-auto mt-10 shadow-sm">
+                    <p class="text-red-600 font-semibold mb-2">Không thể tải bản xem trước!</p>
+                    <p class="text-gray-500 text-sm mb-4">Trình duyệt không hỗ trợ xem trực tiếp hoặc tệp bị lỗi. Bạn vẫn có thể tải trực tiếp tệp về máy.</p>
+                    <a id="error-download-link" href="#" download class="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-lg text-sm">Tải về ngay</a>
+                </div>
             </div>
         </div>
     </div>

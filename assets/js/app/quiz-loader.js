@@ -56,6 +56,7 @@ export async function taiDeThi(de) {
     hide(byId('quiz-area'));
     hide(byId('result-area'));
     hide(byId('history-area'));
+    hide(byId('document-area'));
     show(byId('submit-btn'));
     all('#btn-container button').forEach(b => b.disabled = true);
 

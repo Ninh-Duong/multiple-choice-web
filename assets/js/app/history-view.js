@@ -9,6 +9,7 @@ export function moLichSu() {
     hide(byId('result-area'));
     hide(byId('message-box'));
     hide(byId('chon-de-text'));
+    hide(byId('document-area'));
     show(byId('history-area'));
     appState.uiState = 'history';
     renderLichSu();

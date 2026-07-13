@@ -7,5 +7,6 @@ export const appState = {
     isShuffleQuestions: false,
     isLoading: false,
     uiState: 'idle',
-    prevUiState: 'idle'
+    prevUiState: 'idle',
+    danhSachTaiLieu: []
 };

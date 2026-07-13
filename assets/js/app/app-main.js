@@ -3,6 +3,7 @@ import { initAuth, xacNhanDangNhap, dangXuat } from './auth.js';
 import { toggleShuffle, toggleShuffleQuestions } from './quiz-render.js';
 import { chamDiem, lamLai } from './quiz-grade.js';
 import { moLichSu, dongLichSu, xoaLichSu } from './history-view.js';
+import { moTaiLieu, dongTaiLieu, dongXemTruoc } from './document-view.js';
 
 function bindEvents() {
     byId('login-form').addEventListener('submit', xacNhanDangNhap);
@@ -15,6 +16,11 @@ function bindEvents() {
     byId('result-history-btn').addEventListener('click', moLichSu);
     byId('history-delete-btn').addEventListener('click', xoaLichSu);
     byId('history-close-btn').addEventListener('click', dongLichSu);
+    
+    // Document events
+    byId('btn-documents').addEventListener('click', moTaiLieu);
+    byId('document-close-btn').addEventListener('click', dongTaiLieu);
+    byId('preview-close-btn').addEventListener('click', dongXemTruoc);
 }
 
 document.addEventListener('DOMContentLoaded', async () => {

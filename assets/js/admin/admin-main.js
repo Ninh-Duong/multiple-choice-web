@@ -9,6 +9,8 @@ import { copyHashOutput, downloadHashOutput, hashUsers } from './hash-tool.js';
 import { copyDeOutput, decodeDe, downloadDeOutput, encodeDe, loadFileToDeInput } from './encode-tool.js';
 import { handleDeFile, suggestDeFilename, uploadDeThi } from './upload-de.js';
 import { taiManifestTuGithub, luuManifestLenGithub } from './manage-de.js';
+import { taiDocManifestTuGithub, luuDocManifestLenGithub } from './manage-doc.js';
+import { handleDocFile, uploadDocTaiLieu } from './upload-doc.js';
 
 function bindEvents() {
     byId('admin-login-form').addEventListener('submit', xacNhanLoginAdmin);
@@ -71,6 +73,37 @@ function bindEvents() {
     byId('btn-load-manifest').addEventListener('click', taiManifestTuGithub);
     byId('btn-save-manifest').addEventListener('click', luuManifestLenGithub);
     byId('manifest-pat-toggle').addEventListener('click', e => togglePass('manifest-pat', e.currentTarget));
+
+    // Section 5: Quản lý & Đăng tải Tài liệu (Word & PDF)
+    const docDropzone = byId('upload-doc-dropzone');
+    const docFileInput = byId('upload-doc-file');
+
+    docDropzone.addEventListener('click', () => docFileInput.click());
+    docFileInput.addEventListener('change', e => {
+        if (e.target.files.length > 0) handleDocFile(e.target.files[0]);
+    });
+
+    docDropzone.addEventListener('dragover', e => {
+        e.preventDefault();
+        docDropzone.classList.add('border-emerald-500', 'bg-emerald-100/50');
+    });
+
+    const removeDocDragStyles = () => docDropzone.classList.remove('border-emerald-500', 'bg-emerald-100/50');
+    docDropzone.addEventListener('dragleave', removeDocDragStyles);
+    docDropzone.addEventListener('dragend', removeDocDragStyles);
+
+    docDropzone.addEventListener('drop', e => {
+        e.preventDefault();
+        removeDocDragStyles();
+        if (e.dataTransfer.files.length > 0) handleDocFile(e.dataTransfer.files[0]);
+    });
+
+    byId('btn-upload-doc').addEventListener('click', uploadDocTaiLieu);
+    byId('upload-doc-pat-toggle').addEventListener('click', e => togglePass('upload-doc-pat', e.currentTarget));
+
+    byId('btn-load-doc-manifest').addEventListener('click', taiDocManifestTuGithub);
+    byId('btn-save-doc-manifest').addEventListener('click', luuDocManifestLenGithub);
+    byId('doc-manifest-pat-toggle').addEventListener('click', e => togglePass('doc-manifest-pat', e.currentTarget));
 }
 
 document.addEventListener('DOMContentLoaded', () => {

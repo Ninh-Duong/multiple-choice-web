@@ -44,8 +44,9 @@ export async function getFileSha(owner, repo, path, branch, pat) {
  * @param {string|null} args.sha
  * @returns {Promise<any>}
  */
-export async function putFileContent({ owner, repo, path, branch, pat, content, message, sha }) {
-    const body = { message, content: btoa(unescape(encodeURIComponent(content))), branch };
+export async function putFileContent({ owner, repo, path, branch, pat, content, message, sha, isBase64 = false }) {
+    const encodedContent = isBase64 ? content : btoa(unescape(encodeURIComponent(content)));
+    const body = { message, content: encodedContent, branch };
     if (sha) body.sha = sha;
     const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
         method: 'PUT',
