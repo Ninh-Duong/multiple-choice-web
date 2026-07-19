@@ -3,8 +3,11 @@ import { luuVaoLichSu } from '../services/history-service.js';
 import { byId, hide, show } from '../ui/dom.js';
 import { appState } from './app-state.js';
 import { hienThiCauHoi } from './quiz-render.js';
+import { capNhatTienDo } from './quiz-render.js';
 
 export function chamDiem() {
+    const unanswered = appState.currentDisplayQuestions.filter(cau => !document.querySelector(`input[name="question_${cau.id}"]:checked`)).length;
+    if (unanswered > 0 && !confirm(`Bạn còn ${unanswered} câu chưa trả lời.\nBạn có chắc muốn nộp bài không?`)) return;
     let soCauDung = 0;
     let soCauSai = 0;
     const listCorrectEl = byId('list-correct');
@@ -22,6 +25,8 @@ export function chamDiem() {
         wrongCount: 0,
         correctList: [],
         wrongList: []
+        ,unansweredCount: unanswered
+        ,durationSeconds: appState.startedAt ? Math.max(0, Math.round((Date.now() - appState.startedAt) / 1000)) : null
     };
 
     appState.currentDisplayQuestions.forEach((cau, displayIndex) => {
@@ -49,6 +54,12 @@ export function chamDiem() {
             noteEl.classList.remove('hidden', 'quiz-note-correct', 'quiz-note-attention');
             noteEl.classList.add(isCorrect ? 'quiz-note-correct' : 'quiz-note-attention');
         }
+        const feedbackEl = byId(`feedback_${originalQIndex}`);
+        if (feedbackEl) {
+            feedbackEl.classList.remove('hidden', 'feedback-correct', 'feedback-wrong');
+            feedbackEl.classList.add(isCorrect ? 'feedback-correct' : 'feedback-wrong');
+            feedbackEl.textContent = isCorrect ? '✅ Bạn chọn đúng đáp án.' : (checkedOption ? '❌ Bạn chọn sai đáp án.' : '⚠️ Bạn chưa chọn đáp án.');
+        }
         document.querySelectorAll(`input[name="question_${originalQIndex}"]`).forEach(radio => radio.disabled = true);
         const btn = document.createElement('button');
         const tenCauHienThi = `Câu ${displayIndex + 1}`;
@@ -73,6 +84,8 @@ export function chamDiem() {
     byId('score-text').innerText = `Bạn đã làm đúng ${soCauDung} / ${appState.duLieuHienTai.length} câu hỏi.`;
     byId('count-correct').innerText = soCauDung;
     byId('count-wrong').innerText = soCauSai;
+    byId('count-unanswered').innerText = unanswered;
+    byId('result-duration').innerText = sessionData.durationSeconds === null ? '' : `⏱️ Thời gian làm bài: ${Math.floor(sessionData.durationSeconds / 60)} phút ${sessionData.durationSeconds % 60} giây`;
     appState.uiState = 'result';
     byId('result-area').scrollIntoView({ behavior: 'smooth' });
 }
@@ -87,9 +100,11 @@ export function cuonDenCauHoi(originalQIndex) {
 }
 
 export function lamLai() {
+    appState.startedAt = Date.now();
     hienThiCauHoi(byId('quiz-title').innerText);
     show(byId('submit-btn'));
     hide(byId('result-area'));
     appState.uiState = 'quiz';
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    capNhatTienDo();
 }

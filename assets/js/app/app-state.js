@@ -8,5 +8,6 @@ export const appState = {
     isLoading: false,
     uiState: 'idle',
     prevUiState: 'idle',
-    danhSachTaiLieu: []
+    danhSachTaiLieu: [],
+    startedAt: null
 };

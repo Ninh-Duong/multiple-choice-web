@@ -1,1 +1,7 @@
 code { font-size: 0.875em; }
+.admin-nav a { white-space: nowrap; }
+.admin-section { scroll-margin-top: 5rem; }
+@media (max-width: 640px) {
+    .admin-section { padding: 1rem; }
+    .admin-nav { top: .5rem; }
+}

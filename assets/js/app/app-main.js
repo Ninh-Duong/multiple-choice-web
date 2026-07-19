@@ -1,6 +1,6 @@
 import { byId } from '../ui/dom.js';
 import { initAuth, xacNhanDangNhap, dangXuat } from './auth.js';
-import { toggleShuffle, toggleShuffleQuestions } from './quiz-render.js';
+import { toggleShuffle, toggleShuffleQuestions, capNhatTienDo } from './quiz-render.js';
 import { chamDiem, lamLai } from './quiz-grade.js';
 import { moLichSu, dongLichSu, xoaLichSu } from './history-view.js';
 import { moTaiLieu, dongTaiLieu, dongXemTruoc } from './document-view.js';
@@ -12,6 +12,7 @@ function bindEvents() {
     byId('btn-shuffle-questions').addEventListener('click', toggleShuffleQuestions);
     byId('btn-shuffle').addEventListener('click', toggleShuffle);
     byId('submit-btn').addEventListener('click', chamDiem);
+    byId('questions-container').addEventListener('change', capNhatTienDo);
     byId('retry-btn').addEventListener('click', lamLai);
     byId('result-history-btn').addEventListener('click', moLichSu);
     byId('history-delete-btn').addEventListener('click', xoaLichSu);

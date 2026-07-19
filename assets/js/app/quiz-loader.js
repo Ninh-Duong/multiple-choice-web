@@ -70,6 +70,7 @@ export async function taiDeThi(de) {
     try {
         const { title, questions } = await taiNoiDungDe(de);
         appState.duLieuHienTai = questions;
+        appState.startedAt = Date.now();
         hienThiCauHoi(title);
         hide(msgBox);
         show(byId('quiz-area'));

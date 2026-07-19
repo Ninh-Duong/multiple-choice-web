@@ -28,6 +28,17 @@
 
 .quiz-note-attention .quiz-note-title { color: #b45309; }
 
+.quiz-submit-bar { background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(8px); }
+.question-nav-answered { background-color: #dbeafe; border-color: #60a5fa; color: #1d4ed8; }
+.quiz-feedback { background: #f8fafc; }
+.feedback-correct { color: #166534; background: #f0fdf4; border-color: #86efac; }
+.feedback-wrong { color: #92400e; background: #fffbeb; border-color: #fbbf24; }
+.radio-custom:focus-visible + label { outline: 3px solid #93c5fd; outline-offset: 2px; }
+
+@media (max-width: 640px) {
+    .quiz-submit-bar { margin-left: -1rem; margin-right: -1rem; padding-left: 1rem; padding-right: 1rem; }
+}
+
 .toggle-btn.active {
     background-color: #805ad5;
     color: white;

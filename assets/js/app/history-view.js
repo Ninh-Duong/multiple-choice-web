@@ -61,13 +61,17 @@ export function renderLichSu() {
         const safeTitle = escapeHtml(session.quizTitle);
         const safeDate = escapeHtml(session.date);
         const safeUser = session.user ? `<p class="text-xs text-gray-400 mt-0.5">👤 ${escapeHtml(session.user)}</p>` : '';
+        const duration = Number.isFinite(session.durationSeconds)
+            ? `⏱️ ${Math.floor(session.durationSeconds / 60)}p ${session.durationSeconds % 60}s`
+            : '';
+        const unanswered = Number.isFinite(session.unansweredCount) ? session.unansweredCount : 0;
         let html = `<div class="flex flex-col md:flex-row justify-between md:items-center mb-4 border-b pb-3 border-gray-200/60">
             <div><h3 class="font-bold text-lg text-gray-800">${safeTitle}</h3><p class="text-sm text-gray-500 font-medium">🗓️ ${safeDate}</p>${safeUser}</div>
             <div class="mt-2 md:mt-0 text-left md:text-right"><div class="text-2xl font-black ${scoreColor}">${session.correctCount} / ${session.total}</div><div class="text-xs font-bold uppercase tracking-wider text-gray-500">Đạt ${percent}%</div></div>
         </div><div class="space-y-3 text-sm">`;
         if (session.correctList.length > 0) html += `<div class="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3"><span class="inline-block min-w-24 font-bold text-green-700">✅ Câu Đúng:</span><span class="text-gray-700 flex flex-wrap gap-1">${session.correctList.map(c => `<span class="bg-green-100 text-green-700 px-2 py-0.5 rounded border border-green-200">${escapeHtml(c)}</span>`).join('')}</span></div>`;
         if (session.wrongList.length > 0) html += `<div class="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 mt-2"><span class="inline-block min-w-24 font-bold text-red-700">❌ Câu Sai:</span><span class="text-gray-700 flex flex-wrap gap-1">${session.wrongList.map(c => `<span class="bg-red-100 text-red-700 px-2 py-0.5 rounded border border-red-200">${escapeHtml(c)}</span>`).join('')}</span></div>`;
-        html += '</div>';
+        html += `<div class="mt-4 flex flex-wrap gap-2 border-t border-gray-200/60 pt-3 text-xs text-gray-500"><span>${duration}</span><span>⚠️ Chưa làm: ${unanswered}</span></div></div>`;
         card.innerHTML = html;
         container.appendChild(card);
     });

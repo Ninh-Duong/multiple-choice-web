@@ -50,7 +50,17 @@
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <nav class="admin-nav sticky top-3 z-30 mb-6 overflow-x-auto rounded-xl border border-purple-100 bg-white/95 p-2 shadow-sm backdrop-blur" aria-label="Điều hướng Admin">
+                <div class="flex min-w-max gap-2 text-sm font-semibold">
+                    <a href="#github-config" class="rounded-lg px-3 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-700">⚙️ Cấu hình</a>
+                    <a href="#users" class="rounded-lg px-3 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-700">👥 User</a>
+                    <a href="#exam-tools" class="rounded-lg px-3 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-700">📝 Công cụ đề</a>
+                    <a href="#exam-management" class="rounded-lg px-3 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-700">📋 Danh mục đề</a>
+                    <a href="#documents" class="rounded-lg px-3 py-2 text-gray-600 hover:bg-purple-50 hover:text-purple-700">📚 Tài liệu</a>
+                </div>
+            </nav>
+
+            <div id="github-config" class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">⚙️ Cấu hình GitHub</h2>
                 <p class="text-sm text-gray-500 mb-4">Thông tin repo để commit file <code>user.text</code>. Cần PAT Fine-grained với quyền Contents Read & Write.</p>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
@@ -61,7 +71,7 @@
                 <div class="flex items-center gap-3 flex-wrap"><button id="btn-test-github" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg text-sm">🔌 Test kết nối</button><span id="gh-status" class="text-sm text-gray-500">⚪ Chưa test</span></div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div id="users" class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">👥 3. Quản lý User</h2>
                 <p class="text-sm text-gray-500 mb-4">Thêm, xoá, đổi mật khẩu người dùng. Mật khẩu được hash HMAC-SHA256 trước khi lưu.</p>
                 <div class="flex flex-wrap items-center gap-3 mb-6"><button id="btn-load-users" class="bg-indigo-100 hover:bg-indigo-200 text-indigo-700 font-semibold py-2 px-4 rounded-lg text-sm">↻ Tải danh sách từ server</button><span id="user-status" class="text-sm text-gray-500">⚪ Chưa tải</span><span id="user-dirty-badge" class="hidden text-xs font-bold uppercase px-2 py-1 bg-amber-100 text-amber-700 rounded">⚠️ Chưa lưu</span></div>
@@ -97,21 +107,21 @@
                 <div class="mt-4 flex flex-wrap gap-3"><button id="btn-commit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 px-6 rounded-lg shadow-md text-sm disabled:opacity-50 disabled:cursor-not-allowed" disabled>💾 Lưu lên GitHub</button><button id="huy-btn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2.5 px-4 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed" disabled>↺ Huỷ thay đổi</button><button id="backup-btn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2.5 px-4 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed" disabled>⬇ Tải backup</button></div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div id="exam-tools" class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">🔒 1. Hash mật khẩu thủ công (HMAC-SHA256)</h2>
                 <p class="text-sm text-gray-500 mb-4">Nhập <code>username,password</code> mỗi dòng. Output dạng <code>username,hmac</code>.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div><label class="block text-sm font-semibold text-gray-700 mb-1">Đầu vào</label><textarea id="hash-input" rows="8" class="w-full px-3 py-2 border border-gray-300 rounded-lg font-mono text-sm" placeholder="user,password"></textarea></div><div><label class="block text-sm font-semibold text-gray-700 mb-1">Kết quả</label><textarea id="hash-output" rows="8" readonly class="w-full px-3 py-2 border border-gray-300 rounded-lg font-mono text-sm bg-gray-50"></textarea></div></div>
                 <div class="mt-3 flex gap-2 flex-wrap"><button id="btn-hash-users" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">🔒 Hash (HMAC)</button><button id="btn-copy-hash" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">📋 Copy</button><button id="btn-download-hash" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">⬇ Tải user.text</button></div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">🔐 2. Encode đề thi (Base64)</h2>
                 <p class="text-sm text-gray-500 mb-4">Dán nội dung đề plaintext có <code>(true)</code>, sau đó encode để lưu vào `data/de_*.txt`.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div><label class="block text-sm font-semibold text-gray-700 mb-1">Plaintext đề</label><textarea id="de-input" rows="14" class="w-full px-3 py-2 border border-gray-300 rounded-lg font-mono text-sm"></textarea></div><div><label class="block text-sm font-semibold text-gray-700 mb-1">Output đã mã hoá</label><textarea id="de-output" rows="14" readonly class="w-full px-3 py-2 border border-gray-300 rounded-lg font-mono text-sm bg-gray-50"></textarea></div></div>
                 <div class="mt-3 flex gap-2 flex-wrap"><button id="btn-encode-de" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">🔐 Encode</button><button id="btn-decode-de" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-lg">🔓 Decode</button><button id="btn-copy-de" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">📋 Copy</button><button id="btn-download-de" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">⬇ Tải file</button><label class="cursor-pointer bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg">📂 Mở file...<input id="de-file-input" type="file" accept=".txt,.text" class="hidden"></label></div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">🚀 3. Đăng đề thi lên GitHub</h2>
                 <p class="text-sm text-gray-500 mb-4">Kéo thả file đề thi (.txt) hoặc chọn file, hệ thống sẽ tự động đăng lên GitHub và cập nhật file manifest.</p>
                 
@@ -158,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div id="exam-management" class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">⚙️ 4. Quản lý Đề thi & Mật khẩu phòng thi</h2>
                 <p class="text-sm text-gray-500 mb-4">Danh sách các đề thi được định nghĩa trong file <code>manifest.txt</code>. Bạn có thể cài đặt hoặc gỡ mật khẩu thi tại đây.</p>
                 <div class="flex flex-wrap items-center gap-3 mb-6">
@@ -200,7 +210,7 @@
             </div>
 
             <!-- Section 5: Quản lý & Đăng tải Tài liệu (Word & PDF) -->
-            <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div id="documents" class="admin-section bg-white rounded-xl shadow-sm p-6 mb-6 scroll-mt-24">
                 <h2 class="text-xl font-bold text-gray-800 mb-3">📚 5. Quản lý & Đăng tải Tài liệu (Word & PDF)</h2>
                 <p class="text-sm text-gray-500 mb-4">Kéo thả file tài liệu (.docx, .pdf) hoặc chọn file, hệ thống sẽ tự động đăng lên GitHub và cập nhật danh mục tài liệu.</p>
                 
