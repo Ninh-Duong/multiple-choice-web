@@ -3,3 +3,4 @@ de_2.txt|Đề kiểm tra số 2
 de_3.txt|Đề kiểm tra số 3
 de_encoded.txt|de_4
 de_test.txt|#ENCODED
+de_5_encoded.txt|Đề kiểm tra số 5
