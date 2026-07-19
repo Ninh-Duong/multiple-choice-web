@@ -1,6 +1,6 @@
 import { getFileSha, getFileShaAndContent, putFileContent } from '../services/github-api.js';
 import { getGithubConfig } from './github-config.js';
-import { decodeDeNeuCan, phanTichTextThanhCauHoi } from '../core/de-parser.js';
+import { decodeDeNeuCan, validateExamText } from '../core/de-parser.js';
 import { base64EncodeUtf8 } from '../core/text-utils.js';
 import { byId } from '../ui/dom.js';
 import { showToast } from '../ui/toast.js';
@@ -139,10 +139,17 @@ export async function uploadDeThi() {
 
     // Validate format using de-parser
     try {
-        const parsed = phanTichTextThanhCauHoi(plainText);
-        if (parsed.length === 0) {
+        const validation = validateExamText(plainText);
+        if (validation.questions.length === 0) {
             showToast('Lỗi: File đề thi rỗng hoặc sai cấu trúc (Phải có ít nhất 1 câu và mỗi câu 4 đáp án).', 'error');
             return;
+        }
+        if (validation.errors.length > 0) {
+            showToast(`Lỗi cấu trúc đề:<br>${validation.errors.slice(0, 5).join('<br>')}`, 'error');
+            return;
+        }
+        if (validation.warnings.length > 0) {
+            showToast(`Cảnh báo: ${validation.warnings.slice(0, 3).join(' ')}`, 'warning');
         }
     } catch (e) {
         showToast('Lỗi cấu trúc đề: ' + e.message, 'error');

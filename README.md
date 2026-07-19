@@ -125,7 +125,7 @@ Quy tắc:
 
 ### Format Đề Plaintext
 
-Mỗi câu gồm 5 dòng: 1 dòng câu hỏi và 4 dòng đáp án. Đáp án đúng được đánh dấu bằng `(true)`.
+Mỗi câu gồm nội dung câu hỏi và 4 đáp án được đánh dấu bằng `A.`, `B.`, `C.`, `D.`. Đáp án đúng được đánh dấu bằng `(true)` ở cuối dòng. Câu hỏi có thể kéo dài nhiều dòng.
 
 ```text
 Câu 1: 2 + 2 = ?
@@ -133,9 +133,12 @@ A. 3
 B. 4 (true)
 C. 5
 D. 6
+*note: Vì 2 + 2 bằng 4 nên đáp án đúng là B.
 ```
 
 Các câu cách nhau bằng một dòng trống.
+
+`*note:` là phần giải thích tùy chọn và đặt sau đáp án D. Note chỉ được hiển thị sau khi người dùng nộp bài. Note có thể kéo dài nhiều dòng; nếu không có `*note:` hoặc nội dung note rỗng, giao diện sẽ không hiển thị khung giải thích.
 
 ### Encode Đề Bằng `#ENCODED`
 

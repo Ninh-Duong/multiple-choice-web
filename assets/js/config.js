@@ -17,6 +17,7 @@ A. 30
 B. 40 (true)
 C. 50
 D. 60
+*note: Cộng hàng đơn vị và hàng chục: 15 + 25 = 40.
 
 Câu 2: Đỉnh núi cao nhất Việt Nam là đỉnh núi nào?
 A. Fansipan (true)
@@ -29,6 +30,7 @@ A. 50 độ C
 B. 80 độ C
 C. 90 độ C
 D. 100 độ C (true)
+*note: Trong điều kiện áp suất tiêu chuẩn, nước tinh khiết sôi ở 100 độ C.
 
 Câu 4: Ngôn ngữ HTML là viết tắt của cụm từ tiếng Anh nào?
 A. High Text Making Language

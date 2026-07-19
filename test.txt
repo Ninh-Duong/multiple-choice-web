@@ -1,0 +1,35 @@
+Câu 1: Kết quả của phép tính 15 + 25 là bao nhiêu?
+A. 30
+B. 35
+C. 40 (true)
+D. 45
+*note: Cộng hàng đơn vị và hàng chục: 15 + 25 = 40.
+
+Câu 2: Đỉnh núi cao nhất Việt Nam là đỉnh núi nào?
+A. Fansipan (true)
+B. Núi Bà Đen
+C. Lang Biang
+D. Pu Ta Leng
+*note: Fansipan cao khoảng 3.143 mét và là đỉnh núi cao nhất Việt Nam.
+Đỉnh núi này thuộc dãy Hoàng Liên Sơn, nằm giữa tỉnh Lào Cai và tỉnh Lai Châu.
+
+Câu 3: Trong điều kiện áp suất tiêu chuẩn, nước tinh khiết sôi ở bao nhiêu độ C?
+A. 80 độ C
+B. 90 độ C
+C. 100 độ C (true)
+D. 120 độ C
+
+Câu 4: Ngôn ngữ HTML là viết tắt của cụm từ tiếng Anh nào?
+A. High Text Making Language
+B. Hyper Text Markup Language (true)
+C. Hyper Tool Multi Language
+D. Home Tool Markup Language
+*note:
+
+Câu 5: Nhận định nào sau đây là sai?
+A. Bộ Tư pháp thực hiện quản lý nhà nước về công chứng trong phạm vi cả nước
+B. Ủy ban nhân dân cấp tỉnh có trách nhiệm quản lý nhà nước về công chứng tại địa phương
+C. Đặc trưng của công chứng Anglo-Saxon là công chứng viên chủ yếu xác nhận chữ ký, ít can thiệp vào nội dung giao dịch
+D. Văn phòng công chứng được mua bán tự do như doanh nghiệp thông thường mà không phụ thuộc điều kiện hành nghề công chứng của bên nhận mua (true)
+*note: Văn phòng công chứng không được mua bán tự do như một doanh nghiệp thông thường.
+Việc chuyển nhượng phải tuân thủ điều kiện và thủ tục của pháp luật về công chứng; bên nhận chuyển nhượng phải đáp ứng điều kiện hành nghề tương ứng.

@@ -24,40 +24,102 @@ export function decodeDeNeuCan(text) {
 /**
  * Parse exam text into question objects.
  * @param {string} text
- * @returns {{id:number,question:string,options:{originalIndex:number,text:string,isCorrect:boolean}[]}[]}
+ * @returns {{id:number,question:string,note:string,options:{originalIndex:number,text:string,isCorrect:boolean}[]}[]}
  */
 export function phanTichTextThanhCauHoi(text) {
-    const danhSachCauHoi = [];
-    const cleanedText = stripBOM(text);
-    const cacKhoiText = cleanedText.trim().split(/\n\s*\n/);
-    let realIndex = 0;
-    const canhBaoThieuDapAn = [];
+    const result = validateExamText(text);
+    if (result.errors.length > 0) console.warn('Exam format errors:\n' + result.errors.join('\n'));
+    if (result.warnings.length > 0) console.warn('Exam format warnings:\n' + result.warnings.join('\n'));
+    return result.questions;
+}
 
-    cacKhoiText.forEach((khoi) => {
-        const lines = khoi.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-        if (lines.length >= 5) {
-            const tenCauHoi = lines[0];
-            const dapAnArray = [];
+/**
+ * Parse and validate exam text. Question and option text may span multiple lines.
+ * Options are identified by A./B./C./D. and an optional explanation by *note:.
+ * @param {string} text
+ * @returns {{questions:{id:number,question:string,note:string,options:{originalIndex:number,text:string,isCorrect:boolean}[]}[],errors:string[],warnings:string[]}}
+ */
+export function validateExamText(text) {
+    const cleanedText = stripBOM(typeof text === 'string' ? text : '').replace(/\r\n?/g, '\n').trim();
+    if (!cleanedText) return { questions: [], errors: ['Đề thi không có nội dung.'], warnings: [] };
 
-            for (let i = 1; i <= 4; i++) {
-                let textDapAn = lines[i];
-                let laDapAnDung = false;
-                if (textDapAn.toLowerCase().endsWith('(true)')) {
-                    laDapAnDung = true;
-                    textDapAn = textDapAn.substring(0, textDapAn.length - 6).trim();
-                }
-                dapAnArray.push({ originalIndex: i - 1, text: textDapAn, isCorrect: laDapAnDung });
-            }
+    const blocks = cleanedText.split(/\n\s*\n/);
+    const questions = [];
+    const errors = [];
+    const warnings = [];
 
-            const soDung = dapAnArray.filter(o => o.isCorrect).length;
-            if (soDung !== 1) canhBaoThieuDapAn.push(`"${tenCauHoi.slice(0, 60)}..." (${soDung} đáp án đúng)`);
-
-            danhSachCauHoi.push({ id: realIndex++, question: tenCauHoi, options: dapAnArray });
-        }
+    blocks.forEach((block, blockIndex) => {
+        const parsed = parseQuestionBlock(block, questions.length, blockIndex + 1);
+        errors.push(...parsed.errors);
+        warnings.push(...parsed.warnings);
+        if (parsed.question) questions.push(parsed.question);
     });
 
-    if (canhBaoThieuDapAn.length > 0) {
-        console.warn('Warning: the following questions do not have exactly 1 correct answer (true):\n' + canhBaoThieuDapAn.join('\n'));
+    return { questions, errors, warnings };
+}
+
+function parseQuestionBlock(block, questionId, blockNumber) {
+    const lines = block.split('\n').map(line => line.trim()).filter(Boolean);
+    const errors = [];
+    const warnings = [];
+    const prefix = `Khối câu hỏi ${blockNumber}`;
+    const optionMarkers = [];
+    let noteIndex = -1;
+
+    lines.forEach((line, index) => {
+        if (noteIndex < 0 && /^\*note\s*:/i.test(line)) {
+            noteIndex = index;
+            return;
+        }
+        if (noteIndex >= 0) return;
+        const optionMatch = line.match(/^([A-D])\.\s*(.*)$/i);
+        if (optionMatch) optionMarkers.push({ index, label: optionMatch[1].toUpperCase(), firstText: optionMatch[2] });
+    });
+
+    const expectedLabels = ['A', 'B', 'C', 'D'];
+    const actualLabels = optionMarkers.map(marker => marker.label);
+    if (actualLabels.join('') !== expectedLabels.join('')) {
+        errors.push(`${prefix}: cần đúng 4 đáp án theo thứ tự A, B, C, D (đang có: ${actualLabels.join(', ') || 'không có'}).`);
+        return { question: null, errors, warnings };
     }
-    return danhSachCauHoi;
+    if (noteIndex >= 0 && noteIndex <= optionMarkers[3].index) {
+        errors.push(`${prefix}: *note: phải được đặt sau đáp án D.`);
+        return { question: null, errors, warnings };
+    }
+
+    const questionLines = lines.slice(0, optionMarkers[0].index);
+    if (questionLines.length === 0) {
+        errors.push(`${prefix}: thiếu nội dung câu hỏi trước đáp án A.`);
+        return { question: null, errors, warnings };
+    }
+
+    const options = optionMarkers.map((marker, index) => {
+        const nextOptionIndex = optionMarkers[index + 1]?.index ?? (noteIndex >= 0 ? noteIndex : lines.length);
+        const optionLines = [marker.firstText, ...lines.slice(marker.index + 1, nextOptionIndex)];
+        let optionText = optionLines.join(' ').trim();
+        const isCorrect = /\(true\)\s*$/i.test(optionText);
+        if (isCorrect) optionText = optionText.replace(/\(true\)\s*$/i, '').trim();
+        return { originalIndex: index, text: `${marker.label}. ${optionText}`, isCorrect };
+    });
+
+    const correctCount = options.filter(option => option.isCorrect).length;
+    if (correctCount !== 1) errors.push(`${prefix}: phải có đúng 1 đáp án (true), hiện có ${correctCount}.`);
+
+    let note = '';
+    if (noteIndex >= 0) {
+        const firstNoteLine = lines[noteIndex].replace(/^\*note\s*:\s*/i, '');
+        note = [firstNoteLine, ...lines.slice(noteIndex + 1)].join('\n').trim();
+        if (!note) warnings.push(`${prefix}: có marker *note: nhưng nội dung giải thích đang rỗng.`);
+    }
+
+    return {
+        question: {
+            id: questionId,
+            question: questionLines.join(' ').trim(),
+            options,
+            note
+        },
+        errors,
+        warnings
+    };
 }

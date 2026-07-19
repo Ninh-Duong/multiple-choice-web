@@ -79,6 +79,27 @@ export function hienThiCauHoi(title) {
             optionsGrid.appendChild(optionDiv);
         });
         questionDiv.appendChild(optionsGrid);
+
+        const note = typeof cau.note === 'string' ? cau.note.trim() : '';
+        if (note) {
+            const noteDiv = document.createElement('div');
+            noteDiv.id = `note_${originalQIndex}`;
+            noteDiv.className = 'quiz-note hidden mt-4 rounded-lg border p-4 text-sm';
+            noteDiv.setAttribute('role', 'note');
+            noteDiv.setAttribute('aria-live', 'polite');
+
+            const noteTitle = document.createElement('div');
+            noteTitle.className = 'quiz-note-title font-bold mb-1.5';
+            noteTitle.textContent = '💡 Giải thích';
+
+            const noteContent = document.createElement('div');
+            noteContent.className = 'quiz-note-content text-gray-700';
+            noteContent.textContent = note;
+
+            noteDiv.appendChild(noteTitle);
+            noteDiv.appendChild(noteContent);
+            questionDiv.appendChild(noteDiv);
+        }
         container.appendChild(questionDiv);
     });
 }

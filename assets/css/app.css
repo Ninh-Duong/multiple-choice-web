@@ -6,6 +6,28 @@
 .correct-answer { background-color: #c6f6d5 !important; border-color: #38a169 !important; }
 .wrong-answer { background-color: #fed7d7 !important; border-color: #e53e3e !important; }
 
+.quiz-note {
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+    transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.quiz-note-correct {
+    background-color: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.quiz-note-correct .quiz-note-title { color: #1d4ed8; }
+
+.quiz-note-attention {
+    background-color: #fffbeb;
+    border-color: #f59e0b;
+    border-left-width: 4px;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.14);
+}
+
+.quiz-note-attention .quiz-note-title { color: #b45309; }
+
 .toggle-btn.active {
     background-color: #805ad5;
     color: white;

@@ -43,6 +43,12 @@ export function chamDiem() {
                 if (wrongLabel) wrongLabel.classList.add('wrong-answer');
             }
         }
+
+        const noteEl = byId(`note_${originalQIndex}`);
+        if (noteEl) {
+            noteEl.classList.remove('hidden', 'quiz-note-correct', 'quiz-note-attention');
+            noteEl.classList.add(isCorrect ? 'quiz-note-correct' : 'quiz-note-attention');
+        }
         document.querySelectorAll(`input[name="question_${originalQIndex}"]`).forEach(radio => radio.disabled = true);
         const btn = document.createElement('button');
         const tenCauHienThi = `Câu ${displayIndex + 1}`;
