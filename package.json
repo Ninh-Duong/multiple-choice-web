@@ -1,0 +1,29 @@
+{
+  "name": "multiple-choice-web",
+  "version": "1.0.0",
+  "description": "Ứng dụng web tĩnh dùng để luyện thi trắc nghiệm, quản lý tài khoản người dùng và quản lý đề thi mà không cần backend/database. Dự án được thiết kế để chạy tốt trên GitHub Pages: chỉ cần HTML, TailwindCSS CDN, Vanilla JavaScript và các file dữ liệu tĩnh trong thư mục `data/`.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninh-Duong/multiple-choice-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ninh-Duong/multiple-choice-web/issues"
+  },
+  "homepage": "https://github.com/Ninh-Duong/multiple-choice-web#readme",
+  "dependencies": {
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.3",
+    "pdfjs-dist": "^6.1.200",
+    "tesseract.js": "^7.0.0"
+  }
+}
