@@ -2,7 +2,6 @@ de_1.txt|Đề kiểm tra số 1
 de_2.txt|Đề kiểm tra số 2
 de_3.txt|Đề kiểm tra số 3
 de_encoded.txt|de_4
-de_test.txt|#ENCODED
 de_5_encoded.txt|Đề kiểm tra số 5
 de_đề_thi_6.txt|Đề Thi 6
 de_7_encoded.txt|Đề Thi Số 7
