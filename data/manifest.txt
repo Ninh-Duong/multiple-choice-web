@@ -5,3 +5,4 @@ de_encoded.txt|de_4
 de_5_encoded.txt|Đề kiểm tra số 5
 de_đề_thi_6.txt|Đề Thi 6
 de_7_encoded.txt|Đề Thi Số 7
+de_8.txt|đề kiểm tra số 8
