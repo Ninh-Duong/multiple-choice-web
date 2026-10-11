@@ -1,0 +1,293 @@
+Câu 1: Ông A mang Giấy chứng nhận quyền sử dụng đất đến công chứng hợp đồng chuyển nhượng. Trên Giấy chứng nhận ghi: “Mục đích sử dụng: Đất ở tại nông thôn”. Tuy nhiên, Ông A cung cấp quyết định chuyển sang đất thương mại, dịch vụ nhưng chưa thực hiện đăng ký biến động trên giấy chứng nhận và ông A yêu cầu công chứng viên căn cứ vào cả Giấy chứng nhận và quyết định này để ghi nhận mục đích sử dụng là đất thương mại, dịch vụ. Là công chứng viên, hướng xử lý phù hợp nhất là:
+A. Ghi nhận đúng theo Giấy chứng nhận
+B. Ghi nhận theo quyết định chuyển sang đất thương mại, dịch vụ
+C. Yêu cầu ông A thực hiện đăng ký biến động trước khi công chứng (true)
+D. Ghi nhận theo cả A và B
+
+Câu 2: Chủ đầu tư bán căn hộ hình thành trong tương lai. Khi tiếp nhận hồ sơ công chứng, công chứng viên phát hiện dự án đã có Giấy phép xây dựng, đã được giao đất, đã hoàn thành nghĩa vụ tài chính nhưng chưa có văn bản xác nhận đủ điều kiện bán nhà ở hình thành trong tương lai của cơ quan có thẩm quyền. Công chứng viên nên:
+A. Công chứng bình thường vì hợp đồng có hiệu lực theo thỏa thuận
+B. Công chứng bình thường nếu hai bên cam kết tự chịu trách nhiệm
+C. Công chứng bình thường sau khi chủ đầu tư ký quỹ bổ sung
+D. Từ chối công chứng vì chưa đủ điều kiện đưa bất động sản vào kinh doanh (true)
+
+Câu 3: Ông A là chủ sở hữu một căn hộ chung cư đã được cấp Giấy chứng nhận. Ông A ký hợp đồng bán căn hộ cho bà B và đồng thời thỏa thuận chuyển giao quyền sử dụng chỗ để xe ô tô trong tòa nhà cho bà B. Công chứng viên cần xác định hiệu lực của thỏa thuận về chỗ để xe ô tô như thế nào?
+A. Thỏa thuận hợp pháp vì chỗ để xe ô tô là tài sản gắn liền với căn hộ và được chuyển giao quyền cùng căn hộ
+B. Thỏa thuận chỉ hợp pháp nếu chỗ để xe ô tô cũng đủ điều kiện để chuyển giao quyền (true)
+C. Thỏa thuận vô hiệu vì chỗ để xe ô tô là phần sở hữu chung của nhà chung cư
+D. Thỏa thuận chỉ có hiệu lực khi có văn bản chấp thuận của Ban quản trị nhà chung cư
+
+Câu 4: Người sử dụng đất đề nghị công chứng hợp đồng tặng cho quyền sử dụng đất. Qua kiểm tra hồ sơ, công chứng viên xác định đất đang thuộc diện đã có thông báo thu hồi đất nhưng chưa ban hành quyết định thu hồi. Hướng xử lý phù hợp nhất là:
+A. Từ chối công chứng vì kể từ thời điểm có thông báo thu hồi đất, người sử dụng đất không còn quyền của chủ sử dụng đất
+B. Công chứng hợp đồng tặng cho bình thường vì chưa có quyết định thu hồi (true)
+C. Tạm hoãn công chứng cho đến khi cơ quan nhà nước có thẩm quyền xác nhận thửa đất không còn thuộc diện thu hồi
+D. Từ chối công chứng vì thửa đất không còn đủ điều kiện để thực hiện giao dịch tặng cho
+
+Câu 5: Một doanh nghiệp đề nghị công chứng hợp đồng chuyển nhượng quyền sử dụng đất. Qua kiểm tra Giấy chứng nhận, công chứng viên thấy ghi: “Nhà nước cho thuê đất, trả tiền thuê đất hằng năm”. Công chứng viên cần xử lý như thế nào?
+A. Công chứng hợp đồng chuyển nhượng quyền sử dụng đất vì doanh nghiệp là người sử dụng đất hợp pháp và có Giấy chứng nhận
+B. Công chứng hợp đồng chuyển nhượng quyền sử dụng đất nếu doanh nghiệp có báo cáo tài chính năm gần nhất
+C. Từ chối công chứng vì người thuê đất trả tiền thuê đất hằng năm không có quyền chuyển nhượng quyền sử dụng đất (true)
+D. Yêu cầu doanh nghiệp chuyển sang hình thức thuê đất trả tiền một lần rồi mới công chứng hợp đồng chuyển nhượng quyền sử dụng đất
+
+Câu 6: Ông A yêu cầu công chứng điện tử hợp đồng tặng cho tài sản cho con gái là bà B. Hai bên đã hoàn tất việc ký điện tử trên hệ thống công chứng. Khi thực hiện bước kiểm tra cuối cùng trước khi ký số lời chứng, công chứng viên phát hiện giấy tờ tùy thân điện tử của ông A vẫn xác thực được danh tính, nhưng hình ảnh nhận diện khuôn mặt tại thời điểm xác minh có dấu hiệu không trùng khớp hoàn toàn với dữ liệu sinh trắc học lưu trên hệ thống. Ông A giải thích rằng do ông vừa phẫu thuật thẩm mỹ vùng mặt nên hình ảnh nhận diện có sự khác biệt. Ông A vẫn khẳng định mình là người trực tiếp yêu cầu công chứng và đã ký điện tử bằng phương tiện của mình. Công chứng viên nên xử lý như thế nào?
+A. Vẫn tiếp tục công chứng vì chữ ký điện tử đã được xác thực và ông A đã cam kết chịu trách nhiệm về danh tính của mình
+B. Từ chối công chứng vì việc thay đổi về đặc điểm nhận dạng sau khi cấp giấy tờ tùy thân đã làm sai lệch giá trị của giấy tờ đó
+C. Yêu cầu ông A chuyển sang ký giấy trực tiếp tại tổ chức hành nghề công chứng vì căn cứ theo quy định thì công chứng điện tử không áp dụng đối với trường hợp có nghi vấn về nhận diện
+D. Tạm dừng ngay việc công chứng để thực hiện biện pháp xác minh (true)
+
+Câu 7: Người Việt Nam định cư ở nước ngoài xuất trình hộ chiếu nước ngoài còn giá trị sử dụng và giấy tờ chứng minh thuộc đối tượng được sở hữu nhà ở tại Việt Nam. Khi công chứng hợp đồng mua bán nhà ở, công chứng viên cần xử lý như thế nào?
+A. Kiểm tra giấy tờ chứng minh tư cách, điều kiện được sở hữu nhà ở tại Việt Nam (true)
+B. Từ chối công chứng vì người Việt Nam định cư ở nước ngoài không còn quốc tịch Việt Nam thì không được mua nhà ở tại Việt Nam
+C. Công chứng bình thường nếu người này xuất trình giấy xác nhận có quốc tịch Việt Nam do cơ quan đại diện ngoại giao Việt Nam cấp
+D. Công chứng bình thường vì người này có hộ chiếu nước ngoài còn thời hạn, đủ để xác định quyền mua nhà ở tại Việt Nam
+
+Câu 8: Cơ quan thi hành án dân sự đề nghị công chứng hợp đồng mua bán tài sản đấu giá giữa người trúng đấu giá là ông A và người có tài sản bị xử lý. Hồ sơ gồm: quyết định thi hành án, hợp đồng dịch vụ đấu giá tài sản, biên bản đấu giá xác định ông A là người trúng đấu giá và thông báo kết quả đấu giá. Trước khi ký hợp đồng, công chứng viên phát hiện có đơn của người phải thi hành án gửi Tòa án yêu cầu hủy kết quả đấu giá với lý do cho rằng tài sản đã được bán với giá thấp hơn giá thị trường. Chưa có quyết định của Tòa án về việc áp dụng biện pháp ngăn chặn hoặc tạm dừng việc giao kết hợp đồng. Công chứng viên nên xử lý như thế nào?
+A. Từ chối công chứng vì đã có đơn khởi kiện, khiếu nại liên quan đến kết quả đấu giá thì tài sản không được phép giao dịch tiếp
+B. Vẫn thực hiện công chứng vì đơn yêu cầu hủy kết quả đấu giá không làm mất hiệu lực của kết quả đấu giá khi chưa có quyết định Tòa (true)
+C. Công chứng bình thường nếu cơ quan thi hành án cam kết chịu trách nhiệm về hậu quả phát sinh vì công chứng viên không có trách nhiệm xem xét tính hợp pháp của cuộc đấu giá
+D. Từ chối công chứng vì công chứng viên không được công chứng hợp đồng mua bán tài sản đấu giá, đặc biệt là khi có dấu hiệu xảy ra tranh chấp như vậy
+
+Câu 9: Ông A và bà B yêu cầu công chứng hợp đồng bán căn nhà duy nhất đang là nơi ở của hai vợ chồng cho ông C. Sau khi ký hợp đồng mua bán, ông C đề nghị Công chứng viên chứng thực chữ ký của ông C trên văn bản cam kết với nội dung: “Sau khi nhận chuyển nhượng căn nhà, tôi cam kết bố trí chỗ ở ổn định cho ông A, bà B”. Ông C cho rằng đây chỉ là cam kết thiện chí, không liên quan đến hiệu lực của hợp đồng mua bán và chỉ cần xác nhận chữ ký để làm bằng chứng. Công chứng viên nên xử lý như thế nào?
+A. Chứng thực chữ ký ông C bình thường vì công chứng viên chỉ chịu trách nhiệm xác nhận chữ ký đúng là của ông C, không chịu trách nhiệm về nội dung văn bản
+B. Từ chối chứng thực chữ ký vì văn bản cam kết có liên quan đến nhà ở nên bắt buộc phải được chứng nhận
+C. Yêu cầu các ông/bà A,B,C cùng ký xác nhận đồng ý văn bản này
+D. Kiểm tra tính chất, mục đích của văn bản (true)
+
+Câu 10: Ông A là chủ sử dụng thửa đất phía trong, không có lối đi trực tiếp ra đường công cộng. Ông A và ông B (chủ thửa đất liền kề phía ngoài) đến tổ chức hành nghề công chứng yêu cầu công chứng văn bản thỏa thuận về lối đi riêng. Theo thỏa thuận, ông B cho phép ông A đi qua một phần diện tích đất của mình để ra đường công cộng trong thời hạn 50 năm, không thu tiền. Ông B có vợ là bà C. Bà C đang ở nước ngoài, ông B cho rằng “đây chỉ là việc cho đi nhờ, không làm mất đất nên không cần vợ ký” và ông B là chồng nên được đại diện cho bà C trong việc quyết định việc nhỏ này. Trong dự thảo thỏa thuận, các bên ghi: “Ông A được quyền sử dụng ổn định phần lối đi này, kể cả khi ông B chuyển nhượng đất cho người khác”. Công chứng viên nên xử lý như thế nào?
+A. Công chứng bình thường vì thỏa thuận lối đi riêng chỉ là sự thỏa thuận dân sự, không làm thay đổi quyền sở hữu quyền sử dụng đất của ông B
+B. Từ chối yêu cầu công chứng nếu bà C không ký hoặc không ủy quyền ký
+C. Từ chối yêu cầu công chứng vì nội dung dự thảo trái quy định pháp luật
+D. Cả B và C đều đúng (true)
+
+Câu 11: Một cá nhân đang sử dụng đất nông nghiệp do Nhà nước giao trong hạn mức. Người này yêu cầu công chứng hợp đồng chuyển nhượng quyền sử dụng đất cho một cá nhân khác không trực tiếp sản xuất nông nghiệp. Qua kiểm tra hồ sơ, bên nhận chuyển nhượng có đầy đủ năng lực hành vi dân sự, đáp ứng điều kiện chung để nhận chuyển quyền sử dụng đất. Công chứng viên cần xử lý như thế nào?
+A. Từ chối công chứng vì người không trực tiếp sản xuất nông nghiệp không được nhận chuyển nhượng quyền sử dụng đất nông nghiệp
+B. Công chứng bình thường nếu bên nhận chuyển nhượng không thuộc trường hợp bị pháp luật hạn chế nhận chuyển nhượng đất nông nghiệp (true)
+C. Công chứng bình thường nếu bên nhận chuyển nhượng có xác nhận của Ủy ban nhân dân cấp xã về việc sẽ trực tiếp sản xuất nông nghiệp sau khi nhận chuyển nhượng
+D. Từ chối công chứng vì đất nông nghiệp được Nhà nước giao trong hạn mức chỉ được chuyển cho người cùng địa phương với người chuyển nhượng
+
+Câu 12: Ông A có quyền sử dụng đất hợp pháp. Ông A ký hợp đồng góp vốn bằng quyền sử dụng đất với Công ty B để thành lập và triển khai dự án kinh doanh. Qua kiểm tra hồ sơ, công chứng viên phát hiện Công ty B không có chức năng kinh doanh bất động sản nhưng theo nội dung thỏa thuận, Công ty B sẽ tiếp nhận quyền sử dụng đất để thực hiện dự án và khai thác, chuyển nhượng sản phẩm hình thành từ dự án. Công chứng viên cần xử lý như thế nào?
+A. Công chứng bình thường vì ông A là người có quyền sử dụng đất hợp pháp
+B. Công chứng bình thường vì đây là góp vốn không phải là chuyển nhượng
+C. Công chứng bình thường nếu Công ty B bổ sung cam kết không kinh doanh bất động sản bằng quyền sử dụng đất nhận góp vốn
+D. Từ chối công chứng vì góp vốn bằng quyền sử dụng đất với doanh nghiệp không có chức năng kinh doanh bất động sản là có dấu hiệu vi phạm điều cấm của luật (true)
+
+Câu 13: Một doanh nghiệp nước ngoài muốn mua nhà ở tại Việt Nam thông qua công ty con được thành lập và hoạt động tại Việt Nam. Khi công chứng hợp đồng mua bán nhà ở, công chứng viên cần xử lý như thế nào?
+A. Công chứng bình thường vì công ty con tại Việt Nam là pháp nhân Việt Nam, có quyền mua nhà ở như tổ chức trong nước
+B. Công chứng bình thường nếu công ty con thuộc đối tượng được sở hữu nhà ở tại Việt Nam và giao dịch đủ điều kiện (true)
+C. Từ chối công chứng vì doanh nghiệp có vốn đầu tư nước ngoài không được sở hữu nhà ở tại Việt Nam
+D. Yêu cầu doanh nghiệp nước ngoài trực tiếp ký hợp đồng mua bán tại Việt Nam vì công ty con không thể thay mặt doanh nghiệp nước ngoài sở hữu nhà ở
+
+Câu 14: Văn phòng công chứng Y giải thể. Hồ sơ gồm 80.000 hồ sơ giấy và 100% đã số hóa. Không tìm được 01 tổ chức duy nhất tiếp nhận lưu hồ sơ. Phương án xử lý nào sau đây là đúng nhất:
+A. Vì 100% đã số hóa nên không cần lưu hồ sơ giấy và có thể lưu tại UBND tỉnh
+B. Vì 100% đã số hóa nên không cần lưu hồ sơ giấy và có thể lưu tại Sở Tư pháp
+C. Phân chia cho nhiều tổ chức hành nghề công chứng lưu hồ sơ
+D. Sở Tư pháp chỉ định duy nhất 01 tổ chức hành nghề công chứng lưu hồ sơ (true)
+
+Câu 15: Một công chứng viên thực hiện công chứng điện tử trực tuyến đối với hợp đồng tặng cho quyền sử dụng đất. Người yêu cầu công chứng sử dụng tài khoản định danh điện tử mức 2; văn bản được ký số đầy đủ; tuy nhiên nền tảng công chứng điện tử không kết nối thời gian thực với cơ sở dữ liệu công chứng địa phương mà chỉ đồng bộ cuối ngày. Nhận định nào đúng nhất?
+A. Văn bản vẫn có hiệu lực vì đúng quy định pháp luật về yêu cầu chữ ký số
+B. Văn bản vẫn có hiệu lực vì pháp luật cho phép việc đồng bộ cuối ngày
+C. Văn bản không có hiệu lực vì vi phạm về mặt kỹ thuật, làm ảnh hưởng đến giá trị văn bản
+D. Việc thực hiện công chứng điện tử này không bảo đảm điều kiện theo quy định (true)
+
+Câu 16: Ông A có nhu cầu công chứng hợp đồng chuyển nhượng căn hộ cho ông B. Trước đây, ông A đã thế chấp căn hộ tại Ngân hàng X. Sau khi thanh toán toàn bộ khoản vay, Ngân hàng X đã phát hành: Văn bản xác nhận hoàn thành nghĩa vụ trả nợ và Văn bản thông báo giải chấp/đồng ý xóa đăng ký biện pháp bảo đảm. Tuy nhiên, đến thời điểm công chứng hợp đồng chuyển nhượng căn hộ, trên hệ thống đăng ký đất đai (và Giấy chứng nhận) vẫn còn ghi nhận biện pháp thế chấp do chưa hoàn tất thủ tục xóa đăng ký biện pháp bảo đảm. Trong trường hợp này, công chứng viên xử lý như thế nào?
+A. Từ chối công chứng vì tại thời điểm giao kết hợp đồng, tình trạng pháp lý của tài sản vẫn đang được đăng ký là đang thế chấp (true)
+B. Công chứng vì nghĩa vụ bảo đảm đã chấm dứt trên thực tế, việc chưa xóa đăng ký chỉ là thủ tục hành chính, không ảnh hưởng quyền định đoạt của ông A
+C. Công chứng vì mặc dù chưa xóa đăng ký biện pháp bảo đảm nhưng Ngân hàng X có văn bản xác nhận đã tất toán và đồng ý giải chấp
+D. Công chứng nhưng ghi thêm điều khoản: “Hợp đồng chỉ có hiệu lực sau khi cơ quan đăng ký đất đai xóa đăng ký biện pháp thế chấp”
+
+Câu 17: Người yêu cầu công chứng nộp hồ sơ đề nghị công chứng Văn bản phân chia di sản đối với quyền sử dụng đất. Hồ sơ thể hiện người chết không để lại di chúc, nên tổ chức hành nghề công chứng đã thực hiện niêm yết việc thụ lý công chứng theo quy định. Sau khi hết thời hạn niêm yết, ngay trước ngày ký văn bản khai nhận, một người khác xuất trình bản chính di chúc đã được công chứng hợp pháp, xác định người chết có để lại di chúc. Công chứng viên sẽ?
+A. Hủy hồ sơ cũ và phải thực hiện niêm yết lại từ đầu (true)
+B. Sửa thông báo cũ và giữ nguyên thời hạn niêm yết đã hoàn thành, sau đó công chứng văn bản phân chia di sản theo di chúc bình thường
+C. Không cần phải niêm yết lại vì mục đích của niêm yết là thông báo việc thụ lý nên có thể tiếp tục sử dụng kết quả niêm yết đã thực hiện để công chứng văn bản phân chia di sản theo di chúc
+D. Từ chối công chứng vì đã hết thời hạn niêm yết nhưng phát sinh di chúc, các bên phải khởi kiện ra Tòa án
+
+Câu 18: Một tổ chức hành nghề công chứng đã thực hiện đầy đủ việc niêm yết mức thu phí công chứng theo quy định. Trong quá trình tiếp nhận hồ sơ công chứng hợp đồng chuyển nhượng quyền sử dụng đất trị giá 80 tỷ đồng, công chứng viên giải thích rằng giao dịch có giá trị lớn, tính chất phức tạp, cần nhiều thời gian rà soát nguồn gốc tài sản, lịch sử giao dịch và cảnh báo rủi ro cho khách hàng. Sau đó, tổ chức hành nghề công chứng yêu cầu bên yêu cầu công chứng nộp thêm 30 triệu đồng với tên gọi: “Khoản hỗ trợ tư vấn pháp lý chuyên sâu và kiểm soát rủi ro giao dịch”. Khoản tiền này khách hàng đồng ý nộp vì cho rằng hợp đồng có giá trị lớn và cần được hỗ trợ chuyên sâu. Nhận định nào dưới đây đúng nhất?
+A. Khoản tiền trên được phép thu vì đây là khoản tư vấn pháp lý độc lập, không phải phí công chứng; khách hàng đã tự nguyện đồng ý và giao dịch có giá trị lớn nên tổ chức hành nghề công chứng được quyền thỏa thuận mức thu phù hợp theo quy định
+B. Khoản tiền trên có thể được chấp nhận nếu chứng minh được công chứng viên thực tế đã thực hiện nhiều công việc hơn thông thường, bởi thù lao công chứng được xác định dựa trên tính chất, mức độ phức tạp của việc công chứng và thời gian thực hiện
+C. Khoản tiền trên không hợp pháp vì tổ chức hành nghề công chứng không được tự đặt thêm khoản thu dưới bất kỳ tên gọi nào (true)
+D. Khoản tiền trên hợp pháp trong trường hợp khách hàng không bị ép buộc, đã nhận được đầy đủ thông tin về khoản tiền phải trả và sau đó vẫn ký hợp đồng công chứng
+
+Câu 19: Năm 2025, công chứng viên A bị khiển trách theo quyết định có hiệu lực pháp luật. Trong năm 2026, A không tham gia bồi dưỡng nghiệp vụ công chứng theo quy định. Kết luận nào sau đây đúng:
+A. Ông A đương nhiên bị miễn nhiệm công chứng viên vì đã từng bị khiển trách và tiếp tục không thực hiện nghĩa vụ bồi dưỡng
+B. Việc ông A không tham gia bồi dưỡng năm 2026 là căn cứ để xử phạt vi phạm hành chính và không xem xét miễn nhiệm công chứng viên
+C. Sau khi bị khiển trách, nếu trong năm tiếp theo không tham gia bồi dưỡng thì ông A bị xóa tên khỏi danh sách công chứng viên
+D. Tuyệt đối không được suy luận căn cứ miễn nhiệm từ việc cộng gộp các vi phạm đó của ông A (true)
+
+Câu 20: Nếu phát hiện công chứng viên có hành vi vi phạm pháp luật, người dân có thể khiếu nại đến cơ quan nào?
+A. Tổ chức hành nghề công chứng hoặc Ủy ban nhân dân cấp xã
+B. Tổ chức hành nghề công chứng, Sở Tư pháp hoặc Bộ Tư pháp (true)
+C. Tổ chức hành nghề công chứng hoặc Tòa án nhân dân
+D. Tổ chức hành nghề công chứng hoặc Viện kiểm sát nhân dân
+
+Câu 21: Việc công chứng hợp đồng thế chấp tài sản có ý nghĩa như thế nào?
+A. Xác lập quyền sở hữu của bên nhận thế chấp đối với tài sản thế chấp
+B. Xác nhận tính xác thực, hợp pháp của giao dịch (true)
+C. Làm phát sinh quyền ưu tiên thanh toán của bên nhận thế chấp
+D. Thay thế việc đăng ký thế chấp tại cơ quan có thẩm quyền đối với tài sản là động sản
+
+Câu 22: Thời hạn khiếu nại đối với hành vi công chứng vi phạm pháp luật là bao lâu?
+A. 30 ngày kể từ ngày phát hiện hành vi vi phạm
+B. 60 ngày kể từ ngày phát hiện hành vi vi phạm
+C. 90 ngày kể từ ngày phát hiện hành vi vi phạm (true)
+D. 01 năm kể từ ngày phát hiện hành vi vi phạm
+
+Câu 23: Sự khác biệt cơ bản giữa hoạt động chứng thực và hoạt động công chứng là gì?
+A. Chứng thực do Ủy ban nhân dân cấp xã thực hiện còn công chứng do tổ chức hành nghề công chứng thực hiện
+B. Chứng thực chỉ xác nhận chữ ký/hình thức còn công chứng thì xác nhận tính hợp pháp và xác thực nội dung hợp đồng, giao dịch (true)
+C. Văn bản chứng thực có giá trị pháp lý thấp hơn văn bản công chứng
+D. Tất cả các phương án trên đều đúng
+
+Câu 24: Hợp đồng ủy quyền có bắt buộc phải thực hiện công chứng không?
+A. Không bắt buộc, trừ trường hợp các bên có thỏa thuận hoặc pháp luật có quy định (true)
+B. Bắt buộc phải công chứng trong mọi trường hợp
+C. Chỉ bắt buộc đối với các giao dịch ủy quyền liên quan đến bất động sản
+D. Bắt buộc đối với tất cả các hợp đồng ủy quyền có thời hạn thực hiện trên 01 năm
+
+Câu 25: Theo quy định của Luật Công chứng, văn bản nào sau đây bắt buộc phải công chứng?
+A. Ủy quyền thực hiện thủ tục rút tiền tiết kiệm tại ngân hàng
+B. Hợp đồng tặng cho quyền sử dụng đất, tài sản gắn liền với đất (true)
+C. Hợp đồng vay tài sản có kèm theo điều khoản thế chấp tài sản
+D. Tất cả các đáp án trên đều đúng
+
+Câu 26: Trong các trường hợp sau đây, trường hợp nào công chứng viên có quyền từ chối yêu cầu công chứng?
+A. Người yêu cầu công chứng là người đại diện theo pháp luật của doanh nghiệp nhưng không xuất trình được quyết định bổ nhiệm người đại diện của Hội đồng quản trị
+B. Người yêu cầu công chứng đề nghị thực hiện việc công chứng ngoài ngày, giờ làm việc của tổ chức hành nghề công chứng mà không có lý do chính đáng được công chứng viên chấp thuận (true)
+C. Nội dung của hợp đồng, giao dịch có dấu hiệu rõ ràng về việc nhằm mục đích tẩu tán tài sản để trốn tránh nghĩa vụ thi hành án dân sự của một bên tham gia giao dịch
+D. Người yêu cầu công chứng là bác ruột (anh trai của bố) của công chứng viên đề nghị công chứng hợp đồng tặng cho tài sản là một chiếc xe ô tô thuộc sở hữu riêng của người đó
+
+Câu 27: Trình tự, thủ tục thực hiện công chứng một hợp đồng, giao dịch thông thường diễn ra như thế nào?
+A. Tiếp nhận hồ sơ → Kiểm tra giấy tờ → Niêm yết công khai tại trụ sở → Ký chứng nhận
+B. Tiếp nhận hồ sơ → Kiểm tra tính pháp lý → Soạn thảo/kiểm tra văn bản → Hướng dẫn các bên ký → Ký chứng nhận và đóng dấu (true)
+C. Tiếp nhận hồ sơ → Hướng dẫn các bên ký kết → Thu phí dịch vụ → Ký chứng nhận
+D. Tất cả các quy trình trên đều có thể áp dụng tùy thuộc vào loại giao dịch
+
+Câu 28: Thời hạn để người có thẩm quyền thực hiện việc kháng nghị đối với các hành vi công chứng vi phạm pháp luật là bao lâu?
+A. 06 tháng kể từ ngày phát hiện ra hành vi vi phạm
+B. 01 năm kể từ ngày phát hiện ra hành vi vi phạm
+C. 02 năm kể từ ngày thực hiện hành vi công chứng vi phạm
+D. Pháp luật hoàn toàn không có quy định về giới hạn thời hạn kháng nghị đối với hành vi này (true)
+
+Câu 29: Tổ chức hành nghề công chứng bị cơ quan nhà nước xem xét đình chỉ hoạt động trong trường hợp nào?
+A. Khi có một công chứng viên thuộc tổ chức hành nghề công chứng bị xử phạt vi phạm hành chính trong đời sống cá nhân
+B. Khi có công chứng viên thuộc tổ chức hành nghề công chứng bị cơ quan chức năng ra quyết định khởi tố hình sự
+C. Khi tổ chức hành nghề công chứng không còn bảo đảm đủ số lượng công chứng viên hợp danh tối thiểu (true)
+D. Khi diện tích hoặc thiết kế của trụ sở làm việc chưa đáp ứng được các tiêu chuẩn mới theo quy định
+
+Câu 30: Khẳng định nào sau đây là đúng khi công chứng viên hướng dẫn về điều kiện của cá nhân tham gia hợp đồng thuê nhà ở?
+A. Người thuê nhà bắt buộc phải từ đủ 18 tuổi trở lên và không bị mất hay hạn chế năng lực hành vi dân sự
+B. Người chưa đủ 18 tuổi không được phép đứng tên trên hợp đồng thuê nhà trong mọi trường hợp
+C. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể tự mình xác lập hợp đồng thuê nhà nếu được người đại diện theo pháp luật đồng ý và có năng lực tài chính (true)
+D. Cá nhân trong nước khi thuê nhà bắt buộc phải có đăng ký cư trú tại địa phương nơi có nhà ở giao dịch
+
+Câu 31: Điểm khác biệt cơ bản về mặt trách nhiệm của công chứng viên giữa việc “chứng nhận hợp đồng, giao dịch” và “chứng thực bản sao từ bản chính” là gì?
+A. Đối với chứng thực bản sao, chỉ chịu trách nhiệm về sự trùng khớp hình thức giữa bản sao với bản chính (true)
+B. Công chứng viên chịu trách nhiệm bảo đảm tính chính xác cho các loại giấy tờ thuộc nhóm chứng thực bản sao
+C. Công chứng viên chịu trách nhiệm về mặt nội dung pháp lý khi chứng nhận các hợp đồng dân sự, kinh tế
+D. Công chứng viên được miễn trừ trách nhiệm phát sinh đối với cả hai hoạt động nêu trên
+
+Câu 32: Khi phát sinh các tranh chấp liên quan đến nội dung, quyền và nghĩa vụ của các bên trong một văn bản đã được công chứng, cơ quan nào có thẩm quyền phán quyết cuối cùng?
+A. Tổ chức hành nghề công chứng đã thực hiện việc công chứng đó
+B. Sở Tư pháp nơi tổ chức hành nghề công chứng đăng ký hoạt động
+C. Tòa án nhân dân có thẩm quyền (true)
+D. Bộ Tư pháp
+
+Câu 33: Mức thu phí công chứng đối với các giao dịch, hợp đồng hiện nay do ai quy định?
+A. Do bản thân từng công chứng viên tự quyết định theo từng hồ sơ cụ thể
+B. Do sự thỏa thuận tự nguyện giữa tổ chức hành nghề công chứng và người yêu cầu công chứng
+C. Do cơ quan nhà nước có thẩm quyền quy định (true)
+D. Do Trưởng tổ chức hành nghề công chứng xây dựng bảng giá riêng cho đơn vị mình
+
+Câu 34: Pháp luật quy định như thế nào về việc chuyển đổi mô hình hoạt động của Phòng công chứng sang Văn phòng công chứng?
+A. Được thực hiện khi có quyết định cho phép chuyển đổi của Chủ tịch Ủy ban nhân dân cấp tỉnh (true)
+B. Chuyển đổi khi Phòng công chứng tích lũy đủ số lượng công chứng viên hợp danh theo quy định
+C. Bắt buộc chuyển đổi khi Phòng công chứng thành Văn phòng công chứng từ sau 01/07/2026
+D. Được thực hiện khi nhận được sự đồng thuận của công chứng viên đang làm việc tại Phòng công chứng đó
+
+Câu 35: Ngày 01/7/2026, Văn bản phân chia di sản thừa kế do ông A chết để lại đã được công chứng viên ký, đóng dấu của Văn phòng công chứng X và đã phát hành. Ngày 10/7/2026, ông B đến Văn phòng công chứng X, xuất trình: Căn cước công dân của mình cùng Giấy khai sinh thể hiện ông A là cha và Giấy chứng tử của ông A. Ông B cho rằng mình là con của ông A nhưng không có tên trong Văn bản phân chia di sản ngày 01/7/2026. Ông B cho biết sẽ khởi kiện yêu cầu Tòa án chia lại di sản và đề nghị Văn phòng công chứng X cấp trích lục (bản sao) Văn bản phân chia di sản để làm chứng cứ. Theo quy định của pháp luật về công chứng, xử lý nào dưới đây là đúng nhất?
+A. Không cấp vì ông B không phải là người đã tham gia giao kết, ký tên trong văn bản công chứng
+B. Hướng dẫn ông B khởi kiện ra Tòa và để Tòa yêu cầu cung cấp hồ sơ công chứng
+C. Được cấp khi tất cả những người đã ký Văn bản phân chia di sản đồng ý
+D. Được cấp bản sao văn bản công chứng bình thường (true)
+
+Câu 36: Ngày 15/6/2026, bà A trực tiếp đến cơ quan có thẩm quyền làm thủ tục yêu cầu cấp Phiếu lý lịch tư pháp số 2. Ngày 05/7/2026, bà A được hẹn nhận kết quả. Do bận việc, ngày 01/7/2026, bà A đến Văn phòng công chứng X yêu cầu công chứng Hợp đồng ủy quyền cho ông B nhận Phiếu lý lịch tư pháp số 2 đã được cấp theo hồ sơ bà A đã trực tiếp nộp trước đó. Bà A và Ông B xuất trình: CCCD; Phiếu hẹn trả kết quả. Một công chứng viên cho rằng cần hỏi cơ quan cấp Phiếu lý lịch tư pháp có đồng ý cho nhận thay hay không rồi mới quyết định. Nhận định nào sau đây là đúng nhất?
+A. Công chứng viên phải hỏi cơ quan cấp Phiếu lý lịch tư pháp. Nếu cơ quan cấp Phiếu đồng ý thì công chứng; nếu không đồng ý thì từ chối công chứng
+B. Công chứng viên phải từ chối công chứng vì khoản 2 Điều 46 Luật Lý lịch tư pháp năm 2009 cấm cá nhân yêu cầu cấp Phiếu lý lịch tư pháp số 2 ủy quyền cho người khác, nên hợp đồng ủy quyền liên quan đến Phiếu số 2 đều không được phép
+C. Công chứng viên công chứng bình thường vì nội dung chỉ là nhận kết quả của thủ tục cấp Phiếu lý lịch tư pháp mà bà A đã trực tiếp thực hiện (true)
+D. Công chứng viên được công chứng nếu ông B là người thân thích của bà A hoặc có văn bản ông B cam kết chịu trách nhiệm về việc nhận Phiếu lý lịch tư pháp của bà A
+
+Câu 37: Ngày 10/7/2026 lúc 17 giờ 00 phút, ông A và bà B đến tổ chức hành nghề công chứng ký Hợp đồng chuyển nhượng quyền sử dụng đất. Các bên đã: Xuất trình đầy đủ giấy tờ theo quy định; Tự đọc lại hợp đồng; Ký và điểm chỉ trước mặt công chứng viên. Do đã hết giờ làm việc, công chứng viên chưa ký lời chứng, dự định sáng hôm sau sẽ ký và hẹn hai bên 08 giờ 00 ngày 11/7/2026 đến nhận văn bản công chứng. Đồng thời, công chứng viên đã yêu cầu bộ phận văn thư chừa một số công chứng của ngày 10/7/2026 cho hợp đồng này. Sáng ngày 11/7/2026, trước khi công chứng viên ký lời chứng, gia đình thông báo ông A đã chết vào đêm 10/7/2026. Công chứng viên phải xử lý như thế nào?
+A. Không ký lời chứng, không phát hành văn bản công chứng và giải thích cho các bên về việc không thể hoàn tất công chứng (true)
+B. Tiếp tục ký lời chứng, ghi ngày công chứng là 10/7/2026 vì các bên đã hoàn tất việc ký trước mặt công chứng viên và số công chứng đã được chừa vào ngày 10/7/2026
+C. Tạm dừng việc công chứng, yêu cầu những người thừa kế của ông A ký xác nhận đồng ý với việc chuyển nhượng để tiếp tục ký lời chứng và phát hành văn bản
+D. Tạm dừng việc công chứng, yêu cầu những người thừa kế của ông A lập thủ tục phân chia di sản thừa kế theo quy định
+
+Câu 38: Mục đích cốt lõi của hoạt động công chứng là gì?
+A. Tạo nguồn thu ổn định cho ngân sách nhà nước
+B. Bảo đảm an toàn pháp lý cho các bên tham gia hợp đồng, giao dịch (true)
+C. Hỗ trợ Tòa án giải quyết các tranh chấp dân sự một cách nhanh chóng
+D. Tăng cường sự quản lý của Nhà nước
+
+Câu 39: Ông A là người nước ngoài, không biết tiếng Việt nhưng có đầy đủ năng lực hành vi dân sự đầy đủ. Ông A đến tổ chức hành nghề công chứng để ký Hợp đồng tặng cho căn hộ chung cư cho bà B. Do không biết tiếng Việt, ông A mời ông C đi cùng để phiên dịch. Trong quá trình kiểm tra hồ sơ, công chứng viên phát hiện: Ông C thông thạo tiếng Việt và ngôn ngữ của ông A; Ông C có đủ năng lực hành vi dân sự; Ông C không có quyền, lợi ích liên quan đến hợp đồng; Do ông A cũng không biết chữ, công chứng viên xác định cần có người làm chứng theo quy định. Ông A đề nghị ông C vừa làm người phiên dịch, vừa làm người làm chứng để không phải mời thêm người khác. Công chứng viên xử lý thế nào?
+A. Được chấp nhận vì không cấm một người đồng thời làm người phiên dịch và người làm chứng nếu đáp ứng điều kiện của cả hai tư cách (true)
+B. Không được chấp nhận vì người phiên dịch và người làm chứng bắt buộc phải là hai người khác nhau
+C. Không được chấp nhận vì người phiên dịch chỉ được dịch nội dung, không được ký với tư cách người làm chứng
+D. Được chấp nhận nhưng phải có văn bản cam kết chịu trách nhiệm của người phiên dịch
+
+Câu 40: Ngày 15/06/2026, ông A ký Hợp đồng đặt cọc với bà B để chuyển nhượng quyền sử dụng thửa đất X. Hợp đồng đặt cọc được lập bằng văn bản, không công chứng. Hai bên thỏa thuận ngày 20/07/2026 sẽ ký hợp đồng chuyển nhượng tại Văn phòng công chứng X. Ngày 10/7/2026, ông A đến Văn phòng công chứng Y yêu cầu công chứng Hợp đồng chuyển nhượng chính thửa đất X cho ông C. Ông A xuất trình đầy đủ giấy tờ chứng minh quyền sử dụng đất; thửa đất không bị kê biên, không có đăng ký biện pháp bảo đảm, không có thông tin ngăn chặn giao dịch và đủ điều kiện chuyển nhượng theo quy định. Trong quá trình kiểm tra hồ sơ, ông A chủ động cho công chứng viên biết việc mình đã ký hợp đồng đặt cọc với bà B nhưng cho rằng chỉ cần trả lại tiền cọc và bồi thường theo thỏa thuận là có thể bán cho người khác. Công chứng viên nên xử lý như thế nào?
+A. Từ chối công chứng vì đã tồn tại hợp đồng đặt cọc nên ông A không còn quyền chuyển nhượng cho người khác
+B. Tiếp tục công chứng vì tranh chấp phát sinh từ hợp đồng đặt cọc là quan hệ dân sự giữa ông A và bà B; nếu tài sản đủ điều kiện chuyển nhượng và không thuộc trường hợp pháp luật cấm thì việc có hợp đồng đặt cọc không mặc nhiên là căn cứ từ chối công chứng (true)
+C. Yêu cầu ông A hủy hợp đồng đặt cọc với bà B trước, sau đó mới được công chứng hợp đồng chuyển nhượng cho ông C
+D. Tạm dừng công chứng và yêu cầu bà B đến xác nhận thì mới tiếp tục giải quyết
+
+Câu 41: Ngày 01/7/2026, Văn phòng công chứng X công chứng Hợp đồng chuyển nhượng quyền sử dụng đất giữa ông A và bà B. Sau khi hợp đồng đã được phát hành, ngày 15/7/2026, ông A và bà B cùng quay lại, đề nghị công chứng viên sửa nội dung sau: Trong hợp đồng ghi: “Giá chuyển nhượng là 3.000.000.000 đồng (Ba tỷ đồng)”. Hai bên trình bày thực tế đã thỏa thuận từ đầu là: 3.500.000.000 đồng do người soạn thảo hợp đồng đánh máy nhầm và cả hai bên đều không phát hiện khi đọc lại trước khi ký. Hai bên xuất trình hợp đồng đặt cọc ngày 20/06/2026 cũng ghi giá chuyển nhượng là 3.500.000.000 đồng. Hai bên cùng xác nhận đây chỉ là lỗi đánh máy và đề nghị công chứng viên lập Biên bản sửa lỗi kỹ thuật để sửa từ 3 tỷ thành 3,5 tỷ đồng. Công chứng viên phải xử lý như thế nào?
+A. Sửa lỗi kỹ thuật vì cả hai bên đều thống nhất đây là lỗi đánh máy
+B. Sửa lỗi kỹ thuật vì hợp đồng đặt cọc cũng ghi giá chuyển nhượng là 3,5 tỷ đồng
+C. Không được sửa lỗi kỹ thuật (true)
+D. Được sửa lỗi kỹ thuật nếu công chứng viên trực tiếp xác nhận nhận mình đã đánh máy nhầm
+
+Câu 42: Ngày 10/7/2026, ông A và bà B đến Văn phòng công chứng X yêu cầu công chứng Hợp đồng chuyển nhượng quyền sử dụng đất. Trong quá trình thụ lý hồ sơ, công chứng viên tra cứu trên hệ thống quản lý hồ sơ nội bộ của Văn phòng công chứng và phát hiện: Có Đơn khởi kiện của bà C gửi Tòa án nhân dân Y ngày 10/5/2026; Kèm theo các tài liệu do bà C cung cấp trước đó cho Văn phòng công chứng, thể hiện bà đang yêu cầu Tòa án xác định thửa đất là tài sản chung của bà và ông A. Đồng thời, công chứng viên kiểm tra thấy: Không có thông tin ngăn chặn trên hệ thống của Sở Tư pháp; Không có quyết định áp dụng biện pháp khẩn cấp tạm thời; Không có quyết định của cơ quan có thẩm quyền hạn chế quyền định đoạt đối với thửa đất. Công chứng viên nên xử lý như thế nào?
+A. Tiếp tục công chứng vì không có thông tin ngăn chặn hoặc quyết định của cơ quan có thẩm quyền ngăn chặn giao dịch
+B. Yêu cầu ông A cam kết tài sản không có tranh chấp; nếu ông A cam kết thì tiếp tục công chứng
+C. Yêu cầu làm rõ việc Tòa án đã thụ lý đơn khởi kiện hay chưa; nếu đã thụ lý rồi thì từ chối công chứng, nếu chưa thụ lý thì tiếp tục công chứng theo quy định
+D. Từ chối công chứng vì công chứng viên đã có căn cứ về việc tài sản đang có tranh chấp (true)
+
+Câu 43: Công chứng viên phải chịu trách nhiệm pháp lý như thế nào nếu thực hiện công chứng một văn bản có nội dung sai sự thật?
+A. Chịu trách nhiệm xử phạt vi phạm hành chính theo quy định
+B. Chịu hình thức xử lý kỷ luật của tổ chức xã hội - nghề nghiệp hoặc tổ chức hành nghề công chứng
+C. Chịu trách nhiệm hình sự nếu hành vi vi phạm đủ yếu tố cấu thành tội phạm và gây hậu quả nghiêm trọng
+D. Chịu một hoặc các hình thức trách nhiệm nêu trên tùy thuộc vào tính chất và mức độ vi phạm (true)
+
+Câu 44: Khi phát hiện các giấy tờ, tài liệu trong hồ sơ yêu cầu công chứng có dấu hiệu giả mạo, công chứng viên có trách nhiệm xử lý như thế nào?
+A. Công chứng viên có trách nhiệm thông báo ngay cho cơ quan nhà nước hoặc cơ quan công an có thẩm quyền để giải quyết (true)
+B. Vẫn tiếp tục thực hiện công chứng bình thường nhưng ghi rõ lưu ý về giấy tờ giả mạo vào văn bản công chứng
+C. Công chứng viên lập biên bản ghi nhận sự việc, tịch thu và tiêu hủy các giấy tờ giả mạo đó và báo cáo cho cơ quan nhà nước hoặc cơ quan công an có thẩm quyền về hành vi này
+D. Từ chối công chứng và trả lại toàn bộ giấy tờ cho người yêu cầu công chứng
+
+Câu 45: Tổ chức hành nghề công chứng có nghĩa vụ bồi thường thiệt hại vật chất cho người yêu cầu công chứng trong trường hợp nào sau đây?
+A. Do lỗi cố ý hoặc vô ý của công chứng viên gây ra thiệt hại trực tiếp cho khách hàng trong quá trình hành nghề (true)
+B. Do văn bản công chứng bị cơ quan nhà nước cấp trên ra quyết định hủy bỏ hiệu lực vì lý do thay đổi quy hoạch
+C. Do có sự thay đổi, điều chỉnh đột ngột về mặt chính sách pháp luật của Nhà nước sau thời điểm công chứng
+D. Do người yêu cầu công chứng cố tình cung cấp các thông tin, tài liệu sai sự thật khiến giao dịch bị ảnh hưởng
+
+Câu 46: Tiêu chí cơ bản nhất để phân biệt giữa mô hình Văn phòng công chứng và Phòng công chứng là gì?
+A. Văn phòng công chứng do Nhà nước thành lập và cấp vốn; còn Phòng công chứng do các công chứng viên đầu tư vốn
+B. Phòng công chứng do Ủy ban nhân dân cấp tỉnh thành lập; còn Văn phòng công chứng do các công chứng viên thành lập dưới hình thức công ty hợp danh (true)
+C. Văn phòng công chứng hoạt động trên cơ sở quy định pháp luật và mục tiêu lợi nhuận; còn Phòng công chứng hoạt động trên cơ sở quy định pháp luật và mục tiêu phi lợi nhuận
+D. Văn phòng công chứng không bị giới hạn về loại giao dịch được công chứng; còn Phòng công chứng bị giới hạn về loại giao dịch được công chứng
+
+Câu 47: Ngày 01/01/2025, ông A cho bà B vay số tiền 2 tỷ đồng. Hai bên lập Hợp đồng vay tiền có công chứng tại Văn phòng công chứng X. Nội dung hợp đồng thể hiện các nội dung cơ bản như: Thời hạn vay: 12 tháng, kể từ ngày ký hợp đồng; Ngày đến hạn trả nợ: 01/01/2026; Không có thỏa thuận gia hạn. Đến ngày 10/7/2026: Ông A và bà B cùng đến Văn phòng công chứng X yêu cầu công chứng Văn bản chấm dứt Hợp đồng vay tiền này. Công chứng viên xử lý thế nào?
+A. Từ chối công chứng vì thời hạn vay đã hết nên hợp đồng vay đã tự động chấm dứt; không còn đối tượng để lập văn bản chấm dứt hợp đồng
+B. Từ chối công chứng vì bên vay chưa trả hết tiền nên hợp đồng vay chưa thể chấm dứt
+C. Có thể công chứng Văn bản chấm dứt hợp đồng bình thường nếu các bên tự nguyện (true)
+D. Chỉ được công chứng nếu ông A lập văn bản xác nhận đã nhận đủ toàn bộ tiền vay và không còn yêu cầu bà B trả nợ
+
+Câu 48: Hồ sơ công chứng phải được lưu trữ và bảo quản tại tổ chức hành nghề công chứng trong thời hạn bao lâu?
+A. Thời hạn tối thiểu là 15 năm
+B. Thời hạn tối thiểu là 20 năm
+C. Thời hạn tối thiểu là 30 năm (true)
+D. Lưu trữ và bảo quản vĩnh viễn
+
+Câu 49: Ngày 15/5/2024, ông A lập Hợp đồng ủy quyền tại Văn phòng công chứng X cho bà B. Nội dung ủy quyền: Bà B được thay mặt ông A thực hiện thủ tục gia hạn thời hạn sử dụng đất đối với thửa đất của ông A; Được quyền liên hệ cơ quan nhà nước có thẩm quyền, ký các giấy tờ cần thiết để hoàn thành công việc; Có điều khoản: “Thời hạn ủy quyền: cho đến khi hoàn tất công việc được ủy quyền”. Hợp đồng có nội dung: “Bên được ủy quyền được quyền ủy quyền lại cho người khác thực hiện công việc được ủy quyền”. Đến ngày 10/6/2026, bà B đến tổ chức hành nghề công chứng yêu cầu công chứng Hợp đồng ủy quyền lại cho ông C với lý do: “Tôi quá bận nên không thể trực tiếp đi thực hiện thủ tục gia hạn thời hạn sử dụng đất”. Bà B xuất trình: Bản chính Hợp đồng ủy quyền ngày 15/5/2024; Giấy tờ tùy thân của mình và Hồ sơ nhà đất đầy đủ. Công chứng viên xử lý thế nào?
+A. Công chứng bình thường vì hợp đồng ủy quyền vẫn còn thời hạn và có nội dung ủy quyền lại (true)
+B. Từ chối công chứng vì hợp đồng ủy quyền đã hết thời hạn
+C. Từ chối công chứng vì thời hạn “đến khi hoàn tất công việc” được hiểu là thời hạn 01 (một) năm nên hợp đồng ủy quyền đã hết thời hạn
+D. Từ chối công chứng và yêu cầu ông A trực tiếp đến ký lại một Hợp đồng ủy quyền mới cho ông C
