@@ -10,3 +10,4 @@ de_9.txt|Đề kiểm tra số 9
 de_trac_nghiem_lan_10_encode.txt|Đề trắc nghiệm 10
 de_trac_nghiem_lan_11_encode.txt|Đề trắc nghiệm 11
 de_trac_nghiem_lan_12_encode.txt|Đề trắc nghiệm 12
+de_trac_nghiem_lan_13_encode.txt|Nhóm 5 (bài 1)-1-Bài 1 Nhóm 4 (Bài 1 - 2025)
